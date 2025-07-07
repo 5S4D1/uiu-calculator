@@ -30,21 +30,49 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('calculate-button').addEventListener('click', calculateCGPA);
     document.getElementById('new-course').addEventListener('click', function() {
         showNewCourseContainer();
+        // Check if there are any blank forms first
+        if (hasBlankNewCourseForm()) {
+            // Focus on the first blank form
+            focusFirstBlankNewCourseForm();
+            return;
+        }
         // Always add a new form when clicked, even if container is already visible
         addNewCourseForm();
     });
     document.getElementById('retake-course').addEventListener('click', function() {
         showRetakeCourseContainer();
+        // Check if there are any blank forms first
+        if (hasBlankRetakeCourseForm()) {
+            // Focus on the first blank form
+            focusFirstBlankRetakeCourseForm();
+            return;
+        }
         // Always add a new form when clicked, even if container is already visible
         addRetakeCourseForm();
     });
     document.getElementById('reset-button').addEventListener('click', resetCalculator);
     
     // Add course form button listeners
-    document.getElementById('add-another-course-btn').addEventListener('click', addNewCourseForm);
+    document.getElementById('add-another-course-btn').addEventListener('click', function() {
+        // Check if there are any blank forms first
+        if (hasBlankNewCourseForm()) {
+            // Focus on the first blank form
+            focusFirstBlankNewCourseForm();
+            return;
+        }
+        addNewCourseForm();
+    });
     
     // Add retake course form button listeners
-    document.getElementById('add-another-retake-btn').addEventListener('click', addRetakeCourseForm);
+    document.getElementById('add-another-retake-btn').addEventListener('click', function() {
+        // Check if there are any blank forms first
+        if (hasBlankRetakeCourseForm()) {
+            // Focus on the first blank form
+            focusFirstBlankRetakeCourseForm();
+            return;
+        }
+        addRetakeCourseForm();
+    });
 
     // Function to show new course container
     function showNewCourseContainer() {
@@ -366,10 +394,16 @@ document.addEventListener('DOMContentLoaded', function() {
         let totalQualityPoints = currentCGPA * completedCredit;
         let totalCredits = completedCredit;
 
+        // --- Semester GPA calculation ---
+        let semesterQualityPoints = 0;
+        let semesterCredits = 0;
+
         // Add new courses
         currentCourses.forEach(course => {
             totalQualityPoints += course.credit * course.points;
             totalCredits += course.credit;
+            semesterQualityPoints += course.credit * course.points;
+            semesterCredits += course.credit;
         });
 
         // Handle retake courses (remove old points, add new points)
@@ -379,33 +413,47 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add new course impact
             totalQualityPoints += course.credit * course.expectedPoints;
             // Credits remain the same for retakes
+            semesterQualityPoints += course.credit * course.expectedPoints;
+            semesterCredits += course.credit;
         });
 
         // Calculate new CGPA
         const newCGPA = totalQualityPoints / totalCredits;
         const cgpaChange = newCGPA - currentCGPA;
 
+        // Calculate semester GPA
+        let semesterGPA = 0;
+        if (semesterCredits > 0) {
+            semesterGPA = semesterQualityPoints / semesterCredits;
+        }
+
         // Display results
-        displayResults(newCGPA, totalCredits, cgpaChange);
+        displayResults(newCGPA, totalCredits, cgpaChange, semesterCredits, semesterGPA);
     }
 
-    function displayResults(newCGPA, totalCredits, cgpaChange) {
+    function displayResults(newCGPA, totalCredits, cgpaChange, semesterCredits, semesterGPA) {
         document.getElementById('new-cgpa').textContent = newCGPA.toFixed(2);
         document.getElementById('total-credits').textContent = totalCredits;
+        document.getElementById('semester-credits').textContent = semesterCredits;
+        document.getElementById('semester-gpa').textContent = semesterGPA.toFixed(2);
         document.getElementById('cgpa-change').textContent = cgpaChange >= 0 ? '+' + cgpaChange.toFixed(2) : cgpaChange.toFixed(2);
         
-        // Color code the change
+        // Color code the change and border
         const changeElement = document.getElementById('cgpa-change');
+        const resultContainer = document.getElementById('result-container');
         if (cgpaChange > 0) {
             changeElement.style.color = 'green';
+            resultContainer.style.borderColor = 'green';
         } else if (cgpaChange < 0) {
             changeElement.style.color = 'red';
+            resultContainer.style.borderColor = 'red';
         } else {
             changeElement.style.color = 'orange';
+            resultContainer.style.borderColor = 'orange';
         }
 
         // Show results container
-        document.getElementById('result-container').style.display = 'block';
+        resultContainer.style.display = 'block';
     }
 
     function updateCourseList() {
@@ -429,8 +477,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Hide results
         document.getElementById('result-container').style.display = 'none';
-
-        alert('Calculator reset successfully!');
     }
 
     // Input validation helpers
@@ -492,6 +538,79 @@ document.addEventListener('DOMContentLoaded', function() {
                     addRetakeCourseFromForm(formId);
                 }
             }, 1000); // 1 second delay
+        }
+    }
+
+    // Helper function to check if there are any blank new course forms
+    function hasBlankNewCourseForm() {
+        const forms = newCourseFormsContainer.querySelectorAll('.course-form');
+        for (let form of forms) {
+            const formId = form.id;
+            const creditInput = document.getElementById(`${formId}-credit`);
+            const gradeSelect = document.getElementById(`${formId}-grade`);
+            
+            // Check if required fields are empty
+            if (!creditInput.value || !gradeSelect.value) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Helper function to check if there are any blank retake course forms
+    function hasBlankRetakeCourseForm() {
+        const forms = retakeCourseFormsContainer.querySelectorAll('.course-form');
+        for (let form of forms) {
+            const formId = form.id;
+            const creditInput = document.getElementById(`${formId}-credit`);
+            const oldGradeSelect = document.getElementById(`${formId}-old-grade`);
+            const newGradeSelect = document.getElementById(`${formId}-new-grade`);
+            
+            // Check if required fields are empty
+            if (!creditInput.value || !oldGradeSelect.value || !newGradeSelect.value) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Helper function to focus on the first blank form
+    function focusFirstBlankNewCourseForm() {
+        const forms = newCourseFormsContainer.querySelectorAll('.course-form');
+        for (let form of forms) {
+            const formId = form.id;
+            const creditInput = document.getElementById(`${formId}-credit`);
+            const gradeSelect = document.getElementById(`${formId}-grade`);
+            
+            if (!creditInput.value) {
+                creditInput.focus();
+                return;
+            } else if (!gradeSelect.value) {
+                gradeSelect.focus();
+                return;
+            }
+        }
+    }
+
+    // Helper function to focus on the first blank retake form
+    function focusFirstBlankRetakeCourseForm() {
+        const forms = retakeCourseFormsContainer.querySelectorAll('.course-form');
+        for (let form of forms) {
+            const formId = form.id;
+            const creditInput = document.getElementById(`${formId}-credit`);
+            const oldGradeSelect = document.getElementById(`${formId}-old-grade`);
+            const newGradeSelect = document.getElementById(`${formId}-new-grade`);
+            
+            if (!creditInput.value) {
+                creditInput.focus();
+                return;
+            } else if (!oldGradeSelect.value) {
+                oldGradeSelect.focus();
+                return;
+            } else if (!newGradeSelect.value) {
+                newGradeSelect.focus();
+                return;
+            }
         }
     }
 });
