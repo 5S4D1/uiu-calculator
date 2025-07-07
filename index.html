@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/icon.ico" type="image/x-icon">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- header section -->
+    <div class="header">
+        <div class="main-title">
+            <h1>CGPA Calculator</h1>
+        </div>
+        <div class="sub-header">
+            <i>for UIU</i>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- main container -->
+        <div class="main">
+            <!-- input container for CGPA and complete credit -->
+            <div class="complete-container">
+                <div class="input-container">
+                    <label for="cgpa">Enter CGPA: </label>
+                    <input type="number" id="cgpa" placeholder="Enter your CGPA" min="0" max="4">
+                </div>
+                <div class="input-container">
+                    <label for="credit">Enter Complete Credit: </label>
+                    <input type="number" id="credit" placeholder="Enter your Complete Credit" min="0" max="200">
+                </div>
+            </div>
+
+            <!-- input container for current semester credit and grade -->
+            <div class="new-course-container">
+                <h4>Add New Courses</h4>
+                <div id="new-course-forms"></div>
+                <div class="form-buttons">
+                    <button type="button" id="add-another-course-btn" class="add-btn">Add Another Course</button>
+                </div>
+            </div>
+
+            <!-- input container for retake course credit and grade -->
+            <div class="retake-container">
+                <h4>Add Retake Courses</h4>
+                <div id="retake-course-forms"></div>
+                <div class="form-buttons">
+                    <button type="button" id="add-another-retake-btn" class="add-btn">Add Another Retake Course</button>
+                </div>
+            </div>
+
+            <!-- button to calculate CGPA -->
+            <div class="button-container">
+                <button id="calculate-button">Calculate CGPA</button>
+                <button id="new-course">Add New Course</button>
+                <button id="retake-course">Add Retake Course</button>
+                <button id="reset-button">Reset</button>
+            </div>
+
+            <!-- Results display area -->
+            <div class="result-container" id="result-container" style="display: none;">
+                <h3>CGPA Calculation Results</h3>
+                <div class="result-item">
+                    <span>New CGPA: </span>
+                    <span id="new-cgpa">0.00</span>
+                </div>
+                <div class="result-item">
+                    <span>Total Credits: </span>
+                    <span id="total-credits">0</span>
+                </div>
+                <div class="result-item">
+                    <span>CGPA Change: </span>
+                    <span id="cgpa-change">0.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
