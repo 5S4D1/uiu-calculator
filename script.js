@@ -458,8 +458,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateCourseList() {
         // You can implement a visual course list here if needed
-        console.log('Current Courses:', currentCourses);
-        console.log('Retake Courses:', retakeCourses);
+        // console.log('Current Courses:', currentCourses);
+        // console.log('Retake Courses:', retakeCourses);
     }
 
     function resetCalculator() {
