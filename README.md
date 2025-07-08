@@ -40,20 +40,20 @@ A modern, user-friendly CGPA calculator designed for United International Univer
 
 ## UIU Grading Scale
 
-| Grade | Grade Points | Marks Range |
-|-------|--------------|-------------|
-| A     | 4.00         | 90-100      |
-| A-    | 3.67         | 86-89       |
-| B+    | 3.33         | 82-85       |
-| B     | 3.00         | 78-81       |
-| B-    | 2.67         | 74-77       |
-| C+    | 2.33         | 70-73       |
-| C     | 2.00         | 66-69       |
-| C-    | 1.67         | 62-65       |
-| D+    | 1.33         | 58-61       |
-| D     | 1.00         | 55-57       |
-| F     | 0.00         | <55         |
-|       |              |             |
+| Grade | Grade Points | Marks Range | Assessment    |
+|-------|--------------|-------------|---------------|
+| A     | 4.00         | 90-100      | Outstanding   |
+| A-    | 3.67         | 86-89       | Excellent     |
+| B+    | 3.33         | 82-85       | Very Good     |
+| B     | 3.00         | 78-81       | Good          |
+| B-    | 2.67         | 74-77       | Above Average |
+| C+    | 2.33         | 70-73       | Average       |
+| C     | 2.00         | 66-69       | Below Average |
+| C-    | 1.67         | 62-65       | Poor          |
+| D+    | 1.33         | 58-61       | Very poor     |
+| D     | 1.00         | 55-57       | Pass          |
+| F     | 0.00         | <55         | Fail          |
+|       |              |             |               |
 
 
 ## Technical Details
