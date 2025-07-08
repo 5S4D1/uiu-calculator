@@ -27,30 +27,46 @@ document.addEventListener('DOMContentLoaded', function () {
     const retakeCourseFormsContainer = document.getElementById('retake-course-forms');
 
     // Button event listeners
-    document.getElementById('calculate-button').addEventListener('click', calculateCGPA);
+    document.getElementById('calculate-button').addEventListener('click', function() {
+        calculateCGPA();
+        // Show and scroll to result-container
+        const resultContainer = document.getElementById('result-container');
+        if (resultContainer) {
+            resultContainer.style.display = 'block';
+            setTimeout(() => scrollToElementById('result-container'), 100); // Wait for display
+        }
+    });
     document.getElementById('new-course').addEventListener('click', function () {
         showNewCourseContainer();
-        // Check if there are any blank forms first
+        // Show and scroll to new-course-forms
+        const newCourseForms = document.getElementById('new-course-forms');
+        if (newCourseForms) {
+            setTimeout(() => scrollToElementById('new-course-forms'), 100);
+        }
         if (hasBlankNewCourseForm()) {
-            // Focus on the first blank form
             focusFirstBlankNewCourseForm();
             return;
         }
-        // Always add a new form when clicked, even if container is already visible
         addNewCourseForm();
     });
     document.getElementById('retake-course').addEventListener('click', function () {
         showRetakeCourseContainer();
-        // Check if there are any blank forms first
+        // Show and scroll to retake-course-forms
+        const retakeCourseForms = document.getElementById('retake-course-forms');
+        if (retakeCourseForms) {
+            setTimeout(() => scrollToElementById('retake-course-forms'), 100);
+        }
         if (hasBlankRetakeCourseForm()) {
-            // Focus on the first blank form
             focusFirstBlankRetakeCourseForm();
             return;
         }
-        // Always add a new form when clicked, even if container is already visible
         addRetakeCourseForm();
     });
-    document.getElementById('reset-button').addEventListener('click', resetCalculator);
+    document.getElementById('reset-button').addEventListener('click', function() {
+        resetCalculator();
+        // Scroll to top smoothly
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 
     // Add course form button listeners
     document.getElementById('add-another-course-btn').addEventListener('click', function () {
@@ -516,6 +532,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Hide results
         document.getElementById('result-container').style.display = 'none';
+        document.getElementById('status-container').style.display = 'none';
     }
 
     // Input validation helpers
@@ -650,6 +667,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 newGradeSelect.focus();
                 return;
             }
+        }
+    }
+
+    // Utility function for smooth scroll to an element by id
+    function scrollToElementById(id) {
+        const el = document.getElementById(id);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
     }
 });
