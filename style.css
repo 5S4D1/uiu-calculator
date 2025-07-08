@@ -46,6 +46,78 @@ body {
   font-size: 1.2rem;
 }
 
+.status-container {
+  background: #111;
+  color: #fff;
+  border-radius: 15px;
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 0 2rem 0;
+  transition: width 0.3s;
+}
+
+.status-inner {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1.2rem 2.5rem;
+  box-sizing: border-box;
+}
+
+.status-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  flex-shrink: 0;
+}
+
+.status-compliment {
+  flex: 1;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0 1.5rem;
+  word-break: break-word;
+}
+
+.status-cgpa-circle {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.status-cgpa-circle svg {
+  position: absolute;
+  top: 0; left: 0;
+}
+
+.cgpa-value {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffd700;
+  z-index: 1;
+}
+
 .main {
   padding: 3rem;
 }
@@ -160,7 +232,7 @@ body {
 .complete-container,
 .new-course-container,
 .retake-container {
-  background: #f8f9fa;
+  background: #f1f0f0;
   border-radius: 12px;
   padding: 2.5rem;
   margin-bottom: 2.5rem;
@@ -291,7 +363,7 @@ body {
 }
 
 #calculate-button {
-  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  background: linear-gradient(135deg, #467c5f 0%, #285248 100%);
   color: white;
 }
 
@@ -301,7 +373,7 @@ body {
 }
 
 #new-course {
-  background: linear-gradient(135deg, #007bff 0%, #6f42c1 100%);
+  background: linear-gradient(135deg, #27548A 0%, #183B4E 100%);
   color: white;
 }
 
@@ -311,7 +383,7 @@ body {
 }
 
 #retake-course {
-  background: linear-gradient(135deg, #ffc107 0%, #fd7e14 100%);
+  background: linear-gradient(135deg, #FF9F00 0%, #f5601b 100%);
   color: white;
 }
 
@@ -321,7 +393,7 @@ body {
 }
 
 #reset-button {
-  background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+  background: linear-gradient(135deg, #dc3545 0%, #af1a29 100%);
   color: white;
 }
 
@@ -475,9 +547,16 @@ body {
     max-width: 95%;
     margin: 15px auto;
   }
-
   .main {
     padding: 2rem;
+  }
+  .status-container {
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+    border-radius: 15px;
+  }
+  .status-inner {
+    padding: 1.5rem 1.9rem;
   }
 }
 
@@ -486,52 +565,50 @@ body {
     max-width: 98%;
     margin: 10px auto;
   }
-
   .main {
     padding: 1.8rem;
   }
-
+  .status-container {
+    width: 100%;
+    margin: 0 0 1.5rem 0;
+    border-radius: 12px;
+  }
+  .status-inner {
+    padding: 1.5rem 1.9rem;
+  }
   .complete-container {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-
   .button-container {
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 1.5rem;
   }
-
   .course-form {
     padding: 2rem;
   }
-
   .course-form-fields {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
   }
-
   .retake-form-fields {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
   }
-
   .retake-form-fields .course-title {
     grid-column: 1 / -1;
   }
-
   /* Responsive grading table */
   .grading-policy-container {
     max-width: 98%;
     margin: 3rem auto;
     padding: 1.8rem;
   }
-
   .grading-header,
   .grading-row {
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 0.9rem;
   }
-
   .grading-header > div,
   .grading-row > div {
     padding: 0.8rem;
@@ -543,75 +620,108 @@ body {
     margin: 10px;
     border-radius: 10px;
   }
-
   .main {
     padding: 1.5rem;
   }
-
+  .status-container {
+    width: 100%;
+    margin: 0 0 1rem 0;
+    border-radius: 10px;
+    min-height: 70px;
+  }
+  .status-inner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 0.3rem;
+    gap: 0.5rem;
+  }
+  .status-icon {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .status-compliment {
+    font-size: 1.05rem;
+    padding: 0.5rem 0.2rem;
+    text-align: center;
+  }
+  .status-cgpa-circle {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
   .complete-container {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-
   .button-container {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-
   .main-title h1 {
     font-size: 2rem;
   }
-
   .course-form {
     padding: 1.5rem;
   }
-
   .course-form-fields,
   .retake-form-fields {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-
   .course-form-header {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
   }
-
   /* Mobile grading table */
   .grading-policy-container {
     margin: 3rem auto;
     padding: 1.5rem;
   }
-
   .grading-policy-container h3 {
     font-size: 1.4rem;
     margin-bottom: 1.5rem;
   }
-
   .grading-header,
   .grading-row {
     grid-template-columns: 1fr;
     font-size: 0.85rem;
   }
-
   .grading-header > div,
   .grading-row > div {
     padding: 0.6rem;
     border-right: none;
     border-bottom: 1px solid #000;
   }
-
   .grading-header > div:last-child,
   .grading-row > div:last-child {
     border-bottom: none;
   }
-
   .grading-row {
     margin-bottom: 0.5rem;
     border-radius: 8px;
     overflow: hidden;
     border: 1px solid #000;
+  }
+}
+
+@media (max-width: 430px) {
+  .complete-container, .new-course-container, .retake-container{
+    padding: 0.8rem;
+  }
+  .course-form-fields,
+  .retake-form-fields {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .course-form {
+    padding: 1rem 0.5rem;
   }
 }
 
@@ -647,4 +757,12 @@ input:valid {
   color: #6c757d;
   cursor: not-allowed;
   opacity: 0.8;
+}
+
+.course-form input,
+.course-form select {
+  width: 100%;
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
 }

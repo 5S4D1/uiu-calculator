@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Grade point mapping for UIU
     const gradePoints = {
         'A': 4.00,
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Button event listeners
     document.getElementById('calculate-button').addEventListener('click', calculateCGPA);
-    document.getElementById('new-course').addEventListener('click', function() {
+    document.getElementById('new-course').addEventListener('click', function () {
         showNewCourseContainer();
         // Check if there are any blank forms first
         if (hasBlankNewCourseForm()) {
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Always add a new form when clicked, even if container is already visible
         addNewCourseForm();
     });
-    document.getElementById('retake-course').addEventListener('click', function() {
+    document.getElementById('retake-course').addEventListener('click', function () {
         showRetakeCourseContainer();
         // Check if there are any blank forms first
         if (hasBlankRetakeCourseForm()) {
@@ -51,9 +51,9 @@ document.addEventListener('DOMContentLoaded', function() {
         addRetakeCourseForm();
     });
     document.getElementById('reset-button').addEventListener('click', resetCalculator);
-    
+
     // Add course form button listeners
-    document.getElementById('add-another-course-btn').addEventListener('click', function() {
+    document.getElementById('add-another-course-btn').addEventListener('click', function () {
         // Check if there are any blank forms first
         if (hasBlankNewCourseForm()) {
             // Focus on the first blank form
@@ -62,9 +62,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         addNewCourseForm();
     });
-    
+
     // Add retake course form button listeners
-    document.getElementById('add-another-retake-btn').addEventListener('click', function() {
+    document.getElementById('add-another-retake-btn').addEventListener('click', function () {
         // Check if there are any blank forms first
         if (hasBlankRetakeCourseForm()) {
             // Focus on the first blank form
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function addNewCourseForm() {
         newCourseFormCounter++;
         const formId = `new-course-${newCourseFormCounter}`;
-        
+
         const formHTML = `
             <div class="course-form" id="${formId}">
                 <div class="course-form-header">
@@ -138,13 +138,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
         `;
-        
+
         newCourseFormsContainer.insertAdjacentHTML('beforeend', formHTML);
-        
+
         // Add event listeners for auto-add functionality
         const creditInput = document.getElementById(`${formId}-credit`);
         const gradeSelect = document.getElementById(`${formId}-grade`);
-        
+
         creditInput.addEventListener('input', () => checkAndAddCourse(formId));
         gradeSelect.addEventListener('change', () => checkAndAddCourse(formId));
     }
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function addRetakeCourseForm() {
         retakeCourseFormCounter++;
         const formId = `retake-course-${retakeCourseFormCounter}`;
-        
+
         const formHTML = `
             <div class="course-form" id="${formId}">
                 <div class="course-form-header">
@@ -206,21 +206,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
         `;
-        
+
         retakeCourseFormsContainer.insertAdjacentHTML('beforeend', formHTML);
-        
+
         // Add event listeners for auto-add functionality
         const creditInput = document.getElementById(`${formId}-credit`);
         const oldGradeSelect = document.getElementById(`${formId}-old-grade`);
         const newGradeSelect = document.getElementById(`${formId}-new-grade`);
-        
+
         creditInput.addEventListener('input', () => checkAndAddRetakeCourse(formId));
         oldGradeSelect.addEventListener('change', () => checkAndAddRetakeCourse(formId));
         newGradeSelect.addEventListener('change', () => checkAndAddRetakeCourse(formId));
     }
 
     // Make functions global so they can be called from HTML
-    window.removeNewCourseForm = function(formId, fromArray = false) {
+    window.removeNewCourseForm = function (formId, fromArray = false) {
         if (fromArray) {
             // Remove from courses array
             const index = currentCourses.findIndex(course => course.formId === formId);
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function() {
         updateCourseList();
     };
 
-    window.removeRetakeCourseForm = function(formId, fromArray = false) {
+    window.removeRetakeCourseForm = function (formId, fromArray = false) {
         if (fromArray) {
             // Remove from retake courses array
             const index = retakeCourses.findIndex(course => course.formId === formId);
@@ -244,12 +244,12 @@ document.addEventListener('DOMContentLoaded', function() {
         updateCourseList();
     };
 
-    window.addCourseFromForm = function(formId) {
+    window.addCourseFromForm = function (formId) {
         // Check if the form still exists (user might have removed it)
         if (!document.getElementById(formId)) {
             return;
         }
-        
+
         const title = document.getElementById(`${formId}-title`).value || `Course ${formId.split('-')[2]}`;
         const credit = parseFloat(document.getElementById(`${formId}-credit`).value);
         const grade = document.getElementById(`${formId}-grade`).value;
@@ -259,10 +259,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Check if course is already added to prevent duplicates
-        const existingCourse = currentCourses.find(course => 
+        const existingCourse = currentCourses.find(course =>
             course.formId === formId
         );
-        
+
         if (existingCourse) {
             return; // Course already added
         }
@@ -279,13 +279,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const formElement = document.getElementById(formId);
         formElement.style.backgroundColor = '#d4edda';
         formElement.style.border = '2px solid #28a745';
-        
+
         // Disable all inputs in the form
         const inputs = formElement.querySelectorAll('input, select');
         inputs.forEach(input => {
             input.disabled = true;
         });
-        
+
         // Add success indicator
         const successMsg = document.createElement('div');
         successMsg.innerHTML = `<span style="color: #155724; font-weight: bold;">✓ Course "${title}" added successfully!</span>`;
@@ -293,22 +293,22 @@ document.addEventListener('DOMContentLoaded', function() {
         successMsg.style.marginTop = '0.5rem';
         successMsg.id = `${formId}-success`;
         formElement.appendChild(successMsg);
-        
+
         // Update the remove button to also remove from courses array
         const removeBtn = formElement.querySelector('.remove-course-btn');
-        removeBtn.onclick = function() {
+        removeBtn.onclick = function () {
             removeNewCourseForm(formId, true);
         };
-        
+
         updateCourseList();
     };
 
-    window.addRetakeCourseFromForm = function(formId) {
+    window.addRetakeCourseFromForm = function (formId) {
         // Check if the form still exists (user might have removed it)
         if (!document.getElementById(formId)) {
             return;
         }
-        
+
         const title = document.getElementById(`${formId}-title`).value || `Retake Course ${formId.split('-')[2]}`;
         const credit = parseFloat(document.getElementById(`${formId}-credit`).value);
         const oldGrade = document.getElementById(`${formId}-old-grade`).value;
@@ -319,10 +319,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Check if retake course is already added to prevent duplicates
-        const existingCourse = retakeCourses.find(course => 
+        const existingCourse = retakeCourses.find(course =>
             course.formId === formId
         );
-        
+
         if (existingCourse) {
             return; // Course already added
         }
@@ -341,13 +341,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const formElement = document.getElementById(formId);
         formElement.style.backgroundColor = '#d4edda';
         formElement.style.border = '2px solid #28a745';
-        
+
         // Disable all inputs in the form
         const inputs = formElement.querySelectorAll('input, select');
         inputs.forEach(input => {
             input.disabled = true;
         });
-        
+
         // Add success indicator
         const successMsg = document.createElement('div');
         successMsg.innerHTML = `<span style="color: #155724; font-weight: bold;">✓ Retake course "${title}" added successfully!</span>`;
@@ -355,13 +355,13 @@ document.addEventListener('DOMContentLoaded', function() {
         successMsg.style.marginTop = '0.5rem';
         successMsg.id = `${formId}-success`;
         formElement.appendChild(successMsg);
-        
+
         // Update the remove button to also remove from courses array
         const removeBtn = formElement.querySelector('.remove-course-btn');
-        removeBtn.onclick = function() {
+        removeBtn.onclick = function () {
             removeRetakeCourseForm(formId, true);
         };
-        
+
         updateCourseList();
     };
 
@@ -437,7 +437,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('semester-credits').textContent = semesterCredits;
         document.getElementById('semester-gpa').textContent = semesterGPA.toFixed(2);
         document.getElementById('cgpa-change').textContent = cgpaChange >= 0 ? '+' + cgpaChange.toFixed(2) : cgpaChange.toFixed(2);
-        
+
         // Color code the change and border
         const changeElement = document.getElementById('cgpa-change');
         const resultContainer = document.getElementById('result-container');
@@ -454,6 +454,45 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Show results container
         resultContainer.style.display = 'block';
+
+        updateStatusContainer(newCGPA, cgpaChange);
+        document.getElementById('status-container').style.display = 'block';
+    }
+
+    function updateStatusContainer(newCGPA, cgpaChange) {
+        const statusIcon = document.getElementById('status-icon');
+        const statusCompliment = document.getElementById('status-compliment');
+        const cgpaValue = document.getElementById('cgpa-value');
+        const cgpaProgress = document.getElementById('cgpa-progress');
+
+        // Icon: up or down arrow
+        if (cgpaChange > 0.01) {
+            statusIcon.innerHTML = '<img src="asset/increase.png" alt="Up" style="width: 60px; height: 60px;">';
+        } else if (cgpaChange < -0.01) {
+            statusIcon.innerHTML = '<img src="asset/decrease.png" alt="Up" style="width: 60px; height: 60px;">';
+        } else {
+            statusIcon.innerHTML = '<img src="asset/rise.png" alt="Up" style="width: 60px; height: 60px;">';
+        }
+
+        // Compliment text based on CGPA
+        let compliment = '';
+        if (newCGPA >= 3.85) compliment = "Outstanding! Keep it up!";
+        else if (newCGPA >= 3.5) compliment = "Excellent work!";
+        else if (newCGPA >= 3.0) compliment = "Good job, keep improving!";
+        else if (newCGPA >= 2.5) compliment = "You're doing okay, aim higher!";
+        else if (newCGPA >= 2.0) compliment = "Needs improvement, don't give up!";
+        else compliment = "At risk. Seek help and work hard!";
+
+        statusCompliment.textContent = compliment;
+
+        // CGPA value
+        cgpaValue.textContent = newCGPA.toFixed(2);
+
+        // Circle progress (out of 4.00)
+        const percent = Math.max(0, Math.min(1, newCGPA / 4));
+        const circleLength = 2 * Math.PI * 30; // r=30
+        cgpaProgress.style.strokeDasharray = circleLength;
+        cgpaProgress.style.strokeDashoffset = circleLength * (1 - percent);
     }
 
     function updateCourseList() {
@@ -491,26 +530,26 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Add real-time validation
-    document.getElementById('cgpa').addEventListener('input', function() {
+    document.getElementById('cgpa').addEventListener('input', function () {
         validateInput(this, 0, 4);
     });
 
-    document.getElementById('credit').addEventListener('input', function() {
+    document.getElementById('credit').addEventListener('input', function () {
         validateInput(this, 0, 200);
     });
-    
+
     // Function to check and auto-add new course
     function checkAndAddCourse(formId) {
         const credit = parseFloat(document.getElementById(`${formId}-credit`).value);
         const grade = document.getElementById(`${formId}-grade`).value;
-        
+
         // Check if both required fields are filled
         if (credit && grade && credit >= 1 && credit <= 3) {
             // Small delay to ensure user has finished typing
             setTimeout(() => {
                 const currentCredit = parseFloat(document.getElementById(`${formId}-credit`).value);
                 const currentGrade = document.getElementById(`${formId}-grade`).value;
-                
+
                 // Double check values are still the same and form still exists
                 if (document.getElementById(formId) && currentCredit === credit && currentGrade === grade) {
                     addCourseFromForm(formId);
@@ -524,7 +563,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const credit = parseFloat(document.getElementById(`${formId}-credit`).value);
         const oldGrade = document.getElementById(`${formId}-old-grade`).value;
         const newGrade = document.getElementById(`${formId}-new-grade`).value;
-        
+
         // Check if all required fields are filled
         if (credit && oldGrade && newGrade && credit >= 1 && credit <= 3) {
             // Small delay to ensure user has finished typing
@@ -532,7 +571,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const currentCredit = parseFloat(document.getElementById(`${formId}-credit`).value);
                 const currentOldGrade = document.getElementById(`${formId}-old-grade`).value;
                 const currentNewGrade = document.getElementById(`${formId}-new-grade`).value;
-                
+
                 // Double check values are still the same and form still exists
                 if (document.getElementById(formId) && currentCredit === credit && currentOldGrade === oldGrade && currentNewGrade === newGrade) {
                     addRetakeCourseFromForm(formId);
@@ -548,7 +587,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const formId = form.id;
             const creditInput = document.getElementById(`${formId}-credit`);
             const gradeSelect = document.getElementById(`${formId}-grade`);
-            
+
             // Check if required fields are empty
             if (!creditInput.value || !gradeSelect.value) {
                 return true;
@@ -565,7 +604,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const creditInput = document.getElementById(`${formId}-credit`);
             const oldGradeSelect = document.getElementById(`${formId}-old-grade`);
             const newGradeSelect = document.getElementById(`${formId}-new-grade`);
-            
+
             // Check if required fields are empty
             if (!creditInput.value || !oldGradeSelect.value || !newGradeSelect.value) {
                 return true;
@@ -581,7 +620,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const formId = form.id;
             const creditInput = document.getElementById(`${formId}-credit`);
             const gradeSelect = document.getElementById(`${formId}-grade`);
-            
+
             if (!creditInput.value) {
                 creditInput.focus();
                 return;
@@ -600,7 +639,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const creditInput = document.getElementById(`${formId}-credit`);
             const oldGradeSelect = document.getElementById(`${formId}-old-grade`);
             const newGradeSelect = document.getElementById(`${formId}-new-grade`);
-            
+
             if (!creditInput.value) {
                 creditInput.focus();
                 return;

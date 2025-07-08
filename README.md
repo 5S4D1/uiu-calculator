@@ -1,78 +1,89 @@
+
 # UIU CGPA Calculator
 
-A comprehensive CGPA calculator specifically designed for United International University (UIU) students to calculate their cumulative grade point average based on their current academic performance and expected grades.
+A modern, user-friendly CGPA calculator designed for United International University (UIU) students. Easily calculate your cumulative grade point average (CGPA) based on your current academic record, new courses, and retake scenarios—all in a responsive web app with real-time validation and a clean interface.
+
 
 ## Features
 
-- **Current CGPA Calculation**: Input your current CGPA and completed credits
-- **New Course Addition**: Add multiple new courses with their credits and expected grades
-- **Retake Course Calculation**: Calculate the impact of retaking courses on your CGPA
-- **Real-time Validation**: Input validation with visual feedback
-- **Responsive Design**: Works seamlessly on desktop and mobile devices
-- **Modern UI**: Clean, professional interface with smooth animations
+- **Current CGPA Calculation**: Enter your current CGPA and completed credit hours
+- **Add New Courses**: Add multiple new courses with credit hours (1-3) and expected grades
+- **Retake Course Calculation**: Instantly see the impact of retaking courses on your CGPA
+- **Real-time Validation**: Input validation with instant visual feedback
+- **Responsive Design**: Seamless experience on desktop and mobile devices
+- **Modern UI**: Clean, professional interface with smooth animations and intuitive controls
+
 
 ## How to Use
 
-1. **Enter Current Information**:
+1. **Enter Current Information**
    - Input your current CGPA (0-4 scale)
    - Enter your completed credit hours
 
-2. **Add New Courses** (Optional):
+2. **Add New Courses** *(Optional)*
    - Enter course title, credit hours (1-3), and expected grade
-   - Click "Add New Course" to include it in calculation
+   - Click **Add New Course** to include it in the calculation
    - Repeat for multiple courses
 
-3. **Add Retake Courses** (Optional):
+3. **Add Retake Courses** *(Optional)*
    - Enter course title and credit hours
    - Select your previous grade and expected new grade
-   - Click "Add Retake Course" to include it in calculation
+   - Click **Add Retake Course** to include it in the calculation
 
-4. **Calculate**:
-   - Click "Calculate CGPA" to see your new CGPA
-   - View the results including CGPA change and total credits
+4. **Calculate**
+   - Click **Calculate CGPA** to see your new CGPA
+   - View the results, including CGPA change and total credits
 
-5. **Reset**:
-   - Click "Reset" to clear all inputs and start over
+5. **Reset**
+   - Click **Reset** to clear all inputs and start over
+
 
 ## UIU Grading Scale
 
-| Grade | Grade Points |
-|-------|-------------|
-| A     | 4.0         |
-| A-    | 3.7         |
-| B+    | 3.3         |
-| B     | 3.0         |
-| B-    | 2.7         |
-| C+    | 2.3         |
-| C     | 2.0         |
-| C-    | 1.7         |
-| D+    | 1.3         |
-| D     | 1.0         |
-| F     | 0.0         |
+| Grade | Grade Points | Marks Range |
+|-------|--------------|-------------|
+| A     | 4.00         | 90-100      |
+| A-    | 3.67         | 86-89       |
+| B+    | 3.33         | 82-85       |
+| B     | 3.00         | 78-81       |
+| B-    | 2.67         | 74-77       |
+| C+    | 2.33         | 70-73       |
+| C     | 2.00         | 66-69       |
+| C-    | 1.67         | 62-65       |
+| D+    | 1.33         | 58-61       |
+| D     | 1.00         | 55-57       |
+| F     | 0.00         | <55         |
+|       |              |             |
+
 
 ## Technical Details
 
 - **Languages**: HTML5, CSS3, JavaScript (ES6+)
+- **Frameworks/Libraries**: None (pure vanilla JavaScript)
 - **Responsive**: Mobile-first design
 - **Browser Support**: All modern browsers
-- **No Dependencies**: Pure vanilla JavaScript
 
-## Installation
 
-1. Clone or download the repository
+## Getting Started
+
+1. **Clone or download** this repository
 2. Open `index.html` in any modern web browser
-3. Start calculating your CGPA!
+3. Start calculating your CGPA instantly—no installation required!
+
 
 ## File Structure
 
 ```
 uiu-cgpa-calculator/
-├── index.html          # Main HTML file
-├── script.js           # JavaScript functionality
-├── style.css           # CSS styling
-├── README.md           # Documentation
+├── index.html       # Main HTML file
+├── script.js        # JavaScript functionality
+├── style.css        # CSS styling
+├── README.md        # Documentation
 └── asset/
-    └── icon.ico        # Favicon
+    ├── icon.ico     # Favicon
+    ├── increase.png # UI icon
+    ├── decrease.png # UI icon
+    └── rise.png     # UI icon
 ```
 
 ## Future Enhancements
@@ -82,10 +93,12 @@ uiu-cgpa-calculator/
 - [ ] Semester-wise breakdown
 - [ ] GPA trend analysis
 - [ ] Course recommendation based on target CGPA
+- [ ] Calculate tution fees
 
 ## Contributing
 
-Feel free to fork this project and submit pull requests for any improvements.
+Contributions are welcome! Feel free to fork this project and submit pull requests for improvements or new features.
+
 
 ## License
 

@@ -20,11 +20,27 @@
             <h1>CGPA Calculator</h1>
         </div>
         <div class="sub-header">
-            <i>for UIU</i>
+            <i>========================= for UIU</i>
         </div>
     </div>
 
     <div class="container">
+
+        <!-- for user status -->
+        <div class="status-container" id="status-container" style="display: none;">
+            <div class="status-inner">
+                <div class="status-icon" id="status-icon"></div>
+                <div class="status-compliment" id="status-compliment"></div>
+                <div class="status-cgpa-circle">
+                    <svg id="cgpa-circle" width="70" height="70">
+                        <circle cx="35" cy="35" r="30" stroke="#444" stroke-width="7" fill="none" />
+                        <circle id="cgpa-progress" cx="35" cy="35" r="30" stroke="#ffd700" stroke-width="7" fill="none"
+                            stroke-linecap="round" stroke-dasharray="188.4" stroke-dashoffset="188.4" />
+                    </svg>
+                    <div class="cgpa-value" id="cgpa-value">0.00</div>
+                </div>
+            </div>
+        </div>
 
         <!-- main container -->
         <div class="main">
