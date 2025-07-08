@@ -53,7 +53,6 @@ A modern, user-friendly CGPA calculator designed for United International Univer
 | D+    | 1.33         | 58-61       | Very poor     |
 | D     | 1.00         | 55-57       | Pass          |
 | F     | 0.00         | <55         | Fail          |
-|       |              |             |               |
 
 
 ## Technical Details
