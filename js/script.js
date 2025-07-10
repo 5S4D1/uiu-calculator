@@ -493,10 +493,10 @@ document.addEventListener('DOMContentLoaded', function () {
         // Compliment text based on CGPA
         let compliment = '';
         if (newCGPA >= 3.85) compliment = "Outstanding! Keep it up!";
-        else if (newCGPA >= 3.5) compliment = "Excellent work!";
-        else if (newCGPA >= 3.0) compliment = "Good job, keep improving!";
-        else if (newCGPA >= 2.5) compliment = "You're doing okay, aim higher!";
-        else if (newCGPA >= 2.0) compliment = "Needs improvement, don't give up!";
+        else if (newCGPA >= 3.55) compliment = "Excellent work!";
+        else if (newCGPA >= 3.10) compliment = "Good job, keep improving!";
+        else if (newCGPA >= 2.75) compliment = "You're doing okay, aim higher!";
+        else if (newCGPA >= 2.50) compliment = "Needs improvement, don't give up!";
         else compliment = "At risk. Seek help and work hard!";
 
         statusCompliment.textContent = compliment;

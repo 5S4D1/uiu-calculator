@@ -74,15 +74,23 @@ A modern, user-friendly CGPA calculator designed for United International Univer
 
 ```
 uiu-cgpa-calculator/
-├── index.html       # Main HTML file
-├── script.js        # JavaScript functionality
-├── style.css        # CSS styling
-├── README.md        # Documentation
+├── index.html             # Main HTML file
+├── courseRequisite.html   # Course Requisite file
+├── tuitionFee.html        # Tuition Fee file
+├── script                 # JavaScript functionality
+|   ├── courseRequisite.js
+|   ├── script.js
+|   └── tuitionFee.js
+├── style/                 # CSS styling
+|   ├── courseRequisite.css
+|   ├── style.css
+|   └── tuitionFee.css
+├── README.md              # Documentation
 └── asset/
-    ├── icon.ico     # Favicon
-    ├── increase.png # UI icon
-    ├── decrease.png # UI icon
-    └── rise.png     # UI icon
+    ├── icon.ico           # Favicon
+    ├── increase.png       # UI icon
+    ├── decrease.png       # UI icon
+    └── rise.png           # UI icon
 ```
 
 ## Future Enhancements
