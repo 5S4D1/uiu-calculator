@@ -7,22 +7,53 @@
     <link rel="icon" href="asset/icon.ico" type="image/x-icon">
     <title>CGPA Calculator</title>
     <link rel="stylesheet" href="style/tuitionFee.css">
+    <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="js/tuitionFee.js"></script>
+    <script src="js/navigation.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
     </style>
 </head>
 
 <body>
-    <!-- header section -->
-    <div class="header">
-        <div class="main-title">
-            <h1>Tuition Fee Calculator</h1>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="./" class="nav-logo">
+                <div class="nav-logo-icon">UiU</div>
+                <span class="nav-logo-text">Calculator</span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="./" class="nav-link">
+                        <i class="fa-solid fa-calculator nav-icon"></i>
+                        Calculator
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="prerequisite.html" class="nav-link">
+                        <i class="fa fa-check-circle nav-icon"></i>
+                        Prerequisites
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="tuitionFee.html" class="nav-link active">
+                        <i class="fa-solid fa-bangladeshi-taka-sign nav-icon"></i>
+                        Tuition Fee
+                    </a>
+                </li>
+            </ul>
+            
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-        <div class="sub-header">
-            <i>========================= for UIU</i>
-        </div>
-    </div>
+    </nav>
+    
 
 </body>
 
