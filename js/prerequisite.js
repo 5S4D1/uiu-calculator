@@ -159,6 +159,15 @@ function setupEventListeners() {
     searchInput.addEventListener('input', function() {
         const searchTerm = this.value.trim();
         updateSearchBoxBorder(searchTerm);
+        
+        // If search is cleared and we're in search-only mode, smoothly return to center
+        if (!searchTerm && !isBrowseMode && !searchContainer.classList.contains('search-only')) {
+            // Smoothly return to search-only mode
+            resultsContainer.classList.add('hidden');
+            setTimeout(() => {
+                searchContainer.classList.add('search-only');
+            }, 100);
+        }
     });
     
     // Search button click
@@ -188,8 +197,12 @@ function performSearch() {
             console.log('Empty search in browse mode, showing all courses');
             displayCourses(allCourses);
         } else {
-            console.log('Empty search in search-only mode, showing no results');
-            showNoResults();
+            console.log('Empty search in search-only mode, returning to center');
+            // Smoothly return to search-only mode
+            resultsContainer.classList.add('hidden');
+            setTimeout(() => {
+                searchContainer.classList.add('search-only');
+            }, 100);
         }
         resetSearchBoxBorder();
         return;
@@ -211,7 +224,7 @@ function performSearch() {
         console.log('Search results in browse mode:', filteredCourses.length, 'courses found');
         displayCourses(filteredCourses);
     } else {
-        // In search-only mode: show results without switching modes
+        // In search-only mode: show results with smooth transition to top
         filteredCourses = allCourses.filter(course => {
             const courseCode = course.courseCode.toLowerCase();
             const courseTitle = course.courseTitle.toLowerCase();
@@ -224,11 +237,16 @@ function performSearch() {
         
         console.log('Search results in search-only mode:', filteredCourses.length, 'courses found');
         
-        // Show results in search-only mode
+        // Show results in search-only mode with smooth transition
         if (filteredCourses.length > 0) {
-            // Temporarily show results without changing mode
-            resultsContainer.classList.remove('hidden');
-            displayCourses(filteredCourses);
+            // Smoothly transition search container to top (like browse mode)
+            searchContainer.classList.remove('search-only');
+            
+            // Show results after a small delay to allow transition
+            setTimeout(() => {
+                resultsContainer.classList.remove('hidden');
+                displayCourses(filteredCourses);
+            }, 300);
         } else {
             showNoResults();
         }
