@@ -172,14 +172,13 @@ function setupEventListeners() {
     
     // Search button click
     searchBtn.addEventListener('click', function() {
-        console.log('Search button clicked');
         performSearch();
     });
     
     // Enter key in search input
     searchInput.addEventListener('keypress', function(e) {
         if (e.key === 'Enter') {
-            console.log('Enter key pressed');
+            // console.log('Enter key pressed');
             performSearch();
         }
     });
@@ -221,7 +220,7 @@ function performSearch() {
             return matchesCode || matchesTitle;
         });
         
-        console.log('Search results in browse mode:', filteredCourses.length, 'courses found');
+        // console.log('Search results in browse mode:', filteredCourses.length, 'courses found');
         displayCourses(filteredCourses);
     } else {
         // In search-only mode: show results with smooth transition to top
@@ -235,7 +234,7 @@ function performSearch() {
             return matchesCode || matchesTitle;
         });
         
-        console.log('Search results in search-only mode:', filteredCourses.length, 'courses found');
+        // console.log('Search results in search-only mode:', filteredCourses.length, 'courses found');
         
         // Show results in search-only mode with smooth transition
         if (filteredCourses.length > 0) {
@@ -312,12 +311,16 @@ function createCourseCard(course) {
             <div class="course-title">${course.courseTitle}</div>
             <div class="course-details">
                 <div class="detail-item">
-                    <span class="detail-label">Prerequisite:</span>
-                    <div class="detail-value">${prerequisiteHTML}</div>
+                    <span class="detail-label">Department:</span>
+                    <div class="detail-value">${course.department || 'Not specified'}</div>
                 </div>
                 <div class="detail-item">
                     <span class="detail-label">Category:</span>
                     <div class="detail-value">${course.courseCategory || 'Not specified'}</div>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Prerequisite:</span>
+                    <div class="detail-value">${prerequisiteHTML}</div>
                 </div>
             </div>
             <div class="detail-item">

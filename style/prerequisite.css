@@ -399,6 +399,7 @@ input:checked ~ .toggle-label {
   color: #555;
   max-height: 150px;
   overflow-y: auto;
+  text-align: justify;
 }
 
 .no-results {

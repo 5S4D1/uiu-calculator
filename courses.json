@@ -1,754 +1,848 @@
 [
   {
-    "courseCode":"ENG 1011",
-    "courseTitle":"English I",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Reading and Writing: Cohesion, Skimming, Coherence, Scanning; Main ideas, Brainstorming and Taking notes, Comprehensions; Linking and Transitional words; Grammatical Knowledge: Parts of Speech, Punctuation, Subject-Verb Agreement, Preposition, Tense, Article, WH Questions, Paraphrasing; Summarizing; Creative Writing; Presentation\n\nSpeaking and Listening: Speaking and Listening strategies; Pronunciation and Intonation; Vocabulary, Educated guess from content; Linking words and Fillers; Introduction to Drama; Performing Play; Art of Questioning; Famous Speeches; Listening Activities; How to make and present a brochure; Impromptu Speaking; Group Presentation",
-    "courseCategory":"Language"
-  },
-  {
-    "courseCode":"ENG 1013",
-    "courseTitle":"English II",
-    "creditHours":3,
-    "prerequisite":"ENG 1011",
-    "description":"Writing: Free Writing; Guided Writing: Paragraph writing with guidelines (based on hints, Wh questions); Process of Writing; Structure-based Paragraph Writing (types: Descriptive, Narrative and Process); Editing (Identification and correction of mistakes in Articles, Capitalization, Homonym, Fragment, Preposition, Pronoun, Punctuations, Run-on sentences, Faulty parallelism, Spelling, Subject-verb agreement, Tense); Application Writing; Email Writing; Steps of essay writing; Essay Writing in 5 paragraphs: (Cause and Effect essay, Compare and Contrast essay, Argumentative essay); Vocabulary: Sentence making practice on Academic word list (1-10)\nReading: Practice on Reading Comprehensions\nSpeaking: Public speaking; Argumentative Presentation\nListening: Listening practice from various sources",
-    "courseCategory":"Language"
-  },
-  {
-    "courseCode":"SOC 2101",
-    "courseTitle":"Society, Environment and Engineering Ethics",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Society: emergence of Sociology as moral lessons for society; Basic institutions in society, organization and institutions in society, Types of Society; Culture: basics of culture, elements of culture, cultural change, socialization, and social issues around us; Technology and society: interaction between technology and society; Engineering ethics: understanding ethics, engineering ethics; Moral reasoning and engineering as social experimentation; The engineers\u2019 concern for safety, professional responsibility; Employer authority; Rights of engineers; Global issues; Career choice and professional outlook; Ethical problems are like design problems; Genetically modified objects (GMO); Environment: environment and environmental issues\u2013 environmental degradation, waste management and renewable energy; Basic understanding of sustainable development, SDGs, climate change adaptation; Disability and Accessibility.",
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"PMG 4101",
-    "courseTitle":"Project Management",
-    "creditHours":3,
-    "prerequisite":"CSE 3411",
-    "description":"Triple Constraint in Project Management: Time, Scope and Cost; Process methodology, Requirement Collection, Plan, schedule a project including risk assessment with proper documentation and presentation. Cost Estimation, Optimization, and performance calculation, Change management, Quality improvement, Use of Mod- ern tools in project planning, resource allocation and estimation.",
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"BDS 1201",
-    "courseTitle":"History of the Emergence of Bangladesh",
-    "creditHours":2,
-    "prerequisite":null,
-    "description":"Partition of Bengal (1947); Language Movement (1952); Movement for Autonomy; 6-point and 11-Point Programs; The 1970 Election; Speech on 7th of March 1971; Military Action, Genocide in the East Pakistan; The Liberation War; The Emergence of Bangladesh as a Sovereign Independent State in 1971; Constitution of Bangladesh and citizen rights; Culture: Cultural diffusion and change, Bengali culture and problems of society; social problems of Bangladesh; Social change: theories of social change; social change in Bangladesh; urbanization process and its impact on Bangladesh society.",
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"ECO 4101",
-    "courseTitle":"Economics",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Definition of Economics; Economics and engineering; Principles of economics.\nMicro-Economics: Introduction to various economic systems \u2013 capitalist, command and mixed economy; Fundamental economic problems and the mechanism through which these problems are solved; Theory of demand and supply and their elasticities; Theory of consumer behavior; Cardinal and ordinal approaches of utility analysis; Price determination; Nature of an economic theory; Applicability of economic theories to the problems of developing countries; Indifference curve techniques; Theory of production, production function, types of productivity; Rational region of production of an engineering firm; Concepts of market and market structure; Cost analysis and cost function; Small scale production and large scale production; Optimization; Theory of distribution; Use of derivative in economics: maximization and minimization of economic functions, relationship among total, marginal and average concepts.\nMacro-Economics: Savings; investment, employment; national income analysis; Inflation; Monetary policy; Fiscal policy and trade policy with reference to Bangladesh; Economics of development and planning.",
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"SOC 4101",
-    "courseTitle":"Introduction to Sociology",
-    "creditHours":3,
-    "prerequisite":"CSE 3411",
-    "description":"Concept and theory: major schools of sociology \u2013 functionalism, critical theory, gender, interactionism and post- modernism; Sociology of communications: the impacts of contemporary media institutions and communications technologies on the social construction of knowledge and the construction of socially significant identities and ideologies; Society: discussion on key concepts of society, social institutions, social structure and stratification, religion and so on; Sociology of development: technology, gender, business, globalization, and how do we formulate reasonable expectations? Global and social issues; Social research: importance of research, research methods and techniques.",
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"ACT 2111",
-    "courseTitle":"Financial and Managerial Accounting",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Financial Accounting: Objectives and importance of accounting; Accounting as an information system; Computerized system and applications in accounting. Recording system: double entry mechanism; accounts and their classification; Accounting equation; Accounting cycle: journal, ledger, trial balance; Preparation of financial statements considering adjusting and closing entries; Accounting concepts (principles) and conventions.\nFinancial statement analysis and interpretation: ratio analysis.\nCost and Management Accounting: Cost concepts and classification; Overhead cost: meaning and classification; Distribution of overhead cost; Overhead recovery method\/rate; Job order costing: preparation of job cost sheet and quotation price; Inventory valuation: absorption costing and marginal\/variable costing techniques; Cost-Volume- Profit analysis: meaning breakeven analysis, contribution margin approach, sensitivity analysis.\nShort-term investment decisions: relevant and differential cost analysis. Long-term investment decisions: capital budgeting, various techniques of evaluation of capital investments.",
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"IPE 3401",
-    "courseTitle":"Industrial and Operational Management",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Introduction, evolution, management function, organization and environment.\nOrganization: Theory and structure; Coordination; Span of control; Authority delegation; Groups; Committee and task force; Manpower planning.\nPersonnel Management: Scope; Importance; Need hierarchy; Motivation; Job redesign; Leadership; Participative management; Training; Performance appraisal; Wages and incentives; Informal groups; Organizational change and conflict.\nCost and Financial Management; Elements of costs of products depreciation; Break-even analysis; Investment analysis; Benefit cost analysis.\nManagement Accounting: Cost planning and control; Budget and budgetary control; Development planning process.\nMarketing Management: Concepts; Strategy; Sales promotion; Patent laws.\nTechnology Management: Management of innovation and changes; Technology life cycle; Case studies.",
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"TEC 2499",
-    "courseTitle":"Technology Entrepreneurship",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Defining the startup vision: Start: How and when to start a new venture, what one needs to start, forming a suitable team; Define: Defining the core idea of a new venture, technological feasibility, market feasibility; Learn: Get the basic business model canvas, value propositions, partners, and customers; Experiment: How to get a working prototype, what is a working prototype, how to evaluate a prototype.\n\nSteering a new startup: Leap: Plunging in with your startup; Test: Test the prototype with potential customers, how to define customers, what to test, what questions to ask; Measure: How to interpret and evaluate the feedback, finding the early evangelists; Pivot (or Persevere): Do we change or keep the prototype based on the feedback? when to pivot, why pivoting is paramount, some of the successful companies that radically changed their business model.\n\nAccelerating towards success: Batch Production: Getting to mass production, mass producing software vs mass producing hardware, scaling in the cloud, scaling for connected devices; Grow: Evaluating and utilizing feedback from the bigger market audience, navigating legal and promotional problems; Adapt: Change with changing technology and market conditions, change due to size and scope; Innovate: How to keep being a leader, responding to competitors, intellectual property rights.",
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"PSY 2101",
-    "courseTitle":"Psychology",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"The objective of this course is to provide knowledge about the basic concepts and principles of psychology pertaining to real-life problems. The course will familiarize students with the fundamental processes that occur within organism-biological basis of behavior, perception, motivation, emotion, learning, memory and forgetting and also to the social perspective-social perception and social forces that act upon the individual.",
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"BDS 2201",
-    "courseTitle":"Bangladesh Studies",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Ancient Bengal: Sasanka, Rise of the Palas, the Senas; Early Medieval Bengal; Coming of the Muslims; The In- dependent sultanate of Bengal: Ilyas Shahi and Hossein Shahi Bengal; Late medieval Bengal: The Establishment of Mughal Rule in Bengal; Bara Bhuiyans: Subedars and Nawabs; The European Style in Bengal Architecture; British rule in Bengal; Battles of Plassey and Buzas; The Dual government; permanent settlement (1793); Nine- teenth century Bengali renaissance: social and religious reforms, Raja Rammohan Roy, Ishwar Chandra Vidyasagar, Titu Meer; Partition of Bengal (1905); Language Movement (1952); Movement for Autonomy; 6-point and 11-Point Programs; The 1970 Election-Military Action, Genocide in the East Pakistan; The Liberation War; The Emergence of Bangladesh as a Sovereign Independent State in 1971; Culture: Cultural diffusion and change, Bengali culture and problems of society; social problems of Bangladesh; Social change: theories of social change; social change in Bangladesh; urbanization process and its impact on Bangladesh society.",
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"BAN 2501",
-    "courseTitle":"Bangla",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":null,
-    "courseCategory":"General Education"
-  },
-  {
-    "courseCode":"PHY 2105",
-    "courseTitle":"Physics",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Waves and Oscillations Periodic motion: periodic waves, elastic restoring force, simple harmonic motion (SHM), differential equation of SHM and its solutions, examples of SHM, energy calculation of SHM, time period, velocity, acceleration, frequency calculation with graph, Lissajou\u2019s figure design, spring mass system and torsional pendulum, DHM, characteristic graph, differential equations for spring mass system with damping mechanism and RLC circuit- series and parallel analysis, resonant frequency, reactance, impedance, FHM; Mechanical Waves; Vibrating bodies and acoustic phenomena: progressive wave and its differential equation, EM wave, group velocity, phase velocity, standing waves, node and antinode; The Doppler effects, application of acoustic Phenomena.\n\nElectricity magnetism Electrostatic Force and Electric Field; Concept of charge, Coulomb\u2019s law, concept of electric field and its calculation, electric dipole; Gauss\u2019s law in electrostatic and its application, electric field due to dipole, torque on a dipole in uniform e-field, electric flux, flux density, Gauss\u2019s law and Coulomb\u2019s law; Electric Potential: electric potential and its calculation, electric potential energy, relationship between field and potential, potential due to a point charge, dipole, continuous charge distribution, electric field calculation from electric potential, equipotential surface, potential gradient; Capacitance and Dielectric : capacitors, capacitors in series and parallel, energy of charged capacitors, electrical energy density in terms of electric field, electron volt, dielectric media, polarization vector and displacement vector, Laplace\u2019s and Poission\u2019s equations, capacitor with a dielectric material, Gauss\u2019s law with dielectric; Current, Resistance and Electromotive Force: current and current density, resistance and resistivity, Ohm\u2019s law, EMF, power, resistance in series and parallel, Kirchhoff\u2019s Rules, RC circuit; Magnetic Field: magnetic field, magnetic flux and flux density, Lorentz force, Gauss\u2019s law for magnetism, motion of a charged particles in magnetic field : Hall effect; Magnetic field intensity, magnetic dipole moment, Biot-Savart Law, Ampere\u2019s law and its applications; Magnetic properties of material, magnetization, hysteresis; Inductions and Inductance: induced emf and Faraday\u2019s law of induction; Lenz\u2019s law; Mutual inductance ; Self inductance; Energy in an inductor; Inductance in series, in parallel, and their combination, MMF, leakage and fringing flux, Transformers.\n\nQuantum Physics Quantum theory: quantum theory of radiation, energy of photons, photo-electric Effect, work function, threshold frequency, threshold voltage, Compton effect, X-rays production, properties and application, Bragg Diffraction, De Broglie wave length, Heisenberg\u2019 s Uncertainty Principle, correspondence principle, pair production, pair annihilation; Schrodinger equation: wave function, Schrodinger equation-time dependent and time independent form, expectation value, quantum operator, tunneling effect, quantum numbers, energy of trapped electron, quantum dots and corrals, quantization of Bohr orbital energy.",
-    "courseCategory":"Basic Sciences"
-  },
-  {
-    "courseCode":"PHY 2106",
-    "courseTitle":"Physics Laboratory",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Experiments based on PHY 2105",
-    "courseCategory":"Basic Sciences"
-  },
-  {
-    "courseCode":"BIO 3105",
-    "courseTitle":"Biology for Engineers",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Introduction; The Basics of Life: Chemistry; Organic Molecules: The Molecules of Life; Cell Structure and Function; Enzymes, Coenzymes, and Energy; Biochemical Pathways: Cellular Respiration, Photosynthesis; DNA and RNA: The Molecular Basis of Heredity; Cell Division; Patterns of Inheritance; Applications of Biotechnology; Diversity within Species and Population Genetics; Evolution and Natural Selection; The Formation of Species and Evolutionary Change; Ecosystem Dynamics: The Flow of Energy and Matter; Community Interactions; Population Ecology; Evolutionary and Ecological Aspects of Behavior; The Origin of Life and Evolution of Cells; The Classification and Evolution of Organisms; The Nature of Microorganisms; The Plant Kingdom; The Animal Kingdom; Materials Exchange in the Body; Nutrition: Food and Diet; The Body\u2019s Control Mechanisms and Immunity; Human Reproduction, Sex, and Sexuality.",
-    "courseCategory":"Basic Sciences"
-  },
-  {
-    "courseCode":"MATH 1151",
-    "courseTitle":"Fundamental Calculus",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Function, Domain and Range of a Function. Translation and reflection of a function. Even and Odd functions, Inverse functions, One to One and many to one function. Limit, continuity and differentiability, Tangent line, Differentiation of different types of functions.  An overview of area problem,  Newton\u2019s anti-derivative method  in finding area, Indefinite integral, fundamental theorem of calculus, Definite integral, Area between two curves. Different types of Integration (Principles of Integral evaluation, Integration by parts, Trigonometric Substitution).",
-    "courseCategory":"Mathematics"
-  },
-  {
-    "courseCode":"MATH 2183",
-    "courseTitle":"Calculus and Linear Algebra",
-    "creditHours":3,
-    "prerequisite":"MATH 1151",
-    "description":"Calculus: Analysis of Function I: Slope and Concavity, Analysis of function II: Relative Extrema and Polynomials, Partial Derivatives, The Chain Rule. Differential Equation: Solution of the differential equations of 1st and 2nd order. Linear Algebra: Solution of different types of system of linear equations. Operations of matrix algebra, trans- position, inversion, rank of matrices. Solution of system of equations by matrix method. Eigen values and Eigen vectors.",
-    "courseCategory":"Mathematics"
-  },
-  {
-    "courseCode":"MATH 2201",
-    "courseTitle":"Coordinate Geometry and Vector Analysis",
-    "creditHours":3,
-    "prerequisite":"MATH 1151",
-    "description":"Conic sections, rotation of axes, Rectangular co-ordinate in 3-space, cross and dot product of vectors, parametric equation of straight lines, plane in 3-space. Cylindrical and spherical coordinate systems, integrals of multi-variable functions (double and triple integrals including polar coordinates). Gradient of scalar fields, divergence and curl of vector fields. Line integrals, conservative vector field and Green\u2019s theorem, surface integral, flux, divergence theorem, Stokes\u2019 theorem.",
-    "courseCategory":"Mathematics"
-  },
-  {
-    "courseCode":"MATH 2205",
-    "courseTitle":"Probability and Statistics",
-    "creditHours":3,
-    "prerequisite":"MATH 1151",
-    "description":"Frequency distribution; Mean, median, mode and other measures of central tendency; Standard deviation and other measures of dispersion; Moments, skewness and kurtosis, correlation and regression analysis; Elementary probability theory and discontinuous probability distribution, e.g., binomial, Poisson and negative binomial; Continuous probability distributions, e.g. normal and exponential; Characteristics of distributions; Elementary sampling theory; Estimation of parameter, Hypothesis testing.",
-    "courseCategory":"Mathematics"
-  },
-  {
-    "courseCode":"EEE 2113",
-    "courseTitle":"Electrical Circuits",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Fundamental electrical concepts and measuring units, DC voltages, current, resistance and power, laws of electrical circuits and methods of network analysis, principles of DC measuring apparatus, laws of magnetic fields and methods of solving simple magnetic circuits; Alternating current: instantaneous and RMS current, voltage and power, average power combinations of R, L & C circuits, phasor, representation of sinusoidal quantities.",
-    "courseCategory":"Other Engineering"
-  },
-  {
-    "courseCode":"EEE 2123",
-    "courseTitle":"Electronics",
-    "creditHours":3,
-    "prerequisite":"EEE 2113",
-    "description":"Semiconductor diode: materials, energy band, n-type and p-type materials, p-n junction diode, ideal vs practical diode, zener diode, light emitting diode; Diode applications: load-line Analysis, series-parallel dc circuits, AND\/OR logic gates, full-wave and half-wave rectification, clipper and clamper circuits; Bipolar junction transistors: device structure and physical operation, current\u2013voltage characteristics, BJT Circuits at DC, BJT as an amplifier and as a switch; MOS field-effect transistors (MOSFETs): device structure and physical operation, current\u2013voltage characteristics, MOSFET circuits at DC, MOSFET as an amplifier and as a switch; CMOS combinational logic circuit design.",
-    "courseCategory":"Other Engineering"
-  },
-  {
-    "courseCode":"EEE 2124",
-    "courseTitle":"Electronics Laboratory",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Laboratory work based on EEE 2123.",
-    "courseCategory":"Other Engineering"
-  },
-  {
-    "courseCode":"EEE 4261",
-    "courseTitle":"Green Computing",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Cloud computing: Definition, Concept, service model and their clarification, deployment model, security and privacy; Edge Computing: Definition, Concept, Advantages and challenges; Tele-computing: Definition, advantages and challenges; Power and energy management: IEEE rules and codes in power and energy management, Microsoft, IBM and others definition in energy management; E-waste: Definition of e-waste and its recycle process. Cost benefit analysis of e-waste recycle. And environmental impact analysis of e-waste.",
-    "courseCategory":"Other Engineering"
-  },
-  {
-    "courseCode":"CSE 1110",
-    "courseTitle":"Introduction to Computer Systems",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Introduction to computations; Early history of computing devices; Computers; Major components of a computer; Hardware: processor, memory, I\/O devices; Software: Operating system, application software; Basic architecture of a computer; Basic Information Technology; The Internet; Number system: binary, octal, hexadecimal, binary arithmetic; Basic programming concepts; Program development stages: flow charts; Programming constructs: data types, operators, expressions, statements, control statements, functions, array.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 1111",
-    "courseTitle":"Structured Programming Language",
-    "creditHours":3,
-    "prerequisite":"CSE 1110",
-    "description":"Basic understanding of problem solving; Structured programming language: data types, operators, expressions, control structures (If-else, Switch-case, Loop); Functions and program structure: parameter passing conventions, scope rules and storage classes, recursion; Header files; Pointers and arrays; Strings; Multidimensional array; User defined data types: structures, unions, enumerations; Input and Output: standard input and output, formatted input and output, file access; Variable length argument list; Command line parameters; Error Handling; Graphics; Linking; Library functions.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 1112",
-    "courseTitle":"Structured Programming Language Laboratory",
-    "creditHours":1,
-    "prerequisite":"CSE 1110",
-    "description":"Laboratory work based on CSE 1111 with a project work.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 1115",
-    "courseTitle":"Object Oriented Programming",
-    "creditHours":3,
-    "prerequisite":"CSE 1111",
-    "description":"Philosophy of Object Oriented Programming (OOP); Advantages of OOP over structured programming; Abstraction and Encapsulation, classes and objects, access specifiers, static and non-static members; Constructors, destructors and copy constructors; Array of objects, object pointers, and object references; Inheritance: single and multiple inheritance; Polymorphism:overloading, abstract classes, virtual functions and overriding; Exceptions; Object Oriented I\/O; Template functions and classes; Multi-threaded Programming.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 1116",
-    "courseTitle":"Object-Oriented Programming Laboratory",
-    "creditHours":1,
-    "prerequisite":"CSE 1112",
-    "description":"Laboratory work based on CSE 1115.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 2118",
-    "courseTitle":"Advanced Object Oriented Programming Laboratory",
-    "creditHours":1,
-    "prerequisite":"CSE 1116",
-    "description":"Laboratory work based on advanced topics in Object Oriented Programming with a project work.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 4165",
-    "courseTitle":"Web Programming",
-    "creditHours":3,
-    "prerequisite":"CSE 2118",
-    "description":"Web architecture and HTTP: History and architecture of the World Wide Web, overview of the Hyper Text Transfer Protocol, other related protocols; Hyper Text Markup Language: The concept of markup, overview of HTML ( table, form, frame, window, link etc.); Cascading Style Sheets: Overview of CSS (selectors, different CSS properties and values); Client side scripting: Variables, data types, control structure, functions, Document Object Model (DOM), event handlers, properties, methods, cookies; Server side scripting: Concepts, variables, data types, control structure, functions, objects, regular expressions, mails, cookies, sessions and a related web framework; Database: Content generation, data exchange; Layered or Multi-tier Architecture for Web Applications; MVC; Content Management System.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 4181",
-    "courseTitle":"Mobile Application Development",
-    "creditHours":3,
-    "prerequisite":"CSE 2118",
-    "description":"Web architecture and HTTP: History and architecture of the World Wide Web, overview of the Hyper Text Transfer Protocol, other related protocols; Hyper Text Markup Language: The concept of markup, overview of HTML ( table, form, frame, window, link etc.); Cascading Style Sheets: Overview of CSS (selectors, different CSS properties and values); Client side scripting: Variables, data types, control structure, functions, Document Object Model (DOM), event handlers, properties, methods, cookies; Server side scripting: Concepts, variables, data types, control structure, functions, objects, regular expressions, mails, cookies, sessions and a related web framework; Database: Content generation, data exchange; Layered or Multi-tier Architecture for Web Applications; MVC; Content Management System.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 1325",
-    "courseTitle":"Digital Logic Design",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Number systems: Introduction, digital number systems, arithmetic operations; Function minimization techniques: Boolean algebra (identities, functions and manipulation), Canonical and standard forms, minimization techniques; Combinational logic circuits design procedure; Combinational and Arithmetic functions: Arithmetic (adders) and other popular (encoders, decoders, multiplexers, demultiplexers) modules; Sequential circuits and Registers: Sequential logic design procedure, state diagrams, state table, input and output equations, latches, flip-flops, race around problems, design problems, registers, register transfers, counters and their applications.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 1326",
-    "courseTitle":"Digital Logic Design Laboratory",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Laboratory work based on CSE 1325.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3313",
-    "courseTitle":"Computer Architecture",
-    "creditHours":3,
-    "prerequisite":"CSE 1325",
-    "description":"Information representation; Measuring performance; Instructions and data access methods: operations and operands of computer hardware, representing instruction, addressing styles; Arithmetic Logic Unit (ALU) operations, floating point operations, designing ALU; Processor design: datapath \u2013 single cycle and multicycle implementations; Control Unit design \u2013 hardwired and microprogrammed; Pipeline: pipelined datapath and control, hazards; Exceptions; Memory organization: Cache, Concepts of DMA and Interrupts; Buses: overview of computer BUS standards; Multiprocessors: types of multiprocessors, performance, single bus multiprocessors, multiprocessors connected by network, clusters.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 4325",
-    "courseTitle":"Microprocessors and Microcontrollers",
-    "creditHours":3,
-    "prerequisite":"CSE 3313",
-    "description":"Introduction to 16-bit and 32-bit microprocessors: architecture, addressing modes, instruction set (e.g. x86), interrupts, multitasking and virtual memory, paging, cache memory; Interfacing: programmable peripheral interface, direct memory access (DMA), keyboard and display interface, memory chips (e.g. ROM, RAM), clock generator, bus arbiter; Architecture of modern microprocessors: multi processors vs multi-core architecture, hyperthreading technology, turbo boost technology; Introduction to micro-controllers (e.g. ATMega32): architecture, digital interfacing: LEDs, switches, sensors and motors, analog interfacing: introduction to the analog-to-digital converter (ADC) module, serial communication protocols (e.g. SPI, I2C, CANBUS) for embedded system.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 4326",
-    "courseTitle":"Microprocessors and Microcontrollers Laboratory",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Students will design simple systems using the principles learned in CSE 4325. An introduction to assembly language will be included in this course at the beginning.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 2213",
-    "courseTitle":"Discrete Mathematics",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Set theory: sets, relations, functions; Mathematical Logic: propositional calculus and predicate calculus; Mathematical reasoning and proof techniques; Counting: permutations, combinations, Discrete Probability principles of inclusion and exclusion; Recurrence relations; Graph Theory: graphs, paths, and trees.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 2215",
-    "courseTitle":"Data Structure and Algorithms - I",
-    "creditHours":3,
-    "prerequisite":"CSE 1115",
-    "description":"Internal data representation; Abstract data types; Introduction to algorithms; Asymptotic analysis: growth of functions, O, \u2126 and \u0398 notations; Correctness proof and techniques for analysis of algorithms; Master Theorem; Elementary data structures: arrays, linked lists, stacks, queues, trees and tree traversals, graphs and graph representations, heaps, binary search trees; Graph Traversals: DFS, BFS, Applications of DFS and BFS; Sorting: heap sort, merge sort, quick sort, linear-time sorting; Data structures for set operations.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 2216",
-    "courseTitle":"Data Structure and Algorithms - I Laboratory",
-    "creditHours":1,
-    "prerequisite":"CSE 1116, CSE 1112",
-    "description":"Laboratory work based on Data Structures and Algorithms I",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 2217",
-    "courseTitle":"Data Structure and Algorithms - II",
-    "creditHours":3,
-    "prerequisite":"CSE 2215",
-    "description":"Methods for the design of efficient algorithms: divide and conquer, greedy methods, dynamic programming; Graph algorithms: MST algorithms, shortest path algorithms, maximum flow and maximum bipartite matching; Advanced data Structures: balanced binary search trees (AVL trees, red-black trees, splay trees), skip lists, advanced heaps (Fibonacci heaps, binomial heaps); Hashing; String matching algorithms; NP-completeness; NP-hard and NP-complete problems; Coping with hardness: backtracking, branch and bound, approximation algorithms.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 2218",
-    "courseTitle":"Data Structure and Algorithms - II Laboratory",
-    "creditHours":1,
-    "prerequisite":"CSE 2216",
-    "description":"Laboratory work based on Data Structures and Algorithms II.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 2233",
-    "courseTitle":"Theory of Computation",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Finite Automata: Deterministic finite automata, Non-deterministic finite automata, equivalence and conversion of deterministic and non-deterministic finite automata, pushdown automata. Context free language, context frees grammar. Turing machines: basic machines, configuration, computing with turning machine, combining turning machines.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3411",
-    "courseTitle":"System Analysis and Design",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"System Study: concept of system and system study, system organogram, system development life cycle, different types of system, skills of system analyst; Information Gathering: types of information, sources of information, information gathering tools and their competitive analysis; Guidelines to conduct information gathering tools; Feasibility Study: statement of constraints, types of feasibility for IT products, determining best candidate system, SWOT analysis, cash flow and NPV analysis, feasibility Report; System Design: structured and object oriented design using UML; DFD, use case, sequence diagram, state diagram, class diagram, etc using UML tools; Effective designing of input, output and UI; Software Requirement Specifications (SRS); Project deployment: study on project management and tools; Scheduling by Gantt chart, PERT\/CPM method, etc; System security, risk management, data migration, training, art of negotiation, etc.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3412",
-    "courseTitle":"System Analysis and Design Laboratory",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Laboratory work based on System Analysis and Design.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3421",
-    "courseTitle":"Software Engineering",
-    "creditHours":3,
-    "prerequisite":"CSE 3411",
-    "description":"Basic Concepts: software, software engineering, recent trends and challenges; Process Models: waterfall, incremental, iterative; Requirements Engineering: software requirements specification, system requirements specification, stakeholder requirements specification; Architecture: monolithic architecture, service-oriented architecture, micro- service architecture, model-view-controller pattern and variants, system design; Services Computing: application programming interface, web services, cloud services, representational state transfer, JavaScript object notation, simple object access protocol; User Interface Design: web and mobile platform, wireframe model, methods and tools; Software Testing: manual and automated test, black box and white box test, unit test, integration test, regression test, acceptance test, non-functional test, test planning, test documentation; Version Control and Repository: version numbering, version control software, code repository systems; Documentation: requirements, architecture, technical, end user, marketing; Legal and Ethical Aspects: terms and conditions, end-user license agreement, soft- ware engineering code of ethics, privacy engineering; Business Case Study: case study on local and international popular software products.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3422",
-    "courseTitle":"Software Engineering Laboratory",
-    "creditHours":1,
-    "prerequisite":"CSE 3412",
-    "description":"Laboratory work based on Software Engineering.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 4531",
-    "courseTitle":"Computer Security",
-    "creditHours":3,
-    "prerequisite":"CSE 3711",
-    "description":"Fundamental concepts: confidentiality, integrity and availability, assurance, authenticity and anonymity; threats and attacks, security principles; Encryption, symmetric and asymmetric key encryption; Security: OS access control, Web and mobile application security, software security, hardware security, memory protection, data base security; Security Attacks: malware, DDos, Trojan and backdoors, buffer overflow, social engineering.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3521",
-    "courseTitle":"Database Management Systems",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Concepts of database systems; Data Models: Entity-Relationship model, Relational model; Query Languages: SQL, Relational algebra, Constraints, View; Security and Integrity Management; Functional dependencies and normalization; Indexing: primary and secondary indexes, B+ trees; Hashing: Static and Dynamic hashing, Collision Problem in Hashing; Transaction management; Recovery: RAID Different levels; File storage management.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3522",
-    "courseTitle":"Database Management Systems Laboratory",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Laboratory work based on CSE 3521. A project work will be included.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 4509",
-    "courseTitle":"Operating Systems",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Operating system: its role in computer systems; multitasking, multiuser, multiprocessing OS; Operating system structures; Process: process concept and scheduling, inter-process communication, communication in client-server systems; CPU scheduling: scheduling criteria and algorithms, thread scheduling, multiple-processor scheduling; Process synchronization: critical-section problem, semaphores, monitors; Deadlock: resource allocation and dead- lock, deadlock detection, prevention and recovery; Memory management: swapping, paging, segmentation, virtual memory; File Systems: files, directories, security, protection; Case study of some operating systems.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 4510",
-    "courseTitle":"Operating Systems Laboratory",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Laboratory work based on Operating System Concepts",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3711",
-    "courseTitle":"Computer Networks",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Introduction to Computer Networks; Network Edge, Network Core ; Layering architecture: TCP\/IP and OSI Reference Models; Circuit Switching and Packet Switching; Hubs, Routers, and Switches; Application layer services: Web, HTTP, FTP, SMTP, DNS architecture; Introduction to transport layer: UDP,TCP; Principles of Reliable data transfer; TCP Congestion and Flow control; Routing and forwarding, DHCP, NAT, Fragmentation; Routing algorithms; Autonomous Systems; Link layer services; MAC Protocols; Link layer addressing; Ethernet; ARP; Wireless links and network characteristics; Wi-Fi: IEEE 802.11 Wireless LANs.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3712",
-    "courseTitle":"Computer Networks Laboratory",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Laboratory work based on CSE 3711.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3811",
-    "courseTitle":"Artificial Intelligence",
-    "creditHours":3,
-    "prerequisite":"MATH 2205",
-    "description":"Survey and concepts in Artificial Intelligence; Problem solving agents; Uninformed and Informed search tech- niques; Local Search Techniques; Game playing; Constraint Satisfaction Problems; Bayesian learning; Supervised Learning: Classification, Perceptrons; Stationary processes and Markov assumptions; Hidden Markov Models; Hu- man Aware AI Systems.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 3812",
-    "courseTitle":"Artificial Intelligence Laboratory",
-    "creditHours":1,
-    "prerequisite":null,
-    "description":"Laboratory work based on CSE 341.",
-    "courseCategory":"Core Courses"
-  },
-  {
-    "courseCode":"CSE 4601",
-    "courseTitle":"Mathematical Analysis for Computer Science",
-    "creditHours":3,
-    "prerequisite":"MATH 2205, CSE 2213",
-    "description":"Recurrent problems; Manipulation of sums; Integer functions; Number theory; Binomial coefficient; Special numbers; Generating functions; Combinatorial game theory; Introduction to probability theory, expectation; Random variables; Conditional Probability and Conditional Expectation; Stochastic process; Markov chains: discrete parameter, continuous parameter, birth-death process; Queuing models: birth-death model, Markovian model, open and closed queuing network; Application of queuing models.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4633",
-    "courseTitle":"Basic Graph Theory",
-    "creditHours":3,
-    "prerequisite":"CSE 2213, CSE 2217",
-    "description":"Graphs and their applications; Basic graph terminologies; Basic operations on graphs; Graph representations; Degree sequence and graphic sequence; Paths, cycles and connectivity; Trees and counting of trees; Distance in graphs and trees; Spanning trees in graphs; Euler tours; Hamiltonian cycles; Ear decomposition; Graph labeling; Matching and Covering: Vertex and Edge Covering; Line graphs, Perfect graphs and Planar graphs; Graph coloring: Vertex coloring and Edge coloring; Special classes of graphs.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4655",
-    "courseTitle":"Algorithm Engineering",
-    "creditHours":3,
-    "prerequisite":"CSE 2217",
-    "description":"Computational complexity; Exact Algorithms; Parameterized complexity; Practical computing and heuristics; Approximation algorithms; LP based approximation algorithms; Randomized algorithms; On-line algorithms; Experimental algorithmics; Contemporary and state-of-the-art algorithms.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4611",
-    "courseTitle":"Compiler Design",
-    "creditHours":3,
-    "prerequisite":"CSE 2233",
-    "description":"Compiler modules; Lexical analysis; Parsing theory; Symbol tables; Type systems; Scope; Semantic analysis; Intermediate representations; Runtime environments; Code generation; Code optimization.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4613",
-    "courseTitle":"Computational Geometry",
-    "creditHours":3,
-    "prerequisite":"MATH 2201, CSE 2213",
-    "description":"Searching and Geometric Data Structures: Balanced binary search trees, Priority-search trees, Range searching, Interval trees, Segment trees; Algorithms and complexity of fundamental geometric objects: Polygon triangulation and art gallery theorem, Polygon partitioning, Convex-hulls in 2-dimension and 3-dimension, Dynamic convex-hulls; Geometric intersection: Line segment intersection and the plane-sweep algorithm, Intersection of polygons; Prox- imity: Voronoi diagrams, Delunay triangulations, Closest and furthest pair; Visualization: Hidden surface removal and binary space partition (BSP) trees; Graph Drawings: Drawings of rooted trees (Layering, Radial drawings, HV- Drawings, Recursive winding), Drawings of planar graphs (Straight-line drawings, Orthogonal drawings, Visibility drawings).",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4621",
-    "courseTitle":"Computer Graphics",
-    "creditHours":3,
-    "prerequisite":"MATH 2201, CSI 2217",
-    "description":"Basics of computer graphics and its applications; Raster graphics: 3D rasterization pipeline; Transformation: modelling, viewing and projection transformation in both 2D and 3D spaces; homogeneous coordinate system; Visible surface detection and hidden surface removal: e.g. z-buffer (or, depth buffer), depth-sorting, BSP-tree algorithms; Scan conversion and clipping algorithms: e.g. Cohen-Sutherland, Cyrus-Beck, Sutherland-Hodgman algorithms; Fractals: e.g. Koch curve, Snowflakes, Dragon curve; Ray tracing: ray casting methods, direct illumination, global illumination, shadows, shading and textures.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 3715",
-    "courseTitle":"Data Communication",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Introduction of layered network architecture; Introduction of data communication: physical point to point communication, signal, signal representation and processing, signal to noise ratio; Framing techniques; Frequency response of signals: Fourier integrals, Fourier transforms, time domain and frequency domain concept; representation of noise; Introduction to information theory: entropy, information capacity; Modulation and demodulation: amplitude modulation, frequency and phase Modulation; From analog to digital communication: sampling, Nyquist theorem, quantization, digitization of analog signals; Line coding; Techniques of modulation: pulse modulation, pulse amplitude modulation, pulse width modulation, pulse position modulation, pulse code modulation; Multiplexing techniques: time division multiplexing, frequency division multiplexing techniques.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4759",
-    "courseTitle":"Wireless and Cellular Communication",
-    "creditHours":3,
-    "prerequisite":"CSE 3715, CSE 3711",
-    "description":"Cellular concepts: frequency reuse, handoff strategies, interference and system capacity, grade of service, improving capacity and coverage, call blocking probability; Propagation effects: outdoor propagation models, indoor propagation models, power control, Doppler\u2019s effect, small and large scale fades; Wireless LAN Technology; IEEE 802.11: standard, protocol architecture, physical layer and media access control; Mobile IP;Wireless Application Protocol; IEEE 802.16 Broadband Wireless Access; Brief review of 2nd and 3rd generation wireless: GSM, GPRS, CDMA; LTE, LTE-Advanced, and 5G. Vehicular wireless networks, white spaces, IEEE 802.22 regional area net- works, Bluetooth and Bluetooth Smart, wireless personal area networks, wireless protocols for Internet of Things, ZigBee.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4793",
-    "courseTitle":"Advanced Network Serviced and Management",
-    "creditHours":3,
-    "prerequisite":"CSE 3711",
-    "description":"Application specific protocols: domain name services, electronics mail; World Wide Web and Web caching; Network Management (SNMP), error Reporting Mechanism (ICMP), socket Interfaces, file transfer and remote file access; Multimedia application: RTP, session control; Intra- and Inter-AS routing: IGP, EGP, BGP; Network security: cryptography, firewalls, access control lists (ACLs); VPN, IPSec, IPv6.Application specific protocols: domain name services, electronics mail; World Wide Web and Web caching; Network Management (SNMP), error Reporting Mechanism (ICMP), socket Interfaces, file transfer and remote file access; Multimedia application: RTP, session control; Intra- and Inter-AS routing: IGP, EGP, BGP; Network security: cryptography, firewalls, access control lists (ACLs); VPN, IPSec, IPv6.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4783",
-    "courseTitle":"Cryptography",
-    "creditHours":3,
-    "prerequisite":"CSE 2213",
-    "description":"Cryptography, history of cryptography; Perfect ciphers, Stream ciphers, attacks on stream ciphers, block ciphers, how to use block ciphers with one time key and many time key; Symmetric encryption, , DES, TDES, AES, Feistel block structure;Asymmetric key: public key protocols, basic key exchange, RSA (cryptosystem); Quantum cryptography, one time pad exchange using qbits; Message integrity (MAC), HMAC, Secure hash functions. Digital signatures.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4777",
-    "courseTitle":"Networks Security",
-    "creditHours":3,
-    "prerequisite":"CSE 3711",
-    "description":"Introduction to computer security, CIA TRIAD, Threats and Attacks, Passive and Active attacks and examples of passive as well as active attacks, security mechanisms, network security model; Hashing, Cryptography, Introduction to Symmetric key and Asymmetric key encryption; One way authentication protocols, Needham Schroeder protocol, Needham-Schroeder Symmetric key protocol Anomaly in Needham Schroeder Symmetric key protocol, Needham-Schroeder Asymmetric key protocol (Kerberos); IP Sec, Intrusion Detection System (IDS) (Firewall), TLS, HTTPS, TELNET, SSH, Wire-shark; Wireless network security: WEP, WPA, WPA2; Secure Hash Algorithm (SHA), Digital Signature Standard (DSS); Advanced network security topics.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4763",
-    "courseTitle":"Electronic Business",
-    "creditHours":3,
-    "prerequisite":"CSE 3711",
-    "description":"The E-Business Framework: difference between electronic business and electronic commerce, electronic mar- kets, disintermediation, horizontal and vertical market places; E-Products and E-Services; Classification of business webs: agora, aggregation, value chain, alliance, supply chain net; business model for e-products and e-services, branding and pricing; E-Procurement: difference between purchase and procurement, market solutions: sell-side, buy-side, and market place; Integration of product catalogue, procurement service providing; Online Marketing: comparison of online media, usage of Internet and websites, stages of a customer development model: surfer, consumer, prosumer, buyer, and key customer; E-Contracting: generic services, information, negotiation, archiving, enforcement, reconciliation, structure of a contract, digital signature, legal affairs; Online Distribution: components of a distribution system, characterisation of online distribution, hybrid distribution networks, model for electronic software distribution; E-Payment: electronic means of payment, micro and macro payment, classification of payment systems, credit cards, customer accounts, digital money; secure transactions; Electronic customer relationship management: objectives of CRM, customer acquisition and liaison, customer buying cycle, architecture of CRM systems, customer satisfaction survey; E-Business environment: information society, building process for communities, multi-option society, ethics in electronic business.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4547",
-    "courseTitle":"Multimedia Systems Design",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Organization and structure of modern multimedia systems; text, audio and video encoding; Data compression: lossless and lossy techniques; Multimedia networking: Quality of Service management and multimedia protocols; Streaming multimedia: peer-to-peer, video-on-demand, live streaming; Multimedia storage: data placement and scheduling, caching, and data retrieval; Scheduling algorithms for multimedia within OS; Synchronization schemes: in-band and out-band, synchronization skews and specification; Design of real-world multimedia solution.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4519",
-    "courseTitle":"Distributed Systems",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Remote invocation and indirect communication;Time and coordination; Overlay networks and P2P; Distributed storage and file systems; Name services; Global state and transactions; Replication and consistency; Consensus; Fault tolerance; Security and privacy; Emerging topics in distributed systems.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4523",
-    "courseTitle":"Simulation and Modeling",
-    "creditHours":3,
-    "prerequisite":"Math 2205",
-    "description":"Simulation methods, model building, random number generator, statistical analysis of results, validation and verification techniques; Digital simulation of continuous system; Simulation and analytical methods for analysis of computer systems and practical problems in business and practice; Introduction to simulation packages.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4587",
-    "courseTitle":"Cloud Computing",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Basic Concepts: cloud computing and applications, assessing the value proposition, issues and challenges, cloud architecture, service models, deployment models; Cloud Platforms: abstraction and virtualization, capacity planning, platform as a service, Amazon web services , Microsoft Azure, Google cloud platform; Cloud Infrastructure: managing the cloud, cloud security; Services and Applications: service-oriented architecture, moving applications to the cloud, cloud-based storage, media and streaming, cloud based mobile apps and web services.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4567",
-    "courseTitle":"Advanced Database Management Systems",
-    "creditHours":3,
-    "prerequisite":"CSE 3521",
-    "description":"Database system architecture; Managing primary and secondary storage; Query processing; Metadata and catalog management; Language processing; Query optimization and plan generation; Concurrency; Failures and recovery; Extensibility; Client-server interactions; Object-oriented database systems, XML, database and the web, data management in distributed mobile computing environment, data broadcasting, text database, digital library design and implementation; Multimedia database: basic concepts, design and optimization of access strategies;Parallel database, spatial database, temporal database; Parallel and distributed database systems; NoSQL; New database architectures and query operators.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4889",
-    "courseTitle":"Machine Learning",
-    "creditHours":3,
-    "prerequisite":"CSE 3811",
-    "description":"Introduction to Machine Learning; Regression analysis: linear regression; Classification techniques: classification trees, support vector machines; Statistical performance evaluation: bias-variance tradeoff; VC dimension; Reinforcement Learning; Neural networks; EM Algorithm; Unsupervised Learning: k-means clustering; Principal component analysis; Deep Learning; Practical applications of machine learning.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4891",
-    "courseTitle":"Data Mining",
-    "creditHours":3,
-    "prerequisite":"CSE 3811",
-    "description":"Introduction to data mining: data mining task and applications, data preprocessing, feature selection, association analysis, frequent item-set mining; Single model classifier: k-nearest neighbor, na\u00a8\u0131ve Bayes classifier, decision tree induction, na\u00a8\u0131ve Bayesian tree, rule-based classifiers; Model evaluation and selection; Ensemble learning: random Forests, bagging, boosting, isolated forests; Clustering: k-means clustering, similarity-based clustering, nearest-neighbor clustering, density-based clustering, ensemble clustering, evaluation of clustering methods, clustering high-dimensional data; Data balancing methods; Active learning; Transfer learning; Outlier detection; Concept drift.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4893",
-    "courseTitle":"Introduction to Bioinformatics",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Introduction; Molecular biology basics: DNA, RNA, genes, and proteins; Graph algorithms: DNA sequencing, DNA fragment assembly, Spectrum graphs; Sequence similarity; Suffix Tree and variants with applications; Genome Alignment: maximum unique match, LCS, mutation sensitive alignments; Database search: Smith-Waterman algorithm, FASTA, BLAST and its variations; Locality sensitive hashing; Multiple sequence alignment; Phylogeny reconstruction; Phylogeny comparison: similarity and dissimilarity measurements, consensus tree problem; Genome rearrangement: types of genome rearrangements, sorting by reversal and other operations; Motif finding; RNA secondary structure prediction; Peptide sequencing; Population genetics; Recent Trends in Bioinformatics.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4883",
-    "courseTitle":"Digital Image Processing",
-    "creditHours":3,
-    "prerequisite":"CSE 4889",
-    "description":"Digital Image Fundamentals: visual perception, sensing, acquisition, sampling, quantization; Intensity Trans- formation and Spatial Filtering: different transformations, histogram, correlation and convolution, smoothing and sharpening filters; Filtering in Frequency Domain: discrete fourier transformation (DFT) of image, smoothing and sharpening in frequency domain, selective filtering; Image Restoration and Reconstruction: noise models, spatial filtering for noise, frequency filtering for noise, reconstruction from projections; Color Image Processing: color models, color transformation and segmentation; Morphological Image Processing: erosion, dilation, opening, closing, morphological algorithms; Image Compression: redundancy, fidelity criteria, some basic compression techniques; Image Segmentation: point, line and edge detection, thresholding, region based segmentation; Object Recognition: matching, statistical classifier, neural networks.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4817",
-    "courseTitle":"Big Data Analytics",
-    "creditHours":3,
-    "prerequisite":"CSE 4889",
-    "description":"Introduction to Big Data: characteristics of Big Data and dimensions of scalability; Data Science: getting value out of Big Data, foundations for Big Data systems and programming, getting started with Hadoop; Big Data Modelling and Management Systems: Big Data modelling, Big Data management, designing a Big Data management system; Big Data Integration and Processing: retrieving Big Data, Big Data integration, processing Big Data, Big Data analytics using Spark; Machine Learning with Big Data: introduction to machine learning with Big Data, data exploration, classification, evaluation of machine learning models, regression, cluster analysis, and association analysis; Graph Analytics for Big Data: introduction to graphs, graph Analytics, graph analytics techniques, computing platforms for graph analytics.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4451",
-    "courseTitle":"Human Computer Interaction",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Foundations of human computer interaction: understanding and conceptualizing interaction; Understanding users: human perception, ergonomics, cognition, psychology; Task Analysis; User Interface Design, interface programming, graphical user interfaces, user survey, user journey and experience, mobile devices, multimodal interfaces and ubiquitous computing, user-centered system development and evaluation, user- centered software development and evaluation; Prototyping; Interaction design for new environments; Affective and social computing; Assistive and augmentative communication, assistive technology and rehabilitation; Human machine interface, brain computer interface; Experimental research ethics.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4435",
-    "courseTitle":"Software Architecture",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Introduction; Design vs Architecture; Enterprise Architecture; Architectural drivers; Software Architecture role; Skills and knowledge of software architect; Software architecture in the delivery process; Visualizing Software Architecture; Managing risks; Architectural recovery, architectural styles, domain specific software architectures coupled with programming\/implementation effort, design and implement a real-world software system, the state- of-the-art in software architecture research and future trends.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4495",
-    "courseTitle":"Software Testing and Quality Assurance",
-    "creditHours":3,
-    "prerequisite":"CSE 3421",
-    "description":"Testing strategies: SDLC vs STLC; Testing Levels; Testing methods; Testing types: Specification-based vs. code-based, black-box vs. white-box, functional vs. structural testing; unit, integration, system, acceptance, and regression testing; Load, Performance, Stress, Unit Testing; Verification vs. validation; Test planning: scenario, case, traceability matrix; ISO Standards; Agile testing; Testing Estimation techniques; Introduction to software reliability, quality control and quality assurance; Formal verification methods; static and dynamic program verification.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4485",
-    "courseTitle":"Game Design and Development",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Introduction to games: history, games and society; Game design: design concepts, teams and processes character modelling, animation, storyline, programming fundamentals, concepts of 3D virtual world; Game Engines: 3D mesh and object modelling, simulation and collision detection, etc; Debugging games; Game Architecture; Memory and I\/O systems; Development of a customized game; Advanced Topics: data structures , AI, etc in Games; Networks and multiplayer mode; Application of Games: simulation, animation movies and others.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4329",
-    "courseTitle":"Digital System Design",
-    "creditHours":3,
-    "prerequisite":"CSE 3313",
-    "description":"Design using MSI and LSI components; Programmable logic devices; Basic components of a computer system; Design of processing unit: ALU, Comparator, Accumulator, Shifter, Multiplier; Hardware multiplication: Booth and Modified Booth algorithm; Design of control unit: hardwired and microprogrammed; Simple-As-Possible (SAP) computer: SAP-1, selected concepts from SAP-2 and SAP-3 (jump, call, return, stack, push and pop); Designing microprocessor based system; Hardware Interfacing with Intel 8086 microprocessor: programmable peripheral interface, programmable interrupt controller, programmable timer, keyboard and display interface.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4379",
-    "courseTitle":"Real-time Embedded Systems",
-    "creditHours":3,
-    "prerequisite":"CSE 4325",
-    "description":"Embedded architectures: 16\/32\/64-bit embedded processors; Interaction with devices: buses, memory architectures, memory management, device drivers; Concurrency: software and hardware interrupts, timers; Real- time principles: synchronization, scheduling, multi-tasking; Real-time task scheduling: scheduleablity analysis, rate and deadline monotonic scheduling, fixed and dynamic priority scheduling; Feed-back control theory and application; Profiling and code optimization; Embedded software systems: exception handling, loading, mode-switching, programming embedded systems.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4327",
-    "courseTitle":"VLSI Design",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"VLSI technology: Top down design approach, technology trends and design styles. Review of MOS transistor theory: Threshold voltage, body effect, I-V equations and characteristics, latch-up problems, NMOS inverter, CMOS inverter, pass-transistor and transmission gates. CMOS circuit characteristics and performance estimation: Resistance, capacitance, rise and fall times, delay, gate transistor sizing and power consumption. CMOS circuit and logic design: Layout design rules and physical design of simple logic gates. CMOS subsystem design: Adders, multiplier and memory system, arithmetic logic unit. Programmable logic arrays. I\/O systems. VLSI testing.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4337",
-    "courseTitle":"Robotics",
-    "creditHours":3,
-    "prerequisite":"CSE 4325, CSE 3811",
-    "description":"Introduce the basic concepts of robotics, types of robots, robotics and AI; Automation & autonomy architectures; Robot hardware: sensors, actuators; Robotic mapping: localization, Monte Carlo localization, multi-object localization; Robotic navigation and locomotion: motion planning, dynamics and control; Human-robot interaction: Natural language learning; Multi-agents: tasks and teams.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4397",
-    "courseTitle":"Interfacing",
-    "creditHours":3,
-    "prerequisite":"CSE 4325",
-    "description":"Definition of interface, types of interfaces; Interface levels; Typical interface mechanisms; Example interfaces; In- put\/output ports: I\/O port structure, status and control data registers, bidirectional pin operation, bus connection; Three-state output, Z state; Technological considerations; Connections to external loads; Input device connections; Signal multiplexing; Analog Interfaces; Timing and frequency aspects of analogue signals; Nyquist-Shannon sampling theorem; Analog-digital converters; Digital-analog converters; Example application; Serial communication interfaces; Types and characteristics of communication interfaces; Synchronous serial interface (SSI). Real examples (RS232, SPI); Common computer Interfaces; Universal Serial Bus (USB), USB3, Thunderbolt PCI express (PCIe), Storage interfaces \u2013 SATA, NVMe, eMMC; Display interfaces \u2013 VGA, DVI, Display Port; Microcontroller interfacing \u2013 Arduino, Raspberry pi GPIO,; Buses and DMA; Design and operation of interface between computer and the outside world; Human computer interaction, brain Computer interfaces.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4941",
-    "courseTitle":"Enterprise Systems: Concepts and Practice",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Materials management (MM); Supply chain management (SCM); Customer relationship management (CRM); Financials, mobile and cloud enterprise systems; Internet-of-Things (IoT) and enterprise BIG data;\nThe course will incorporate a hands-on component using SAP, Oracle ES software. The course will also incorporate modelling techniques and tools, assess an organisation\u2019s readiness for ES implementation.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4943",
-    "courseTitle":"Web Application Security",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Client-side (browser) security: vulnerabilities associated with browsing the web, system penetration, information breach and identity threat; Securing the communication channel: encrypting data stream using SSL, confidentiality and integrity of data using third party transaction protocols e.g. SET, PCI DSS standard, the latest evolutions for HTTPS deployments; Securing untrusted data: server-side and client-side injection attacks, defending common injection attacks; Session management and access control: relationship between authentication, authorization and session management, prevent authorization bypasses and harden session management mechanisms; Server-side security: CGI security, server configuration, access control, operating system security, malicious e-mails, web scripts, cookies, web bugs spyware, rogue AV etc.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4945",
-    "courseTitle":"UI Concepts and Design",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"Design principles: color, emphasis, usability, hierarchy, etc; Low fidelity wireframes: beginning to design using low fidelity wireframes and storyboards; Introduction to Sketch software, rapid prototyping using Sketch, high fidelity mobile, application, and website wireframes; Creating a style guide with Sketch; Design research and personas: UX fundamentals; find, build, verify, patterns, personas, situations, buy-in, knowledge, scenarios; Using sketch to prototype using material design; Prototype employee time clock; Prototype tablet ordering interface; Prototype iOS todo app; Core principles of design: good, bad and ugly web search; Introduction to Illustrator, introduction to value: understanding Illustrator and designing in Illustrator, refactor and embellish, introduction to color with value, add hue to value; Introduction to PhotoShop, unity in design, PhotoShop and a UI tool, freeform of painting; Introdcution to HTML and Visual Studio Code, learn markup language, tags and structure; Introduction to CSS, design guidelines, and styling; Styling with CSS. Complete content from CSS from scratch; Create new CSS on existing HTML; Basic site and app development in Bootstrap, develop a responsive site that will work on PCs tables and Phones; Basic site and App design in Bootstrap; Design graphics for the responsive site in the previous website.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4949",
-    "courseTitle":"IT Audit: Concepts and Practice",
-    "creditHours":3,
-    "prerequisite":null,
-    "description":"IT audit concepts and frameworks; General phases of IT audit; Internal IT audit control framework: the committee of sponsoring organizations (COSO); The impact of information technology audit process on internal controls: general controls, application controls, tests of controls; Referring case study; IT-Audit methodologies and frameworks: COBIT, ITIL, ISO 17799 etc; Practical IT-Audit methodologies development steps for enterprises completing the audit: reporting, types of auditors\u2019 opinions, audit documentation and resources; Referring case study.",
-    "courseCategory":" Elective Courses"
-  },
-  {
-    "courseCode":"CSE 4000A",
-    "courseTitle":"Final Year Design Project - I",
-    "creditHours":2,
-    "prerequisite":null,
-    "description":"This course introduce different soft skill-sets that are necessary for the successful completion of FYDP. The skill- sets include, but not limited to, mastering effective communications, individual and team development, ethical leadership, project management, the steps in the design process, environment and sustainability, etc. These skill sets would be developed by a series of seminars and workshops. The outcomes relevant to POs would be measured based on the student performance in different tests designed to assess those specific skills. The standard rubrics will be used to assess the performance. At the end of the trimester the students will submit an interim report of their FYDP and give a presentation.",
-    "courseCategory":"Final Year Design Project"
-  },
-  {
-    "courseCode":"CSE 4000B",
-    "courseTitle":"Final Year Design Project - II",
-    "creditHours":2,
-    "prerequisite":null,
-    "description":"In this course, the students will implement the proposal that is accepted in the course CSE 4000A.",
-    "courseCategory":"Final Year Design Project"
-  },
-  {
-    "courseCode":"CSE 4000C",
-    "courseTitle":"Final Year Design Project - III",
-    "creditHours":2,
-    "prerequisite":null,
-    "description":"In this course, the students will implement the proposal that is accepted in the course CSE 4000B.",
-    "courseCategory":"Final Year Design Project"
+    "courseCode": "ENG 1011",
+    "courseTitle": "English I",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Reading and Writing: Cohesion, Skimming, Coherence, Scanning; Main ideas, Brainstorming and Taking notes, Comprehensions; Linking and Transitional words; Grammatical Knowledge: Parts of Speech, Punctuation, Subject-Verb Agreement, Preposition, Tense, Article, WH Questions, Paraphrasing; Summarizing; Creative Writing; Presentation\n\nSpeaking and Listening: Speaking and Listening strategies; Pronunciation and Intonation; Vocabulary, Educated guess from content; Linking words and Fillers; Introduction to Drama; Performing Play; Art of Questioning; Famous Speeches; Listening Activities; How to make and present a brochure; Impromptu Speaking; Group Presentation",
+    "courseCategory": "Language",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "ENG 1013",
+    "courseTitle": "English II",
+    "creditHours": 3,
+    "prerequisite": "ENG 1011",
+    "description": "Writing: Free Writing; Guided Writing: Paragraph writing with guidelines (based on hints, Wh questions); Process of Writing; Structure-based Paragraph Writing (types: Descriptive, Narrative and Process); Editing (Identification and correction of mistakes in Articles, Capitalization, Homonym, Fragment, Preposition, Pronoun, Punctuations, Run-on sentences, Faulty parallelism, Spelling, Subject-verb agreement, Tense); Application Writing; Email Writing; Steps of essay writing; Essay Writing in 5 paragraphs: (Cause and Effect essay, Compare and Contrast essay, Argumentative essay); Vocabulary: Sentence making practice on Academic word list (1-10)\nReading: Practice on Reading Comprehensions\nSpeaking: Public speaking; Argumentative Presentation\nListening: Listening practice from various sources",
+    "courseCategory": "Language",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "SOC 2101",
+    "courseTitle": "Society, Environment and Engineering Ethics",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Society: emergence of Sociology as moral lessons for society; Basic institutions in society, organization and institutions in society, Types of Society; Culture: basics of culture, elements of culture, cultural change, socialization, and social issues around us; Technology and society: interaction between technology and society; Engineering ethics: understanding ethics, engineering ethics; Moral reasoning and engineering as social experimentation; The engineers’ concern for safety, professional responsibility; Employer authority; Rights of engineers; Global issues; Career choice and professional outlook; Ethical problems are like design problems; Genetically modified objects (GMO); Environment: environment and environmental issues– environmental degradation, waste management and renewable energy; Basic understanding of sustainable development, SDGs, climate change adaptation; Disability and Accessibility.",
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "PMG 4101",
+    "courseTitle": "Project Management",
+    "creditHours": 3,
+    "prerequisite": "CSE 3411",
+    "description": "Triple Constraint in Project Management: Time, Scope and Cost; Process methodology, Requirement Collection, Plan, schedule a project including risk assessment with proper documentation and presentation. Cost Estimation, Optimization, and performance calculation, Change management, Quality improvement, Use of Mod- ern tools in project planning, resource allocation and estimation.",
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "BDS 1201",
+    "courseTitle": "History of the Emergence of Bangladesh",
+    "creditHours": 2,
+    "prerequisite": null,
+    "description": "Partition of Bengal (1947); Language Movement (1952); Movement for Autonomy; 6-point and 11-Point Programs; The 1970 Election; Speech on 7th of March 1971; Military Action, Genocide in the East Pakistan; The Liberation War; The Emergence of Bangladesh as a Sovereign Independent State in 1971; Constitution of Bangladesh and citizen rights; Culture: Cultural diffusion and change, Bengali culture and problems of society; social problems of Bangladesh; Social change: theories of social change; social change in Bangladesh; urbanization process and its impact on Bangladesh society.",
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "ECO 4101",
+    "courseTitle": "Economics",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Definition of Economics; Economics and engineering; Principles of economics.\nMicro-Economics: Introduction to various economic systems – capitalist, command and mixed economy; Fundamental economic problems and the mechanism through which these problems are solved; Theory of demand and supply and their elasticities; Theory of consumer behavior; Cardinal and ordinal approaches of utility analysis; Price determination; Nature of an economic theory; Applicability of economic theories to the problems of developing countries; Indifference curve techniques; Theory of production, production function, types of productivity; Rational region of production of an engineering firm; Concepts of market and market structure; Cost analysis and cost function; Small scale production and large scale production; Optimization; Theory of distribution; Use of derivative in economics: maximization and minimization of economic functions, relationship among total, marginal and average concepts.\nMacro-Economics: Savings; investment, employment; national income analysis; Inflation; Monetary policy; Fiscal policy and trade policy with reference to Bangladesh; Economics of development and planning.",
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "SOC 4101",
+    "courseTitle": "Introduction to Sociology",
+    "creditHours": 3,
+    "prerequisite": "CSE 3411",
+    "description": "Concept and theory: major schools of sociology – functionalism, critical theory, gender, interactionism and post- modernism; Sociology of communications: the impacts of contemporary media institutions and communications technologies on the social construction of knowledge and the construction of socially significant identities and ideologies; Society: discussion on key concepts of society, social institutions, social structure and stratification, religion and so on; Sociology of development: technology, gender, business, globalization, and how do we formulate reasonable expectations? Global and social issues; Social research: importance of research, research methods and techniques.",
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "ACT 2111",
+    "courseTitle": "Financial and Managerial Accounting",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Financial Accounting: Objectives and importance of accounting; Accounting as an information system; Computerized system and applications in accounting. Recording system: double entry mechanism; accounts and their classification; Accounting equation; Accounting cycle: journal, ledger, trial balance; Preparation of financial statements considering adjusting and closing entries; Accounting concepts (principles) and conventions.\nFinancial statement analysis and interpretation: ratio analysis.\nCost and Management Accounting: Cost concepts and classification; Overhead cost: meaning and classification; Distribution of overhead cost; Overhead recovery method/rate; Job order costing: preparation of job cost sheet and quotation price; Inventory valuation: absorption costing and marginal/variable costing techniques; Cost-Volume- Profit analysis: meaning breakeven analysis, contribution margin approach, sensitivity analysis.\nShort-term investment decisions: relevant and differential cost analysis. Long-term investment decisions: capital budgeting, various techniques of evaluation of capital investments.",
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "IPE 3401",
+    "courseTitle": "Industrial and Operational Management",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Introduction, evolution, management function, organization and environment.\nOrganization: Theory and structure; Coordination; Span of control; Authority delegation; Groups; Committee and task force; Manpower planning.\nPersonnel Management: Scope; Importance; Need hierarchy; Motivation; Job redesign; Leadership; Participative management; Training; Performance appraisal; Wages and incentives; Informal groups; Organizational change and conflict.\nCost and Financial Management; Elements of costs of products depreciation; Break-even analysis; Investment analysis; Benefit cost analysis.\nManagement Accounting: Cost planning and control; Budget and budgetary control; Development planning process.\nMarketing Management: Concepts; Strategy; Sales promotion; Patent laws.\nTechnology Management: Management of innovation and changes; Technology life cycle; Case studies.",
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "TEC 2499",
+    "courseTitle": "Technology Entrepreneurship",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Defining the startup vision: Start: How and when to start a new venture, what one needs to start, forming a suitable team; Define: Defining the core idea of a new venture, technological feasibility, market feasibility; Learn: Get the basic business model canvas, value propositions, partners, and customers; Experiment: How to get a working prototype, what is a working prototype, how to evaluate a prototype.\n\nSteering a new startup: Leap: Plunging in with your startup; Test: Test the prototype with potential customers, how to define customers, what to test, what questions to ask; Measure: How to interpret and evaluate the feedback, finding the early evangelists; Pivot (or Persevere): Do we change or keep the prototype based on the feedback? when to pivot, why pivoting is paramount, some of the successful companies that radically changed their business model.\n\nAccelerating towards success: Batch Production: Getting to mass production, mass producing software vs mass producing hardware, scaling in the cloud, scaling for connected devices; Grow: Evaluating and utilizing feedback from the bigger market audience, navigating legal and promotional problems; Adapt: Change with changing technology and market conditions, change due to size and scope; Innovate: How to keep being a leader, responding to competitors, intellectual property rights.",
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "PSY 2101",
+    "courseTitle": "Psychology",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "The objective of this course is to provide knowledge about the basic concepts and principles of psychology pertaining to real-life problems. The course will familiarize students with the fundamental processes that occur within organism-biological basis of behavior, perception, motivation, emotion, learning, memory and forgetting and also to the social perspective-social perception and social forces that act upon the individual.",
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "BDS 2201",
+    "courseTitle": "Bangladesh Studies",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Ancient Bengal: Sasanka, Rise of the Palas, the Senas; Early Medieval Bengal; Coming of the Muslims; The In- dependent sultanate of Bengal: Ilyas Shahi and Hossein Shahi Bengal; Late medieval Bengal: The Establishment of Mughal Rule in Bengal; Bara Bhuiyans: Subedars and Nawabs; The European Style in Bengal Architecture; British rule in Bengal; Battles of Plassey and Buzas; The Dual government; permanent settlement (1793); Nine- teenth century Bengali renaissance: social and religious reforms, Raja Rammohan Roy, Ishwar Chandra Vidyasagar, Titu Meer; Partition of Bengal (1905); Language Movement (1952); Movement for Autonomy; 6-point and 11-Point Programs; The 1970 Election-Military Action, Genocide in the East Pakistan; The Liberation War; The Emergence of Bangladesh as a Sovereign Independent State in 1971; Culture: Cultural diffusion and change, Bengali culture and problems of society; social problems of Bangladesh; Social change: theories of social change; social change in Bangladesh; urbanization process and its impact on Bangladesh society.",
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "BAN 2501",
+    "courseTitle": "Bangla",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": null,
+    "courseCategory": "General Education",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "PHY 2105",
+    "courseTitle": "Physics",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Waves and Oscillations Periodic motion: periodic waves, elastic restoring force, simple harmonic motion (SHM), differential equation of SHM and its solutions, examples of SHM, energy calculation of SHM, time period, velocity, acceleration, frequency calculation with graph, Lissajou’s figure design, spring mass system and torsional pendulum, DHM, characteristic graph, differential equations for spring mass system with damping mechanism and RLC circuit- series and parallel analysis, resonant frequency, reactance, impedance, FHM; Mechanical Waves; Vibrating bodies and acoustic phenomena: progressive wave and its differential equation, EM wave, group velocity, phase velocity, standing waves, node and antinode; The Doppler effects, application of acoustic Phenomena.\n\nElectricity magnetism Electrostatic Force and Electric Field; Concept of charge, Coulomb’s law, concept of electric field and its calculation, electric dipole; Gauss’s law in electrostatic and its application, electric field due to dipole, torque on a dipole in uniform e-field, electric flux, flux density, Gauss’s law and Coulomb’s law; Electric Potential: electric potential and its calculation, electric potential energy, relationship between field and potential, potential due to a point charge, dipole, continuous charge distribution, electric field calculation from electric potential, equipotential surface, potential gradient; Capacitance and Dielectric : capacitors, capacitors in series and parallel, energy of charged capacitors, electrical energy density in terms of electric field, electron volt, dielectric media, polarization vector and displacement vector, Laplace’s and Poission’s equations, capacitor with a dielectric material, Gauss’s law with dielectric; Current, Resistance and Electromotive Force: current and current density, resistance and resistivity, Ohm’s law, EMF, power, resistance in series and parallel, Kirchhoff’s Rules, RC circuit; Magnetic Field: magnetic field, magnetic flux and flux density, Lorentz force, Gauss’s law for magnetism, motion of a charged particles in magnetic field : Hall effect; Magnetic field intensity, magnetic dipole moment, Biot-Savart Law, Ampere’s law and its applications; Magnetic properties of material, magnetization, hysteresis; Inductions and Inductance: induced emf and Faraday’s law of induction; Lenz’s law; Mutual inductance ; Self inductance; Energy in an inductor; Inductance in series, in parallel, and their combination, MMF, leakage and fringing flux, Transformers.\n\nQuantum Physics Quantum theory: quantum theory of radiation, energy of photons, photo-electric Effect, work function, threshold frequency, threshold voltage, Compton effect, X-rays production, properties and application, Bragg Diffraction, De Broglie wave length, Heisenberg’ s Uncertainty Principle, correspondence principle, pair production, pair annihilation; Schrodinger equation: wave function, Schrodinger equation-time dependent and time independent form, expectation value, quantum operator, tunneling effect, quantum numbers, energy of trapped electron, quantum dots and corrals, quantization of Bohr orbital energy.",
+    "courseCategory": "Basic Sciences",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "PHY 2106",
+    "courseTitle": "Physics Laboratory",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Experiments based on PHY 2105",
+    "courseCategory": "Basic Sciences",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "BIO 3105",
+    "courseTitle": "Biology for Engineers",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Introduction; The Basics of Life: Chemistry; Organic Molecules: The Molecules of Life; Cell Structure and Function; Enzymes, Coenzymes, and Energy; Biochemical Pathways: Cellular Respiration, Photosynthesis; DNA and RNA: The Molecular Basis of Heredity; Cell Division; Patterns of Inheritance; Applications of Biotechnology; Diversity within Species and Population Genetics; Evolution and Natural Selection; The Formation of Species and Evolutionary Change; Ecosystem Dynamics: The Flow of Energy and Matter; Community Interactions; Population Ecology; Evolutionary and Ecological Aspects of Behavior; The Origin of Life and Evolution of Cells; The Classification and Evolution of Organisms; The Nature of Microorganisms; The Plant Kingdom; The Animal Kingdom; Materials Exchange in the Body; Nutrition: Food and Diet; The Body’s Control Mechanisms and Immunity; Human Reproduction, Sex, and Sexuality.",
+    "courseCategory": "Basic Sciences",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "MATH 1151",
+    "courseTitle": "Fundamental Calculus",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Function, Domain and Range of a Function. Translation and reflection of a function. Even and Odd functions, Inverse functions, One to One and many to one function. Limit, continuity and differentiability, Tangent line, Differentiation of different types of functions.  An overview of area problem,  Newton’s anti-derivative method  in finding area, Indefinite integral, fundamental theorem of calculus, Definite integral, Area between two curves. Different types of Integration (Principles of Integral evaluation, Integration by parts, Trigonometric Substitution).",
+    "courseCategory": "Mathematics",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "MATH 2183",
+    "courseTitle": "Calculus and Linear Algebra",
+    "creditHours": 3,
+    "prerequisite": "MATH 1151",
+    "description": "Calculus: Analysis of Function I: Slope and Concavity, Analysis of function II: Relative Extrema and Polynomials, Partial Derivatives, The Chain Rule. Differential Equation: Solution of the differential equations of 1st and 2nd order. Linear Algebra: Solution of different types of system of linear equations. Operations of matrix algebra, trans- position, inversion, rank of matrices. Solution of system of equations by matrix method. Eigen values and Eigen vectors.",
+    "courseCategory": "Mathematics",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "MATH 2201",
+    "courseTitle": "Coordinate Geometry and Vector Analysis",
+    "creditHours": 3,
+    "prerequisite": "MATH 1151",
+    "description": "Conic sections, rotation of axes, Rectangular co-ordinate in 3-space, cross and dot product of vectors, parametric equation of straight lines, plane in 3-space. Cylindrical and spherical coordinate systems, integrals of multi-variable functions (double and triple integrals including polar coordinates). Gradient of scalar fields, divergence and curl of vector fields. Line integrals, conservative vector field and Green’s theorem, surface integral, flux, divergence theorem, Stokes’ theorem.",
+    "courseCategory": "Mathematics",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "MATH 2205",
+    "courseTitle": "Probability and Statistics",
+    "creditHours": 3,
+    "prerequisite": "MATH 1151",
+    "description": "Frequency distribution; Mean, median, mode and other measures of central tendency; Standard deviation and other measures of dispersion; Moments, skewness and kurtosis, correlation and regression analysis; Elementary probability theory and discontinuous probability distribution, e.g., binomial, Poisson and negative binomial; Continuous probability distributions, e.g. normal and exponential; Characteristics of distributions; Elementary sampling theory; Estimation of parameter, Hypothesis testing.",
+    "courseCategory": "Mathematics",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "EEE 2113",
+    "courseTitle": "Electrical Circuits",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Fundamental electrical concepts and measuring units, DC voltages, current, resistance and power, laws of electrical circuits and methods of network analysis, principles of DC measuring apparatus, laws of magnetic fields and methods of solving simple magnetic circuits; Alternating current: instantaneous and RMS current, voltage and power, average power combinations of R, L & C circuits, phasor, representation of sinusoidal quantities.",
+    "courseCategory": "Other Engineering",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "EEE 2123",
+    "courseTitle": "Electronics",
+    "creditHours": 3,
+    "prerequisite": "EEE 2113",
+    "description": "Semiconductor diode: materials, energy band, n-type and p-type materials, p-n junction diode, ideal vs practical diode, zener diode, light emitting diode; Diode applications: load-line Analysis, series-parallel dc circuits, AND/OR logic gates, full-wave and half-wave rectification, clipper and clamper circuits; Bipolar junction transistors: device structure and physical operation, current–voltage characteristics, BJT Circuits at DC, BJT as an amplifier and as a switch; MOS field-effect transistors (MOSFETs): device structure and physical operation, current–voltage characteristics, MOSFET circuits at DC, MOSFET as an amplifier and as a switch; CMOS combinational logic circuit design.",
+    "courseCategory": "Other Engineering",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "EEE 2124",
+    "courseTitle": "Electronics Laboratory",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Laboratory work based on EEE 2123.",
+    "courseCategory": "Other Engineering",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "EEE 4261",
+    "courseTitle": "Green Computing",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Cloud computing: Definition, Concept, service model and their clarification, deployment model, security and privacy; Edge Computing: Definition, Concept, Advantages and challenges; Tele-computing: Definition, advantages and challenges; Power and energy management: IEEE rules and codes in power and energy management, Microsoft, IBM and others definition in energy management; E-waste: Definition of e-waste and its recycle process. Cost benefit analysis of e-waste recycle. And environmental impact analysis of e-waste.",
+    "courseCategory": "Other Engineering",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 1110",
+    "courseTitle": "Introduction to Computer Systems",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Introduction to computations; Early history of computing devices; Computers; Major components of a computer; Hardware: processor, memory, I/O devices; Software: Operating system, application software; Basic architecture of a computer; Basic Information Technology; The Internet; Number system: binary, octal, hexadecimal, binary arithmetic; Basic programming concepts; Program development stages: flow charts; Programming constructs: data types, operators, expressions, statements, control statements, functions, array.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 1111",
+    "courseTitle": "Structured Programming Language",
+    "creditHours": 3,
+    "prerequisite": "CSE 1110",
+    "description": "Basic understanding of problem solving; Structured programming language: data types, operators, expressions, control structures (If-else, Switch-case, Loop); Functions and program structure: parameter passing conventions, scope rules and storage classes, recursion; Header files; Pointers and arrays; Strings; Multidimensional array; User defined data types: structures, unions, enumerations; Input and Output: standard input and output, formatted input and output, file access; Variable length argument list; Command line parameters; Error Handling; Graphics; Linking; Library functions.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 1112",
+    "courseTitle": "Structured Programming Language Laboratory",
+    "creditHours": 1,
+    "prerequisite": "CSE 1110",
+    "description": "Laboratory work based on CSE 1111 with a project work.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 1115",
+    "courseTitle": "Object Oriented Programming",
+    "creditHours": 3,
+    "prerequisite": "CSE 1111",
+    "description": "Philosophy of Object Oriented Programming (OOP); Advantages of OOP over structured programming; Abstraction and Encapsulation, classes and objects, access specifiers, static and non-static members; Constructors, destructors and copy constructors; Array of objects, object pointers, and object references; Inheritance: single and multiple inheritance; Polymorphism:overloading, abstract classes, virtual functions and overriding; Exceptions; Object Oriented I/O; Template functions and classes; Multi-threaded Programming.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 1116",
+    "courseTitle": "Object-Oriented Programming Laboratory",
+    "creditHours": 1,
+    "prerequisite": "CSE 1112",
+    "description": "Laboratory work based on CSE 1115.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 2118",
+    "courseTitle": "Advanced Object Oriented Programming Laboratory",
+    "creditHours": 1,
+    "prerequisite": "CSE 1116",
+    "description": "Laboratory work based on advanced topics in Object Oriented Programming with a project work.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4165",
+    "courseTitle": "Web Programming",
+    "creditHours": 3,
+    "prerequisite": "CSE 2118",
+    "description": "Web architecture and HTTP: History and architecture of the World Wide Web, overview of the Hyper Text Transfer Protocol, other related protocols; Hyper Text Markup Language: The concept of markup, overview of HTML ( table, form, frame, window, link etc.); Cascading Style Sheets: Overview of CSS (selectors, different CSS properties and values); Client side scripting: Variables, data types, control structure, functions, Document Object Model (DOM), event handlers, properties, methods, cookies; Server side scripting: Concepts, variables, data types, control structure, functions, objects, regular expressions, mails, cookies, sessions and a related web framework; Database: Content generation, data exchange; Layered or Multi-tier Architecture for Web Applications; MVC; Content Management System.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4181",
+    "courseTitle": "Mobile Application Development",
+    "creditHours": 3,
+    "prerequisite": "CSE 2118",
+    "description": "Web architecture and HTTP: History and architecture of the World Wide Web, overview of the Hyper Text Transfer Protocol, other related protocols; Hyper Text Markup Language: The concept of markup, overview of HTML ( table, form, frame, window, link etc.); Cascading Style Sheets: Overview of CSS (selectors, different CSS properties and values); Client side scripting: Variables, data types, control structure, functions, Document Object Model (DOM), event handlers, properties, methods, cookies; Server side scripting: Concepts, variables, data types, control structure, functions, objects, regular expressions, mails, cookies, sessions and a related web framework; Database: Content generation, data exchange; Layered or Multi-tier Architecture for Web Applications; MVC; Content Management System.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 1325",
+    "courseTitle": "Digital Logic Design",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Number systems: Introduction, digital number systems, arithmetic operations; Function minimization techniques: Boolean algebra (identities, functions and manipulation), Canonical and standard forms, minimization techniques; Combinational logic circuits design procedure; Combinational and Arithmetic functions: Arithmetic (adders) and other popular (encoders, decoders, multiplexers, demultiplexers) modules; Sequential circuits and Registers: Sequential logic design procedure, state diagrams, state table, input and output equations, latches, flip-flops, race around problems, design problems, registers, register transfers, counters and their applications.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 1326",
+    "courseTitle": "Digital Logic Design Laboratory",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Laboratory work based on CSE 1325.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3313",
+    "courseTitle": "Computer Architecture",
+    "creditHours": 3,
+    "prerequisite": "CSE 1325",
+    "description": "Information representation; Measuring performance; Instructions and data access methods: operations and operands of computer hardware, representing instruction, addressing styles; Arithmetic Logic Unit (ALU) operations, floating point operations, designing ALU; Processor design: datapath – single cycle and multicycle implementations; Control Unit design – hardwired and microprogrammed; Pipeline: pipelined datapath and control, hazards; Exceptions; Memory organization: Cache, Concepts of DMA and Interrupts; Buses: overview of computer BUS standards; Multiprocessors: types of multiprocessors, performance, single bus multiprocessors, multiprocessors connected by network, clusters.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4325",
+    "courseTitle": "Microprocessors and Microcontrollers",
+    "creditHours": 3,
+    "prerequisite": "CSE 3313",
+    "description": "Introduction to 16-bit and 32-bit microprocessors: architecture, addressing modes, instruction set (e.g. x86), interrupts, multitasking and virtual memory, paging, cache memory; Interfacing: programmable peripheral interface, direct memory access (DMA), keyboard and display interface, memory chips (e.g. ROM, RAM), clock generator, bus arbiter; Architecture of modern microprocessors: multi processors vs multi-core architecture, hyperthreading technology, turbo boost technology; Introduction to micro-controllers (e.g. ATMega32): architecture, digital interfacing: LEDs, switches, sensors and motors, analog interfacing: introduction to the analog-to-digital converter (ADC) module, serial communication protocols (e.g. SPI, I2C, CANBUS) for embedded system.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4326",
+    "courseTitle": "Microprocessors and Microcontrollers Laboratory",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Students will design simple systems using the principles learned in CSE 4325. An introduction to assembly language will be included in this course at the beginning.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 2213",
+    "courseTitle": "Discrete Mathematics",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Set theory: sets, relations, functions; Mathematical Logic: propositional calculus and predicate calculus; Mathematical reasoning and proof techniques; Counting: permutations, combinations, Discrete Probability principles of inclusion and exclusion; Recurrence relations; Graph Theory: graphs, paths, and trees.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 2215",
+    "courseTitle": "Data Structure and Algorithms - I",
+    "creditHours": 3,
+    "prerequisite": "CSE 1115",
+    "description": "Internal data representation; Abstract data types; Introduction to algorithms; Asymptotic analysis: growth of functions, O, Ω and Θ notations; Correctness proof and techniques for analysis of algorithms; Master Theorem; Elementary data structures: arrays, linked lists, stacks, queues, trees and tree traversals, graphs and graph representations, heaps, binary search trees; Graph Traversals: DFS, BFS, Applications of DFS and BFS; Sorting: heap sort, merge sort, quick sort, linear-time sorting; Data structures for set operations.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 2216",
+    "courseTitle": "Data Structure and Algorithms - I Laboratory",
+    "creditHours": 1,
+    "prerequisite": "CSE 1116, CSE 1112",
+    "description": "Laboratory work based on Data Structures and Algorithms I",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 2217",
+    "courseTitle": "Data Structure and Algorithms - II",
+    "creditHours": 3,
+    "prerequisite": "CSE 2215",
+    "description": "Methods for the design of efficient algorithms: divide and conquer, greedy methods, dynamic programming; Graph algorithms: MST algorithms, shortest path algorithms, maximum flow and maximum bipartite matching; Advanced data Structures: balanced binary search trees (AVL trees, red-black trees, splay trees), skip lists, advanced heaps (Fibonacci heaps, binomial heaps); Hashing; String matching algorithms; NP-completeness; NP-hard and NP-complete problems; Coping with hardness: backtracking, branch and bound, approximation algorithms.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 2218",
+    "courseTitle": "Data Structure and Algorithms - II Laboratory",
+    "creditHours": 1,
+    "prerequisite": "CSE 2216",
+    "description": "Laboratory work based on Data Structures and Algorithms II.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 2233",
+    "courseTitle": "Theory of Computation",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Finite Automata: Deterministic finite automata, Non-deterministic finite automata, equivalence and conversion of deterministic and non-deterministic finite automata, pushdown automata. Context free language, context frees grammar. Turing machines: basic machines, configuration, computing with turning machine, combining turning machines.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3411",
+    "courseTitle": "System Analysis and Design",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "System Study: concept of system and system study, system organogram, system development life cycle, different types of system, skills of system analyst; Information Gathering: types of information, sources of information, information gathering tools and their competitive analysis; Guidelines to conduct information gathering tools; Feasibility Study: statement of constraints, types of feasibility for IT products, determining best candidate system, SWOT analysis, cash flow and NPV analysis, feasibility Report; System Design: structured and object oriented design using UML; DFD, use case, sequence diagram, state diagram, class diagram, etc using UML tools; Effective designing of input, output and UI; Software Requirement Specifications (SRS); Project deployment: study on project management and tools; Scheduling by Gantt chart, PERT/CPM method, etc; System security, risk management, data migration, training, art of negotiation, etc.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3412",
+    "courseTitle": "System Analysis and Design Laboratory",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Laboratory work based on System Analysis and Design.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3421",
+    "courseTitle": "Software Engineering",
+    "creditHours": 3,
+    "prerequisite": "CSE 3411",
+    "description": "Basic Concepts: software, software engineering, recent trends and challenges; Process Models: waterfall, incremental, iterative; Requirements Engineering: software requirements specification, system requirements specification, stakeholder requirements specification; Architecture: monolithic architecture, service-oriented architecture, micro- service architecture, model-view-controller pattern and variants, system design; Services Computing: application programming interface, web services, cloud services, representational state transfer, JavaScript object notation, simple object access protocol; User Interface Design: web and mobile platform, wireframe model, methods and tools; Software Testing: manual and automated test, black box and white box test, unit test, integration test, regression test, acceptance test, non-functional test, test planning, test documentation; Version Control and Repository: version numbering, version control software, code repository systems; Documentation: requirements, architecture, technical, end user, marketing; Legal and Ethical Aspects: terms and conditions, end-user license agreement, soft- ware engineering code of ethics, privacy engineering; Business Case Study: case study on local and international popular software products.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3422",
+    "courseTitle": "Software Engineering Laboratory",
+    "creditHours": 1,
+    "prerequisite": "CSE 3412",
+    "description": "Laboratory work based on Software Engineering.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4531",
+    "courseTitle": "Computer Security",
+    "creditHours": 3,
+    "prerequisite": "CSE 3711",
+    "description": "Fundamental concepts: confidentiality, integrity and availability, assurance, authenticity and anonymity; threats and attacks, security principles; Encryption, symmetric and asymmetric key encryption; Security: OS access control, Web and mobile application security, software security, hardware security, memory protection, data base security; Security Attacks: malware, DDos, Trojan and backdoors, buffer overflow, social engineering.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3521",
+    "courseTitle": "Database Management Systems",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Concepts of database systems; Data Models: Entity-Relationship model, Relational model; Query Languages: SQL, Relational algebra, Constraints, View; Security and Integrity Management; Functional dependencies and normalization; Indexing: primary and secondary indexes, B+ trees; Hashing: Static and Dynamic hashing, Collision Problem in Hashing; Transaction management; Recovery: RAID Different levels; File storage management.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3522",
+    "courseTitle": "Database Management Systems Laboratory",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Laboratory work based on CSE 3521. A project work will be included.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4509",
+    "courseTitle": "Operating Systems",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Operating system: its role in computer systems; multitasking, multiuser, multiprocessing OS; Operating system structures; Process: process concept and scheduling, inter-process communication, communication in client-server systems; CPU scheduling: scheduling criteria and algorithms, thread scheduling, multiple-processor scheduling; Process synchronization: critical-section problem, semaphores, monitors; Deadlock: resource allocation and dead- lock, deadlock detection, prevention and recovery; Memory management: swapping, paging, segmentation, virtual memory; File Systems: files, directories, security, protection; Case study of some operating systems.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4510",
+    "courseTitle": "Operating Systems Laboratory",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Laboratory work based on Operating System Concepts",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3711",
+    "courseTitle": "Computer Networks",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Introduction to Computer Networks; Network Edge, Network Core ; Layering architecture: TCP/IP and OSI Reference Models; Circuit Switching and Packet Switching; Hubs, Routers, and Switches; Application layer services: Web, HTTP, FTP, SMTP, DNS architecture; Introduction to transport layer: UDP,TCP; Principles of Reliable data transfer; TCP Congestion and Flow control; Routing and forwarding, DHCP, NAT, Fragmentation; Routing algorithms; Autonomous Systems; Link layer services; MAC Protocols; Link layer addressing; Ethernet; ARP; Wireless links and network characteristics; Wi-Fi: IEEE 802.11 Wireless LANs.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3712",
+    "courseTitle": "Computer Networks Laboratory",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Laboratory work based on CSE 3711.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3811",
+    "courseTitle": "Artificial Intelligence",
+    "creditHours": 3,
+    "prerequisite": "MATH 2205",
+    "description": "Survey and concepts in Artificial Intelligence; Problem solving agents; Uninformed and Informed search tech- niques; Local Search Techniques; Game playing; Constraint Satisfaction Problems; Bayesian learning; Supervised Learning: Classification, Perceptrons; Stationary processes and Markov assumptions; Hidden Markov Models; Hu- man Aware AI Systems.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3812",
+    "courseTitle": "Artificial Intelligence Laboratory",
+    "creditHours": 1,
+    "prerequisite": null,
+    "description": "Laboratory work based on CSE 341.",
+    "courseCategory": "Core Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4601",
+    "courseTitle": "Mathematical Analysis for Computer Science",
+    "creditHours": 3,
+    "prerequisite": "MATH 2205, CSE 2213",
+    "description": "Recurrent problems; Manipulation of sums; Integer functions; Number theory; Binomial coefficient; Special numbers; Generating functions; Combinatorial game theory; Introduction to probability theory, expectation; Random variables; Conditional Probability and Conditional Expectation; Stochastic process; Markov chains: discrete parameter, continuous parameter, birth-death process; Queuing models: birth-death model, Markovian model, open and closed queuing network; Application of queuing models.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4633",
+    "courseTitle": "Basic Graph Theory",
+    "creditHours": 3,
+    "prerequisite": "CSE 2213, CSE 2217",
+    "description": "Graphs and their applications; Basic graph terminologies; Basic operations on graphs; Graph representations; Degree sequence and graphic sequence; Paths, cycles and connectivity; Trees and counting of trees; Distance in graphs and trees; Spanning trees in graphs; Euler tours; Hamiltonian cycles; Ear decomposition; Graph labeling; Matching and Covering: Vertex and Edge Covering; Line graphs, Perfect graphs and Planar graphs; Graph coloring: Vertex coloring and Edge coloring; Special classes of graphs.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4655",
+    "courseTitle": "Algorithm Engineering",
+    "creditHours": 3,
+    "prerequisite": "CSE 2217",
+    "description": "Computational complexity; Exact Algorithms; Parameterized complexity; Practical computing and heuristics; Approximation algorithms; LP based approximation algorithms; Randomized algorithms; On-line algorithms; Experimental algorithmics; Contemporary and state-of-the-art algorithms.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4611",
+    "courseTitle": "Compiler Design",
+    "creditHours": 3,
+    "prerequisite": "CSE 2233",
+    "description": "Compiler modules; Lexical analysis; Parsing theory; Symbol tables; Type systems; Scope; Semantic analysis; Intermediate representations; Runtime environments; Code generation; Code optimization.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4613",
+    "courseTitle": "Computational Geometry",
+    "creditHours": 3,
+    "prerequisite": "MATH 2201, CSE 2213",
+    "description": "Searching and Geometric Data Structures: Balanced binary search trees, Priority-search trees, Range searching, Interval trees, Segment trees; Algorithms and complexity of fundamental geometric objects: Polygon triangulation and art gallery theorem, Polygon partitioning, Convex-hulls in 2-dimension and 3-dimension, Dynamic convex-hulls; Geometric intersection: Line segment intersection and the plane-sweep algorithm, Intersection of polygons; Prox- imity: Voronoi diagrams, Delunay triangulations, Closest and furthest pair; Visualization: Hidden surface removal and binary space partition (BSP) trees; Graph Drawings: Drawings of rooted trees (Layering, Radial drawings, HV- Drawings, Recursive winding), Drawings of planar graphs (Straight-line drawings, Orthogonal drawings, Visibility drawings).",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4621",
+    "courseTitle": "Computer Graphics",
+    "creditHours": 3,
+    "prerequisite": "MATH 2201, CSI 2217",
+    "description": "Basics of computer graphics and its applications; Raster graphics: 3D rasterization pipeline; Transformation: modelling, viewing and projection transformation in both 2D and 3D spaces; homogeneous coordinate system; Visible surface detection and hidden surface removal: e.g. z-buffer (or, depth buffer), depth-sorting, BSP-tree algorithms; Scan conversion and clipping algorithms: e.g. Cohen-Sutherland, Cyrus-Beck, Sutherland-Hodgman algorithms; Fractals: e.g. Koch curve, Snowflakes, Dragon curve; Ray tracing: ray casting methods, direct illumination, global illumination, shadows, shading and textures.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 3715",
+    "courseTitle": "Data Communication",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Introduction of layered network architecture; Introduction of data communication: physical point to point communication, signal, signal representation and processing, signal to noise ratio; Framing techniques; Frequency response of signals: Fourier integrals, Fourier transforms, time domain and frequency domain concept; representation of noise; Introduction to information theory: entropy, information capacity; Modulation and demodulation: amplitude modulation, frequency and phase Modulation; From analog to digital communication: sampling, Nyquist theorem, quantization, digitization of analog signals; Line coding; Techniques of modulation: pulse modulation, pulse amplitude modulation, pulse width modulation, pulse position modulation, pulse code modulation; Multiplexing techniques: time division multiplexing, frequency division multiplexing techniques.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4759",
+    "courseTitle": "Wireless and Cellular Communication",
+    "creditHours": 3,
+    "prerequisite": "CSE 3715, CSE 3711",
+    "description": "Cellular concepts: frequency reuse, handoff strategies, interference and system capacity, grade of service, improving capacity and coverage, call blocking probability; Propagation effects: outdoor propagation models, indoor propagation models, power control, Doppler’s effect, small and large scale fades; Wireless LAN Technology; IEEE 802.11: standard, protocol architecture, physical layer and media access control; Mobile IP;Wireless Application Protocol; IEEE 802.16 Broadband Wireless Access; Brief review of 2nd and 3rd generation wireless: GSM, GPRS, CDMA; LTE, LTE-Advanced, and 5G. Vehicular wireless networks, white spaces, IEEE 802.22 regional area net- works, Bluetooth and Bluetooth Smart, wireless personal area networks, wireless protocols for Internet of Things, ZigBee.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4793",
+    "courseTitle": "Advanced Network Serviced and Management",
+    "creditHours": 3,
+    "prerequisite": "CSE 3711",
+    "description": "Application specific protocols: domain name services, electronics mail; World Wide Web and Web caching; Network Management (SNMP), error Reporting Mechanism (ICMP), socket Interfaces, file transfer and remote file access; Multimedia application: RTP, session control; Intra- and Inter-AS routing: IGP, EGP, BGP; Network security: cryptography, firewalls, access control lists (ACLs); VPN, IPSec, IPv6.Application specific protocols: domain name services, electronics mail; World Wide Web and Web caching; Network Management (SNMP), error Reporting Mechanism (ICMP), socket Interfaces, file transfer and remote file access; Multimedia application: RTP, session control; Intra- and Inter-AS routing: IGP, EGP, BGP; Network security: cryptography, firewalls, access control lists (ACLs); VPN, IPSec, IPv6.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4783",
+    "courseTitle": "Cryptography",
+    "creditHours": 3,
+    "prerequisite": "CSE 2213",
+    "description": "Cryptography, history of cryptography; Perfect ciphers, Stream ciphers, attacks on stream ciphers, block ciphers, how to use block ciphers with one time key and many time key; Symmetric encryption, , DES, TDES, AES, Feistel block structure;Asymmetric key: public key protocols, basic key exchange, RSA (cryptosystem); Quantum cryptography, one time pad exchange using qbits; Message integrity (MAC), HMAC, Secure hash functions. Digital signatures.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4777",
+    "courseTitle": "Networks Security",
+    "creditHours": 3,
+    "prerequisite": "CSE 3711",
+    "description": "Introduction to computer security, CIA TRIAD, Threats and Attacks, Passive and Active attacks and examples of passive as well as active attacks, security mechanisms, network security model; Hashing, Cryptography, Introduction to Symmetric key and Asymmetric key encryption; One way authentication protocols, Needham Schroeder protocol, Needham-Schroeder Symmetric key protocol Anomaly in Needham Schroeder Symmetric key protocol, Needham-Schroeder Asymmetric key protocol (Kerberos); IP Sec, Intrusion Detection System (IDS) (Firewall), TLS, HTTPS, TELNET, SSH, Wire-shark; Wireless network security: WEP, WPA, WPA2; Secure Hash Algorithm (SHA), Digital Signature Standard (DSS); Advanced network security topics.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4763",
+    "courseTitle": "Electronic Business",
+    "creditHours": 3,
+    "prerequisite": "CSE 3711",
+    "description": "The E-Business Framework: difference between electronic business and electronic commerce, electronic mar- kets, disintermediation, horizontal and vertical market places; E-Products and E-Services; Classification of business webs: agora, aggregation, value chain, alliance, supply chain net; business model for e-products and e-services, branding and pricing; E-Procurement: difference between purchase and procurement, market solutions: sell-side, buy-side, and market place; Integration of product catalogue, procurement service providing; Online Marketing: comparison of online media, usage of Internet and websites, stages of a customer development model: surfer, consumer, prosumer, buyer, and key customer; E-Contracting: generic services, information, negotiation, archiving, enforcement, reconciliation, structure of a contract, digital signature, legal affairs; Online Distribution: components of a distribution system, characterisation of online distribution, hybrid distribution networks, model for electronic software distribution; E-Payment: electronic means of payment, micro and macro payment, classification of payment systems, credit cards, customer accounts, digital money; secure transactions; Electronic customer relationship management: objectives of CRM, customer acquisition and liaison, customer buying cycle, architecture of CRM systems, customer satisfaction survey; E-Business environment: information society, building process for communities, multi-option society, ethics in electronic business.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4547",
+    "courseTitle": "Multimedia Systems Design",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Organization and structure of modern multimedia systems; text, audio and video encoding; Data compression: lossless and lossy techniques; Multimedia networking: Quality of Service management and multimedia protocols; Streaming multimedia: peer-to-peer, video-on-demand, live streaming; Multimedia storage: data placement and scheduling, caching, and data retrieval; Scheduling algorithms for multimedia within OS; Synchronization schemes: in-band and out-band, synchronization skews and specification; Design of real-world multimedia solution.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4519",
+    "courseTitle": "Distributed Systems",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Remote invocation and indirect communication;Time and coordination; Overlay networks and P2P; Distributed storage and file systems; Name services; Global state and transactions; Replication and consistency; Consensus; Fault tolerance; Security and privacy; Emerging topics in distributed systems.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4523",
+    "courseTitle": "Simulation and Modeling",
+    "creditHours": 3,
+    "prerequisite": "Math 2205",
+    "description": "Simulation methods, model building, random number generator, statistical analysis of results, validation and verification techniques; Digital simulation of continuous system; Simulation and analytical methods for analysis of computer systems and practical problems in business and practice; Introduction to simulation packages.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4587",
+    "courseTitle": "Cloud Computing",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Basic Concepts: cloud computing and applications, assessing the value proposition, issues and challenges, cloud architecture, service models, deployment models; Cloud Platforms: abstraction and virtualization, capacity planning, platform as a service, Amazon web services , Microsoft Azure, Google cloud platform; Cloud Infrastructure: managing the cloud, cloud security; Services and Applications: service-oriented architecture, moving applications to the cloud, cloud-based storage, media and streaming, cloud based mobile apps and web services.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4567",
+    "courseTitle": "Advanced Database Management Systems",
+    "creditHours": 3,
+    "prerequisite": "CSE 3521",
+    "description": "Database system architecture; Managing primary and secondary storage; Query processing; Metadata and catalog management; Language processing; Query optimization and plan generation; Concurrency; Failures and recovery; Extensibility; Client-server interactions; Object-oriented database systems, XML, database and the web, data management in distributed mobile computing environment, data broadcasting, text database, digital library design and implementation; Multimedia database: basic concepts, design and optimization of access strategies;Parallel database, spatial database, temporal database; Parallel and distributed database systems; NoSQL; New database architectures and query operators.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4889",
+    "courseTitle": "Machine Learning",
+    "creditHours": 3,
+    "prerequisite": "CSE 3811",
+    "description": "Introduction to Machine Learning; Regression analysis: linear regression; Classification techniques: classification trees, support vector machines; Statistical performance evaluation: bias-variance tradeoff; VC dimension; Reinforcement Learning; Neural networks; EM Algorithm; Unsupervised Learning: k-means clustering; Principal component analysis; Deep Learning; Practical applications of machine learning.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4891",
+    "courseTitle": "Data Mining",
+    "creditHours": 3,
+    "prerequisite": "CSE 3811",
+    "description": "Introduction to data mining: data mining task and applications, data preprocessing, feature selection, association analysis, frequent item-set mining; Single model classifier: k-nearest neighbor, na¨ıve Bayes classifier, decision tree induction, na¨ıve Bayesian tree, rule-based classifiers; Model evaluation and selection; Ensemble learning: random Forests, bagging, boosting, isolated forests; Clustering: k-means clustering, similarity-based clustering, nearest-neighbor clustering, density-based clustering, ensemble clustering, evaluation of clustering methods, clustering high-dimensional data; Data balancing methods; Active learning; Transfer learning; Outlier detection; Concept drift.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4893",
+    "courseTitle": "Introduction to Bioinformatics",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Introduction; Molecular biology basics: DNA, RNA, genes, and proteins; Graph algorithms: DNA sequencing, DNA fragment assembly, Spectrum graphs; Sequence similarity; Suffix Tree and variants with applications; Genome Alignment: maximum unique match, LCS, mutation sensitive alignments; Database search: Smith-Waterman algorithm, FASTA, BLAST and its variations; Locality sensitive hashing; Multiple sequence alignment; Phylogeny reconstruction; Phylogeny comparison: similarity and dissimilarity measurements, consensus tree problem; Genome rearrangement: types of genome rearrangements, sorting by reversal and other operations; Motif finding; RNA secondary structure prediction; Peptide sequencing; Population genetics; Recent Trends in Bioinformatics.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4883",
+    "courseTitle": "Digital Image Processing",
+    "creditHours": 3,
+    "prerequisite": "CSE 4889",
+    "description": "Digital Image Fundamentals: visual perception, sensing, acquisition, sampling, quantization; Intensity Trans- formation and Spatial Filtering: different transformations, histogram, correlation and convolution, smoothing and sharpening filters; Filtering in Frequency Domain: discrete fourier transformation (DFT) of image, smoothing and sharpening in frequency domain, selective filtering; Image Restoration and Reconstruction: noise models, spatial filtering for noise, frequency filtering for noise, reconstruction from projections; Color Image Processing: color models, color transformation and segmentation; Morphological Image Processing: erosion, dilation, opening, closing, morphological algorithms; Image Compression: redundancy, fidelity criteria, some basic compression techniques; Image Segmentation: point, line and edge detection, thresholding, region based segmentation; Object Recognition: matching, statistical classifier, neural networks.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4817",
+    "courseTitle": "Big Data Analytics",
+    "creditHours": 3,
+    "prerequisite": "CSE 4889",
+    "description": "Introduction to Big Data: characteristics of Big Data and dimensions of scalability; Data Science: getting value out of Big Data, foundations for Big Data systems and programming, getting started with Hadoop; Big Data Modelling and Management Systems: Big Data modelling, Big Data management, designing a Big Data management system; Big Data Integration and Processing: retrieving Big Data, Big Data integration, processing Big Data, Big Data analytics using Spark; Machine Learning with Big Data: introduction to machine learning with Big Data, data exploration, classification, evaluation of machine learning models, regression, cluster analysis, and association analysis; Graph Analytics for Big Data: introduction to graphs, graph Analytics, graph analytics techniques, computing platforms for graph analytics.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4451",
+    "courseTitle": "Human Computer Interaction",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Foundations of human computer interaction: understanding and conceptualizing interaction; Understanding users: human perception, ergonomics, cognition, psychology; Task Analysis; User Interface Design, interface programming, graphical user interfaces, user survey, user journey and experience, mobile devices, multimodal interfaces and ubiquitous computing, user-centered system development and evaluation, user- centered software development and evaluation; Prototyping; Interaction design for new environments; Affective and social computing; Assistive and augmentative communication, assistive technology and rehabilitation; Human machine interface, brain computer interface; Experimental research ethics.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4435",
+    "courseTitle": "Software Architecture",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Introduction; Design vs Architecture; Enterprise Architecture; Architectural drivers; Software Architecture role; Skills and knowledge of software architect; Software architecture in the delivery process; Visualizing Software Architecture; Managing risks; Architectural recovery, architectural styles, domain specific software architectures coupled with programming/implementation effort, design and implement a real-world software system, the state- of-the-art in software architecture research and future trends.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4495",
+    "courseTitle": "Software Testing and Quality Assurance",
+    "creditHours": 3,
+    "prerequisite": "CSE 3421",
+    "description": "Testing strategies: SDLC vs STLC; Testing Levels; Testing methods; Testing types: Specification-based vs. code-based, black-box vs. white-box, functional vs. structural testing; unit, integration, system, acceptance, and regression testing; Load, Performance, Stress, Unit Testing; Verification vs. validation; Test planning: scenario, case, traceability matrix; ISO Standards; Agile testing; Testing Estimation techniques; Introduction to software reliability, quality control and quality assurance; Formal verification methods; static and dynamic program verification.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4485",
+    "courseTitle": "Game Design and Development",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Introduction to games: history, games and society; Game design: design concepts, teams and processes character modelling, animation, storyline, programming fundamentals, concepts of 3D virtual world; Game Engines: 3D mesh and object modelling, simulation and collision detection, etc; Debugging games; Game Architecture; Memory and I/O systems; Development of a customized game; Advanced Topics: data structures , AI, etc in Games; Networks and multiplayer mode; Application of Games: simulation, animation movies and others.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4329",
+    "courseTitle": "Digital System Design",
+    "creditHours": 3,
+    "prerequisite": "CSE 3313",
+    "description": "Design using MSI and LSI components; Programmable logic devices; Basic components of a computer system; Design of processing unit: ALU, Comparator, Accumulator, Shifter, Multiplier; Hardware multiplication: Booth and Modified Booth algorithm; Design of control unit: hardwired and microprogrammed; Simple-As-Possible (SAP) computer: SAP-1, selected concepts from SAP-2 and SAP-3 (jump, call, return, stack, push and pop); Designing microprocessor based system; Hardware Interfacing with Intel 8086 microprocessor: programmable peripheral interface, programmable interrupt controller, programmable timer, keyboard and display interface.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4379",
+    "courseTitle": "Real-time Embedded Systems",
+    "creditHours": 3,
+    "prerequisite": "CSE 4325",
+    "description": "Embedded architectures: 16/32/64-bit embedded processors; Interaction with devices: buses, memory architectures, memory management, device drivers; Concurrency: software and hardware interrupts, timers; Real- time principles: synchronization, scheduling, multi-tasking; Real-time task scheduling: scheduleablity analysis, rate and deadline monotonic scheduling, fixed and dynamic priority scheduling; Feed-back control theory and application; Profiling and code optimization; Embedded software systems: exception handling, loading, mode-switching, programming embedded systems.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4327",
+    "courseTitle": "VLSI Design",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "VLSI technology: Top down design approach, technology trends and design styles. Review of MOS transistor theory: Threshold voltage, body effect, I-V equations and characteristics, latch-up problems, NMOS inverter, CMOS inverter, pass-transistor and transmission gates. CMOS circuit characteristics and performance estimation: Resistance, capacitance, rise and fall times, delay, gate transistor sizing and power consumption. CMOS circuit and logic design: Layout design rules and physical design of simple logic gates. CMOS subsystem design: Adders, multiplier and memory system, arithmetic logic unit. Programmable logic arrays. I/O systems. VLSI testing.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4337",
+    "courseTitle": "Robotics",
+    "creditHours": 3,
+    "prerequisite": "CSE 4325, CSE 3811",
+    "description": "Introduce the basic concepts of robotics, types of robots, robotics and AI; Automation & autonomy architectures; Robot hardware: sensors, actuators; Robotic mapping: localization, Monte Carlo localization, multi-object localization; Robotic navigation and locomotion: motion planning, dynamics and control; Human-robot interaction: Natural language learning; Multi-agents: tasks and teams.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4397",
+    "courseTitle": "Interfacing",
+    "creditHours": 3,
+    "prerequisite": "CSE 4325",
+    "description": "Definition of interface, types of interfaces; Interface levels; Typical interface mechanisms; Example interfaces; In- put/output ports: I/O port structure, status and control data registers, bidirectional pin operation, bus connection; Three-state output, Z state; Technological considerations; Connections to external loads; Input device connections; Signal multiplexing; Analog Interfaces; Timing and frequency aspects of analogue signals; Nyquist-Shannon sampling theorem; Analog-digital converters; Digital-analog converters; Example application; Serial communication interfaces; Types and characteristics of communication interfaces; Synchronous serial interface (SSI). Real examples (RS232, SPI); Common computer Interfaces; Universal Serial Bus (USB), USB3, Thunderbolt PCI express (PCIe), Storage interfaces – SATA, NVMe, eMMC; Display interfaces – VGA, DVI, Display Port; Microcontroller interfacing – Arduino, Raspberry pi GPIO,; Buses and DMA; Design and operation of interface between computer and the outside world; Human computer interaction, brain Computer interfaces.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4941",
+    "courseTitle": "Enterprise Systems: Concepts and Practice",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Materials management (MM); Supply chain management (SCM); Customer relationship management (CRM); Financials, mobile and cloud enterprise systems; Internet-of-Things (IoT) and enterprise BIG data;\nThe course will incorporate a hands-on component using SAP, Oracle ES software. The course will also incorporate modelling techniques and tools, assess an organisation’s readiness for ES implementation.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4943",
+    "courseTitle": "Web Application Security",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Client-side (browser) security: vulnerabilities associated with browsing the web, system penetration, information breach and identity threat; Securing the communication channel: encrypting data stream using SSL, confidentiality and integrity of data using third party transaction protocols e.g. SET, PCI DSS standard, the latest evolutions for HTTPS deployments; Securing untrusted data: server-side and client-side injection attacks, defending common injection attacks; Session management and access control: relationship between authentication, authorization and session management, prevent authorization bypasses and harden session management mechanisms; Server-side security: CGI security, server configuration, access control, operating system security, malicious e-mails, web scripts, cookies, web bugs spyware, rogue AV etc.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4945",
+    "courseTitle": "UI Concepts and Design",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "Design principles: color, emphasis, usability, hierarchy, etc; Low fidelity wireframes: beginning to design using low fidelity wireframes and storyboards; Introduction to Sketch software, rapid prototyping using Sketch, high fidelity mobile, application, and website wireframes; Creating a style guide with Sketch; Design research and personas: UX fundamentals; find, build, verify, patterns, personas, situations, buy-in, knowledge, scenarios; Using sketch to prototype using material design; Prototype employee time clock; Prototype tablet ordering interface; Prototype iOS todo app; Core principles of design: good, bad and ugly web search; Introduction to Illustrator, introduction to value: understanding Illustrator and designing in Illustrator, refactor and embellish, introduction to color with value, add hue to value; Introduction to PhotoShop, unity in design, PhotoShop and a UI tool, freeform of painting; Introdcution to HTML and Visual Studio Code, learn markup language, tags and structure; Introduction to CSS, design guidelines, and styling; Styling with CSS. Complete content from CSS from scratch; Create new CSS on existing HTML; Basic site and app development in Bootstrap, develop a responsive site that will work on PCs tables and Phones; Basic site and App design in Bootstrap; Design graphics for the responsive site in the previous website.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4949",
+    "courseTitle": "IT Audit: Concepts and Practice",
+    "creditHours": 3,
+    "prerequisite": null,
+    "description": "IT audit concepts and frameworks; General phases of IT audit; Internal IT audit control framework: the committee of sponsoring organizations (COSO); The impact of information technology audit process on internal controls: general controls, application controls, tests of controls; Referring case study; IT-Audit methodologies and frameworks: COBIT, ITIL, ISO 17799 etc; Practical IT-Audit methodologies development steps for enterprises completing the audit: reporting, types of auditors’ opinions, audit documentation and resources; Referring case study.",
+    "courseCategory": " Elective Courses",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4000A",
+    "courseTitle": "Final Year Design Project - I",
+    "creditHours": 2,
+    "prerequisite": null,
+    "description": "This course introduce different soft skill-sets that are necessary for the successful completion of FYDP. The skill- sets include, but not limited to, mastering effective communications, individual and team development, ethical leadership, project management, the steps in the design process, environment and sustainability, etc. These skill sets would be developed by a series of seminars and workshops. The outcomes relevant to POs would be measured based on the student performance in different tests designed to assess those specific skills. The standard rubrics will be used to assess the performance. At the end of the trimester the students will submit an interim report of their FYDP and give a presentation.",
+    "courseCategory": "Final Year Design Project",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4000B",
+    "courseTitle": "Final Year Design Project - II",
+    "creditHours": 2,
+    "prerequisite": null,
+    "description": "In this course, the students will implement the proposal that is accepted in the course CSE 4000A.",
+    "courseCategory": "Final Year Design Project",
+    "department": "CSE"
+  },
+  {
+    "courseCode": "CSE 4000C",
+    "courseTitle": "Final Year Design Project - III",
+    "creditHours": 2,
+    "prerequisite": null,
+    "description": "In this course, the students will implement the proposal that is accepted in the course CSE 4000B.",
+    "courseCategory": "Final Year Design Project",
+    "department": "CSE"
   }
 ]
