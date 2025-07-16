@@ -1,5 +1,5 @@
 
-# UIU CGPA Calculator
+# UIU Calculator
 
 A modern, user-friendly CGPA calculator designed for United International University (UIU) students. Easily calculate your cumulative grade point average (CGPA) based on your current academic record, new courses, and retake scenarios—all in a responsive web app with real-time validation and a clean interface.
 
