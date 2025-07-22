@@ -99,8 +99,6 @@ uiu-cgpa-calculator/
 - [ ] Export results to PDF
 - [ ] Semester-wise breakdown
 - [ ] GPA trend analysis
-- [ ] Course recommendation based on target CGPA
-- [ ] Calculate tuition fees
 
 ## Contributing
 
