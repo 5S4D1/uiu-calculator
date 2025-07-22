@@ -1,0 +1,33 @@
+footer {
+    margin: 2rem 0 .5rem 0;
+    text-align: center;
+    padding: 20px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #f76d17;
+    margin: 2rem 1.7rem;
+}
+
+.logo img {
+    height: 150px;
+    width: auto;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    hr {
+        margin: 1.6rem 0;
+    }
+
+    .logo img {
+        height: 90px;
+    }
+}

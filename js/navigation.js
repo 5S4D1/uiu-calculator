@@ -41,6 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set active page based on current URL
     setActivePage();
     
+    // Set current year in footer
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+    
     // Smooth scroll for anchor links
     const anchorLinks = document.querySelectorAll('a[href^="#"]');
     anchorLinks.forEach(link => {
