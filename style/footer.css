@@ -4,8 +4,8 @@ footer {
     padding: 20px;
 }
 
-hr {
-    border: 0;
+footer hr {
+    border: none;
     height: 2px;
     background: #f76d17;
     margin: 2rem 1.7rem;

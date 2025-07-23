@@ -62,21 +62,29 @@
                 <div class="fee-form-grid-row">
                     <div class="input-container">
                         <label for="courseCredits">Course Credits</label>
-                        <input type="number" id="courseCredits" name="courseCredits" min="0" placeholder="Enter total credits">
+                        <input type="number" id="courseCredits" name="courseCredits" min="0" placeholder="Enter credits">
                     </div>
+                    <div class="input-container">
+                        <label for="retakeCredit">Retake Course Credits</label>
+                        <input type="number" id="retakeCredit" name="retakeCredit" min="0" placeholder="1ˢᵗ time retake credits only">
+                    </div>
+                    
+                </div>
+                <div class="fee-from-credit-semesterfee-row">
                     <div class="input-container">
                         <label for="perCreditFee">Per Credit Fee (৳)</label>
                         <input type="number" id="perCreditFee" name="perCreditFee" min="0" placeholder="Enter per credit fee">
                     </div>
-                </div>
-                <div class="input-container">
-                    <label for="semesterFee">Semester/Trimester Fee (৳)</label>
-                    <select id="semesterFee" name="semesterFee">
-                        <option value="">Select fee</option>
-                        <option value="5000">5,000</option>
-                        <option value="6500">6,500</option>
-                        <option value="9750">9,750</option>
-                    </select>
+                    <div class="input-container">
+                        <label for="semesterFee">Semester/Trimester Fee (৳)</label>
+                        <select id="semesterFee" name="semesterFee">
+                            <option value="">Select fee</option>
+                            <option value="5000">5,000</option>
+                            <option value="6500">6,500</option>
+                            <option value="9750">9,750</option>
+                        </select>
+                    </div>
+                    
                 </div>
                 <div class="fee-form-waiver-scholarship-row">
                     <div class="input-container">
@@ -109,6 +117,7 @@
         <!-- Breakdown Card: hidden by default, shown after calculation -->
         <div class="result-container fee-breakdown-card" id="breakdownCard" style="display:none;">
             <div class="breakdown-row"><span class="breakdown-label">Course Credits</span><span class="breakdown-value" id="bdCourseCredits">0</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">Retake Course Credits</span><span class="breakdown-value" id="bdRetakeCre">0 ৳</span></div>
             <div class="breakdown-row"><span class="breakdown-label">Per Credit Fee</span><span class="breakdown-value" id="bdPerCreditFee">0 ৳</span></div>
             <div class="breakdown-row"><span class="breakdown-label">Semester/Trimester Fee</span><span class="breakdown-value" id="bdSemesterFee">0 ৳</span></div>
             <div class="breakdown-row"><span class="breakdown-label">Waiver</span><span class="breakdown-value" id="bdWaiver">0%</span></div>
@@ -127,7 +136,9 @@
     <footer>
         <hr>
         <div class="logo">
-            <img src="asset/footerLogo.svg" alt="logo">
+            <a href="https://github.com/5S4D1" target="_blank">
+                <img src="asset/footerLogo.svg" alt="logo">
+            </a>
         </div>
         <!-- this year comes from navigation.js file -->
         <p>© <span id="currentYear"></span> UiU Calculator</p>
