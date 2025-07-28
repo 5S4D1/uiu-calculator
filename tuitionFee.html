@@ -4,17 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UIU Tuition Fee Estimator</title>
+    <meta name="description"
+        content="Easily calculate your UIU tuition fees based on CGPA, credits, and fee structure. Designed for UIU students seeking financial clarity.">
+    <meta name="keywords"
+        content="UIU, tuition calculator, tuition fees, CGPA based fees, UIU Bangladesh, fee estimator, university cost planning">
+    <meta name="author" content="Sadi">
+
     <link rel="icon" href="asset/icon.ico" type="image/x-icon">
-    <title>CGPA Calculator</title>
+
+    <!-- Styles -->
     <link rel="stylesheet" href="style/tuitionFee.css">
     <link rel="stylesheet" href="style/navigation.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="js/tuitionFee.js"></script>
-    <script src="js/navigation.js"></script>
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
     </style>
+
+    <!-- Scripts -->
+    <script src="js/tuitionFee.js"></script>
+    <script src="js/navigation.js"></script>
 </head>
 
 <body>
@@ -25,7 +36,7 @@
                 <div class="nav-logo-icon">UiU</div>
                 <span class="nav-logo-text">Calculator</span>
             </a>
-            
+
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="./" class="nav-link">
@@ -46,7 +57,7 @@
                     </a>
                 </li>
             </ul>
-            
+
             <button class="mobile-menu-btn">
                 <span></span>
                 <span></span>
@@ -54,7 +65,7 @@
             </button>
         </div>
     </nav>
-    
+
     <!-- Tuition Fee Calculator Section -->
     <div class="main">
         <div class="fee-form-card">
@@ -62,18 +73,21 @@
                 <div class="fee-form-grid-row">
                     <div class="input-container">
                         <label for="courseCredits">Course Credits</label>
-                        <input type="number" id="courseCredits" name="courseCredits" min="0" placeholder="Enter credits">
+                        <input type="number" id="courseCredits" name="courseCredits" min="0"
+                            placeholder="Enter credits">
                     </div>
                     <div class="input-container">
                         <label for="retakeCredit">Retake Course Credits</label>
-                        <input type="number" id="retakeCredit" name="retakeCredit" min="0" placeholder="1ˢᵗ time retake credits only">
+                        <input type="number" id="retakeCredit" name="retakeCredit" min="0"
+                            placeholder="1ˢᵗ time retake credits only">
                     </div>
-                    
+
                 </div>
                 <div class="fee-from-credit-semesterfee-row">
                     <div class="input-container">
                         <label for="perCreditFee">Per Credit Fee (৳)</label>
-                        <input type="number" id="perCreditFee" name="perCreditFee" min="0" placeholder="Enter per credit fee">
+                        <input type="number" id="perCreditFee" name="perCreditFee" min="0"
+                            placeholder="Enter per credit fee">
                     </div>
                     <div class="input-container">
                         <label for="semesterFee">Semester/Trimester Fee (৳)</label>
@@ -84,7 +98,7 @@
                             <option value="9750">9,750</option>
                         </select>
                     </div>
-                    
+
                 </div>
                 <div class="fee-form-waiver-scholarship-row">
                     <div class="input-container">
@@ -116,19 +130,30 @@
         </div>
         <!-- Breakdown Card: hidden by default, shown after calculation -->
         <div class="result-container fee-breakdown-card" id="breakdownCard" style="display:none;">
-            <div class="breakdown-row"><span class="breakdown-label">Course Credits</span><span class="breakdown-value" id="bdCourseCredits">0</span></div>
-            <div class="breakdown-row"><span class="breakdown-label">Retake Course Credits</span><span class="breakdown-value" id="bdRetakeCre">0 ৳</span></div>
-            <div class="breakdown-row"><span class="breakdown-label">Per Credit Fee</span><span class="breakdown-value" id="bdPerCreditFee">0 ৳</span></div>
-            <div class="breakdown-row"><span class="breakdown-label">Semester/Trimester Fee</span><span class="breakdown-value" id="bdSemesterFee">0 ৳</span></div>
-            <div class="breakdown-row"><span class="breakdown-label">Waiver</span><span class="breakdown-value" id="bdWaiver">0%</span></div>
-            <div class="breakdown-row"><span class="breakdown-label">Scholarship</span><span class="breakdown-value" id="bdScholarship">0%</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">Course Credits</span><span class="breakdown-value"
+                    id="bdCourseCredits">0</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">Retake Course Credits</span><span
+                    class="breakdown-value" id="bdRetakeCre">0 ৳</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">Per Credit Fee</span><span class="breakdown-value"
+                    id="bdPerCreditFee">0 ৳</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">Semester/Trimester Fee</span><span
+                    class="breakdown-value" id="bdSemesterFee">0 ৳</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">Waiver</span><span class="breakdown-value"
+                    id="bdWaiver">0%</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">Scholarship</span><span class="breakdown-value"
+                    id="bdScholarship">0%</span></div>
             <hr class="breakdown-hr-orange">
-            <div class="breakdown-row"><span class="breakdown-label">Total Before</span><span class="breakdown-value" id="bdTotalBefore">0 ৳</span></div>
-            <div class="breakdown-row"><span class="breakdown-label">Total After</span><span class="breakdown-value" id="bdTotalAfter">0 ৳</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">Total Before</span><span class="breakdown-value"
+                    id="bdTotalBefore">0 ৳</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">Total After</span><span class="breakdown-value"
+                    id="bdTotalAfter">0 ৳</span></div>
             <hr class="breakdown-hr-orange">
-            <div class="breakdown-row"><span class="breakdown-label">1st Installment</span><span class="breakdown-value" id="bdInstallment1">0 ৳</span></div>
-            <div class="breakdown-row"><span class="breakdown-label">2nd Installment</span><span class="breakdown-value" id="bdInstallment2">0 ৳</span></div>
-            <div class="breakdown-row"><span class="breakdown-label">3rd Installment</span><span class="breakdown-value" id="bdInstallment3">0 ৳</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">1st Installment</span><span class="breakdown-value"
+                    id="bdInstallment1">0 ৳</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">2nd Installment</span><span class="breakdown-value"
+                    id="bdInstallment2">0 ৳</span></div>
+            <div class="breakdown-row"><span class="breakdown-label">3rd Installment</span><span class="breakdown-value"
+                    id="bdInstallment3">0 ৳</span></div>
         </div>
     </div>
 
