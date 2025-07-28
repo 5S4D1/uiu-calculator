@@ -1,30 +1,30 @@
 [
   {
     "courseCode": "ENG 1011",
-    "courseTitle": "English I",
+    "courseTitle": "Intensive English I",
     "creditHours": 3,
     "prerequisite": null,
     "description": "Reading and Writing: Cohesion, Skimming, Coherence, Scanning; Main ideas, Brainstorming and Taking notes, Comprehensions; Linking and Transitional words; Grammatical Knowledge: Parts of Speech, Punctuation, Subject-Verb Agreement, Preposition, Tense, Article, WH Questions, Paraphrasing; Summarizing; Creative Writing; Presentation\n\nSpeaking and Listening: Speaking and Listening strategies; Pronunciation and Intonation; Vocabulary, Educated guess from content; Linking words and Fillers; Introduction to Drama; Performing Play; Art of Questioning; Famous Speeches; Listening Activities; How to make and present a brochure; Impromptu Speaking; Group Presentation",
     "courseCategory": "Language",
-    "department": "CSE"
+    "department": "CSE, EEE"
   },
   {
     "courseCode": "ENG 1013",
-    "courseTitle": "English II",
+    "courseTitle": "Intensive English II",
     "creditHours": 3,
     "prerequisite": "ENG 1011",
     "description": "Writing: Free Writing; Guided Writing: Paragraph writing with guidelines (based on hints, Wh questions); Process of Writing; Structure-based Paragraph Writing (types: Descriptive, Narrative and Process); Editing (Identification and correction of mistakes in Articles, Capitalization, Homonym, Fragment, Preposition, Pronoun, Punctuations, Run-on sentences, Faulty parallelism, Spelling, Subject-verb agreement, Tense); Application Writing; Email Writing; Steps of essay writing; Essay Writing in 5 paragraphs: (Cause and Effect essay, Compare and Contrast essay, Argumentative essay); Vocabulary: Sentence making practice on Academic word list (1-10)\nReading: Practice on Reading Comprehensions\nSpeaking: Public speaking; Argumentative Presentation\nListening: Listening practice from various sources",
     "courseCategory": "Language",
-    "department": "CSE"
+    "department": "CSE, EEE"
   },
   {
-    "courseCode": "SOC 2101",
+    "courseCode": "SOC 2101, SOC 3101",
     "courseTitle": "Society, Environment and Engineering Ethics",
     "creditHours": 3,
     "prerequisite": null,
-    "description": "Society: emergence of Sociology as moral lessons for society; Basic institutions in society, organization and institutions in society, Types of Society; Culture: basics of culture, elements of culture, cultural change, socialization, and social issues around us; Technology and society: interaction between technology and society; Engineering ethics: understanding ethics, engineering ethics; Moral reasoning and engineering as social experimentation; The engineers’ concern for safety, professional responsibility; Employer authority; Rights of engineers; Global issues; Career choice and professional outlook; Ethical problems are like design problems; Genetically modified objects (GMO); Environment: environment and environmental issues– environmental degradation, waste management and renewable energy; Basic understanding of sustainable development, SDGs, climate change adaptation; Disability and Accessibility.",
+    "description": "Society: emergence of Sociology as moral lessons for society; Basic institutions in society, organization and institutions in society, Types of Society; Culture: basics of culture, elements of culture, cultural change, socialization, and social issues around us; Technology and society: interaction between technology and society; Engineering ethics: understanding ethics, engineering ethics; Moral reasoning and engineering as social experimentation; The engineers concern for safety, professional responsibility; Employer authority; Rights of engineers; Global issues; Career choice and professional outlook; Ethical problems are like design problems; Genetically modified objects (GMO); Environment: environment and environmental issues- environmental degradation, waste management and renewable energy; Basic understanding of sustainable development, SDGs, climate change adaptation; Disability and Accessibility.",
     "courseCategory": "General Education",
-    "department": "CSE"
+    "department": "CSE, EEE"
   },
   {
     "courseCode": "PMG 4101",
@@ -42,16 +42,16 @@
     "prerequisite": null,
     "description": "Partition of Bengal (1947); Language Movement (1952); Movement for Autonomy; 6-point and 11-Point Programs; The 1970 Election; Speech on 7th of March 1971; Military Action, Genocide in the East Pakistan; The Liberation War; The Emergence of Bangladesh as a Sovereign Independent State in 1971; Constitution of Bangladesh and citizen rights; Culture: Cultural diffusion and change, Bengali culture and problems of society; social problems of Bangladesh; Social change: theories of social change; social change in Bangladesh; urbanization process and its impact on Bangladesh society.",
     "courseCategory": "General Education",
-    "department": "CSE"
+    "department": "CSE, EEE"
   },
   {
-    "courseCode": "ECO 4101",
+    "courseCode": "ECO 4101, ECO 2101",
     "courseTitle": "Economics",
     "creditHours": 3,
     "prerequisite": null,
     "description": "Definition of Economics; Economics and engineering; Principles of economics.\nMicro-Economics: Introduction to various economic systems – capitalist, command and mixed economy; Fundamental economic problems and the mechanism through which these problems are solved; Theory of demand and supply and their elasticities; Theory of consumer behavior; Cardinal and ordinal approaches of utility analysis; Price determination; Nature of an economic theory; Applicability of economic theories to the problems of developing countries; Indifference curve techniques; Theory of production, production function, types of productivity; Rational region of production of an engineering firm; Concepts of market and market structure; Cost analysis and cost function; Small scale production and large scale production; Optimization; Theory of distribution; Use of derivative in economics: maximization and minimization of economic functions, relationship among total, marginal and average concepts.\nMacro-Economics: Savings; investment, employment; national income analysis; Inflation; Monetary policy; Fiscal policy and trade policy with reference to Bangladesh; Economics of development and planning.",
     "courseCategory": "General Education",
-    "department": "CSE"
+    "department": "CSE, EEE"
   },
   {
     "courseCode": "SOC 4101",
@@ -72,13 +72,13 @@
     "department": "CSE"
   },
   {
-    "courseCode": "IPE 3401",
+    "courseCode": "IPE 3401, IPE 4101",
     "courseTitle": "Industrial and Operational Management",
     "creditHours": 3,
     "prerequisite": null,
     "description": "Introduction, evolution, management function, organization and environment.\nOrganization: Theory and structure; Coordination; Span of control; Authority delegation; Groups; Committee and task force; Manpower planning.\nPersonnel Management: Scope; Importance; Need hierarchy; Motivation; Job redesign; Leadership; Participative management; Training; Performance appraisal; Wages and incentives; Informal groups; Organizational change and conflict.\nCost and Financial Management; Elements of costs of products depreciation; Break-even analysis; Investment analysis; Benefit cost analysis.\nManagement Accounting: Cost planning and control; Budget and budgetary control; Development planning process.\nMarketing Management: Concepts; Strategy; Sales promotion; Patent laws.\nTechnology Management: Management of innovation and changes; Technology life cycle; Case studies.",
     "courseCategory": "General Education",
-    "department": "CSE"
+    "department": "CSE, EEE"
   },
   {
     "courseCode": "TEC 2499",
@@ -105,7 +105,7 @@
     "prerequisite": null,
     "description": "Ancient Bengal: Sasanka, Rise of the Palas, the Senas; Early Medieval Bengal; Coming of the Muslims; The In- dependent sultanate of Bengal: Ilyas Shahi and Hossein Shahi Bengal; Late medieval Bengal: The Establishment of Mughal Rule in Bengal; Bara Bhuiyans: Subedars and Nawabs; The European Style in Bengal Architecture; British rule in Bengal; Battles of Plassey and Buzas; The Dual government; permanent settlement (1793); Nine- teenth century Bengali renaissance: social and religious reforms, Raja Rammohan Roy, Ishwar Chandra Vidyasagar, Titu Meer; Partition of Bengal (1905); Language Movement (1952); Movement for Autonomy; 6-point and 11-Point Programs; The 1970 Election-Military Action, Genocide in the East Pakistan; The Liberation War; The Emergence of Bangladesh as a Sovereign Independent State in 1971; Culture: Cultural diffusion and change, Bengali culture and problems of society; social problems of Bangladesh; Social change: theories of social change; social change in Bangladesh; urbanization process and its impact on Bangladesh society.",
     "courseCategory": "General Education",
-    "department": "CSE"
+    "department": "CSE, EEE"
   },
   {
     "courseCode": "BAN 2501",
@@ -114,16 +114,16 @@
     "prerequisite": null,
     "description": null,
     "courseCategory": "General Education",
-    "department": "CSE"
+    "department": "CSE, EEE"
   },
   {
-    "courseCode": "PHY 2105",
-    "courseTitle": "Physics",
+    "courseCode": "PHY 2105, PHY 1101",
+    "courseTitle": "Physics, Physics I",
     "creditHours": 3,
     "prerequisite": null,
-    "description": "Waves and Oscillations Periodic motion: periodic waves, elastic restoring force, simple harmonic motion (SHM), differential equation of SHM and its solutions, examples of SHM, energy calculation of SHM, time period, velocity, acceleration, frequency calculation with graph, Lissajou’s figure design, spring mass system and torsional pendulum, DHM, characteristic graph, differential equations for spring mass system with damping mechanism and RLC circuit- series and parallel analysis, resonant frequency, reactance, impedance, FHM; Mechanical Waves; Vibrating bodies and acoustic phenomena: progressive wave and its differential equation, EM wave, group velocity, phase velocity, standing waves, node and antinode; The Doppler effects, application of acoustic Phenomena.\n\nElectricity magnetism Electrostatic Force and Electric Field; Concept of charge, Coulomb’s law, concept of electric field and its calculation, electric dipole; Gauss’s law in electrostatic and its application, electric field due to dipole, torque on a dipole in uniform e-field, electric flux, flux density, Gauss’s law and Coulomb’s law; Electric Potential: electric potential and its calculation, electric potential energy, relationship between field and potential, potential due to a point charge, dipole, continuous charge distribution, electric field calculation from electric potential, equipotential surface, potential gradient; Capacitance and Dielectric : capacitors, capacitors in series and parallel, energy of charged capacitors, electrical energy density in terms of electric field, electron volt, dielectric media, polarization vector and displacement vector, Laplace’s and Poission’s equations, capacitor with a dielectric material, Gauss’s law with dielectric; Current, Resistance and Electromotive Force: current and current density, resistance and resistivity, Ohm’s law, EMF, power, resistance in series and parallel, Kirchhoff’s Rules, RC circuit; Magnetic Field: magnetic field, magnetic flux and flux density, Lorentz force, Gauss’s law for magnetism, motion of a charged particles in magnetic field : Hall effect; Magnetic field intensity, magnetic dipole moment, Biot-Savart Law, Ampere’s law and its applications; Magnetic properties of material, magnetization, hysteresis; Inductions and Inductance: induced emf and Faraday’s law of induction; Lenz’s law; Mutual inductance ; Self inductance; Energy in an inductor; Inductance in series, in parallel, and their combination, MMF, leakage and fringing flux, Transformers.\n\nQuantum Physics Quantum theory: quantum theory of radiation, energy of photons, photo-electric Effect, work function, threshold frequency, threshold voltage, Compton effect, X-rays production, properties and application, Bragg Diffraction, De Broglie wave length, Heisenberg’ s Uncertainty Principle, correspondence principle, pair production, pair annihilation; Schrodinger equation: wave function, Schrodinger equation-time dependent and time independent form, expectation value, quantum operator, tunneling effect, quantum numbers, energy of trapped electron, quantum dots and corrals, quantization of Bohr orbital energy.",
+    "description": "Waves and Oscillations Periodic motion: periodic waves, elastic restoring force, simple harmonic motion (SHM), differential equation of SHM and its solutions, examples of SHM, energy calculation of SHM, time period, velocity, acceleration, frequency calculation with graph, Lissajou's figure design, spring mass system and torsional pendulum, DHM, characteristic graph, differential equations for spring mass system with damping mechanism and RLC circuit- series and parallel analysis, resonant frequency, reactance, impedance, FHM; Mechanical Waves; Vibrating bodies and acoustic phenomena: progressive wave and its differential equation, EM wave, group velocity, phase velocity, standing waves, node and antinode; The Doppler effects, application of acoustic Phenomena.\n\nElectricity magnetism Electrostatic Force and Electric Field; Concept of charge, Coulomb's law, concept of electric field and its calculation, electric dipole; Gauss's law in electrostatic and its application, electric field due to dipole, torque on a dipole in uniform e-field, electric flux, flux density, Gauss's law and Coulomb's law; Electric Potential: electric potential and its calculation, electric potential energy, relationship between field and potential, potential due to a point charge, dipole, continuous charge distribution, electric field calculation from electric potential, equipotential surface, potential gradient; Capacitance and Dielectric : capacitors, capacitors in series and parallel, energy of charged capacitors, electrical energy density in terms of electric field, electron volt, dielectric media, polarization vector and displacement vector, Laplace's and Poission's equations, capacitor with a dielectric material, Gauss's law with dielectric; Current, Resistance and Electromotive Force: current and current density, resistance and resistivity, Ohm's law, EMF, power, resistance in series and parallel, Kirchhoff's Rules, RC circuit; Magnetic Field: magnetic field, magnetic flux and flux density, Lorentz force, Gauss's law for magnetism, motion of a charged particles in magnetic field : Hall effect; Magnetic field intensity, magnetic dipole moment, Biot-Savart Law, Ampere's law and its applications; Magnetic properties of material, magnetization, hysteresis; Inductions and Inductance: induced emf and Faraday's law of induction; Lenz's law; Mutual inductance ; Self inductance; Energy in an inductor; Inductance in series, in parallel, and their combination, MMF, leakage and fringing flux, Transformers.\n\nQuantum Physics Quantum theory: quantum theory of radiation, energy of photons, photo-electric Effect, work function, threshold frequency, threshold voltage, Compton effect, X-rays production, properties and application, Bragg Diffraction, De Broglie wave length, Heisenberg's Uncertainty Principle, correspondence principle, pair production, pair annihilation; Schrodinger equation: wave function, Schrodinger equation-time dependent and time independent form, expectation value, quantum operator, tunneling effect, quantum numbers, energy of trapped electron, quantum dots and corrals, quantization of Bohr orbital energy.",
     "courseCategory": "Basic Sciences",
-    "department": "CSE"
+    "department": "CSE, EEE"
   },
   {
     "courseCode": "PHY 2106",
@@ -139,18 +139,18 @@
     "courseTitle": "Biology for Engineers",
     "creditHours": 1,
     "prerequisite": null,
-    "description": "Introduction; The Basics of Life: Chemistry; Organic Molecules: The Molecules of Life; Cell Structure and Function; Enzymes, Coenzymes, and Energy; Biochemical Pathways: Cellular Respiration, Photosynthesis; DNA and RNA: The Molecular Basis of Heredity; Cell Division; Patterns of Inheritance; Applications of Biotechnology; Diversity within Species and Population Genetics; Evolution and Natural Selection; The Formation of Species and Evolutionary Change; Ecosystem Dynamics: The Flow of Energy and Matter; Community Interactions; Population Ecology; Evolutionary and Ecological Aspects of Behavior; The Origin of Life and Evolution of Cells; The Classification and Evolution of Organisms; The Nature of Microorganisms; The Plant Kingdom; The Animal Kingdom; Materials Exchange in the Body; Nutrition: Food and Diet; The Body’s Control Mechanisms and Immunity; Human Reproduction, Sex, and Sexuality.",
+    "description": "Introduction; The Basics of Life: Chemistry; Organic Molecules: The Molecules of Life; Cell Structure and Function; Enzymes, Coenzymes, and Energy; Biochemical Pathways: Cellular Respiration, Photosynthesis; DNA and RNA: The Molecular Basis of Heredity; Cell Division; Patterns of Inheritance; Applications of Biotechnology; Diversity within Species and Population Genetics; Evolution and Natural Selection; The Formation of Species and Evolutionary Change; Ecosystem Dynamics: The Flow of Energy and Matter; Community Interactions; Population Ecology; Evolutionary and Ecological Aspects of Behavior; The Origin of Life and Evolution of Cells; The Classification and Evolution of Organisms; The Nature of Microorganisms; The Plant Kingdom; The Animal Kingdom; Materials Exchange in the Body; Nutrition: Food and Diet; The Body's Control Mechanisms and Immunity; Human Reproduction, Sex, and Sexuality.",
     "courseCategory": "Basic Sciences",
     "department": "CSE"
   },
   {
-    "courseCode": "MATH 1151",
-    "courseTitle": "Fundamental Calculus",
+    "courseCode": "MATH 1151, MAT 1101",
+    "courseTitle": "Fundamental Calculus, Calculus I",
     "creditHours": 3,
     "prerequisite": null,
-    "description": "Function, Domain and Range of a Function. Translation and reflection of a function. Even and Odd functions, Inverse functions, One to One and many to one function. Limit, continuity and differentiability, Tangent line, Differentiation of different types of functions.  An overview of area problem,  Newton’s anti-derivative method  in finding area, Indefinite integral, fundamental theorem of calculus, Definite integral, Area between two curves. Different types of Integration (Principles of Integral evaluation, Integration by parts, Trigonometric Substitution).",
+    "description": "Function, Domain and Range of a Function. Translation and reflection of a function. Even and Odd functions, Inverse functions, One to One and many to one function. Limit, continuity and differentiability, Tangent line, Differentiation of different types of functions.  An overview of area problem,  Newton's anti-derivative method  in finding area, Indefinite integral, fundamental theorem of calculus, Definite integral, Area between two curves. Different types of Integration (Principles of Integral evaluation, Integration by parts, Trigonometric Substitution).",
     "courseCategory": "Mathematics",
-    "department": "CSE"
+    "department": "CSE, EEE"
   },
   {
     "courseCode": "MATH 2183",
@@ -166,7 +166,7 @@
     "courseTitle": "Coordinate Geometry and Vector Analysis",
     "creditHours": 3,
     "prerequisite": "MATH 1151",
-    "description": "Conic sections, rotation of axes, Rectangular co-ordinate in 3-space, cross and dot product of vectors, parametric equation of straight lines, plane in 3-space. Cylindrical and spherical coordinate systems, integrals of multi-variable functions (double and triple integrals including polar coordinates). Gradient of scalar fields, divergence and curl of vector fields. Line integrals, conservative vector field and Green’s theorem, surface integral, flux, divergence theorem, Stokes’ theorem.",
+    "description": "Conic sections, rotation of axes, Rectangular co-ordinate in 3-space, cross and dot product of vectors, parametric equation of straight lines, plane in 3-space. Cylindrical and spherical coordinate systems, integrals of multi-variable functions (double and triple integrals including polar coordinates). Gradient of scalar fields, divergence and curl of vector fields. Line integrals, conservative vector field and Green's theorem, surface integral, flux, divergence theorem, Stokes’ theorem.",
     "courseCategory": "Mathematics",
     "department": "CSE"
   },
@@ -193,7 +193,7 @@
     "courseTitle": "Electronics",
     "creditHours": 3,
     "prerequisite": "EEE 2113",
-    "description": "Semiconductor diode: materials, energy band, n-type and p-type materials, p-n junction diode, ideal vs practical diode, zener diode, light emitting diode; Diode applications: load-line Analysis, series-parallel dc circuits, AND/OR logic gates, full-wave and half-wave rectification, clipper and clamper circuits; Bipolar junction transistors: device structure and physical operation, current–voltage characteristics, BJT Circuits at DC, BJT as an amplifier and as a switch; MOS field-effect transistors (MOSFETs): device structure and physical operation, current–voltage characteristics, MOSFET circuits at DC, MOSFET as an amplifier and as a switch; CMOS combinational logic circuit design.",
+    "description": "Semiconductor diode: materials, energy band, n-type and p-type materials, p-n junction diode, ideal vs practical diode, zener diode, light emitting diode; Diode applications: load-line Analysis, series-parallel dc circuits, AND/OR logic gates, full-wave and half-wave rectification, clipper and clamper circuits; Bipolar junction transistors: device structure and physical operation, current-voltage characteristics, BJT Circuits at DC, BJT as an amplifier and as a switch; MOS field-effect transistors (MOSFETs): device structure and physical operation, current-voltage characteristics, MOSFET circuits at DC, MOSFET as an amplifier and as a switch; CMOS combinational logic circuit design.",
     "courseCategory": "Other Engineering",
     "department": "CSE"
   },
@@ -844,5 +844,896 @@
     "description": "In this course, the students will implement the proposal that is accepted in the course CSE 4000B.",
     "courseCategory": "Final Year Design Project",
     "department": "CSE"
+  },
+  {
+    "courseCode": "EEE 1001",
+    "courseTitle": "Electrical Circuits I",
+    "creditHours": 3.0,
+    "prerequisite": null,
+    "description": "Circuit variables: voltage, current, power and energy, Voltage and current independent and depended sources, Circuit elements resistance, inductance and capacitance. Modeling of practical circuits, Ohm\u2019s law and Kirchhoff\u2019s laws, Solution of simple circuits with both dependent and independent sources, Series-parallel resistance circuits and their equivalents, Voltage and current divider circuits, Delta-Wye equivalent circuits, Techniques of general DC circuit analysis (containing both independent and dependent sources): Node-voltage method, Mesh-current method, Source transformations. Thevenin and Norton equivalents, Maximum power transfer. Superposition technique. Properties of Inductances and capacitances. Series-parallel combinations of inductances and capacitances; Concepts of transient and steady state response with dc source. Magnetic quantities and variables: Flux, permeability and reluctance, magnetic field strength, magnetic potential, flux density, magnetization curve. Laws in magnetic circuits: Ohm\u2019s law and Ampere\u2019s circuital law. Magnetic circuits: series, parallel and series-parallel circuits.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "MAT 1103",
+    "courseTitle": "Calculus II",
+    "creditHours": 3.0,
+    "prerequisite": "MAT 1101",
+    "description": "Differentiations, L\u2019Hopital Rule, Analysis of functions (increasing, decreasing, Concavity and relative Extrema) and Polynomials, Rolle\u2019s theorem, Mean Value Theorem, Taylor\u2019s series &Maclaurin series, Partial Derivatives, The Chain Rule, Different types of Integration (Principles of Integral evaluation, Integration by parts, Trigonometric Substitution, Integrating rational functions by partial fractions), Improper Integral, Gamma & Beta functions, Multiple integrals and their applications (area, volume problems).",
+    "courseCategory": "Mathematics",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 1003",
+    "courseTitle": "Electrical Circuits II",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 1001",
+    "description": "Definitions of ac voltage, current, power, volt-ampere and various factors (including power, peak, form factors etc.); Introduction to sinusoidal steady state analysis: Sinusoidal sources, phasor, impedance, admittance, reactance, susceptance; voltage, current, power of R, L, C. R-L, R-C, R-L-C circuits with sinusoidal source; Series-parallel and Delta-Wye simplifications of circuits with R, L and C. Techniques of general ac circuit analysis (containing both independent and dependent sources): Node-voltage method, Mesh-current method, Source transformations, Thevenin and Norton Equivalents, Phasor diagrams. Sinusoidal steady state power calculations, RMS values, Real and reactive power. Maximum power transfer, impedance matching. Steady state voltage, current. Circuits with non-sinusoidal excitations, power and power factor of ac circuits with multiple sources of different frequencies; Transients in AC circuits, Resonance in AC circuits: Series and parallel resonance and Q factors. Magnetically coupled circuits. Analysis of three phase circuits: Three phase supply, balanced and unbalanced circuits, power calculation and measurements, Power factor improvement.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 1004",
+    "courseTitle": "Electrical Circuits Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 1001",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 1001 and EEE 1003. In the second part, students will design simple systems using the principles learned in EEE 1001 and EEE 1003.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2000",
+    "courseTitle": "Simulation Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 1003",
+    "description": "Introductory simulation laboratory based on using modern simulation software and applying them to basic electrical engineering problems.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2101",
+    "courseTitle": "Electronics I",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 1003",
+    "description": "Introduction to semiconductors: intrinsic, p-type and n-type. PN junction: formation, and\noperating principles. PN junction diode: current-voltage characteristics, simplified models,\ndynamic resistance and capacitance. Zener diode: current-voltage characteristics and its\napplications. Diode circuits: Half-wave and full wave rectifiers with filter capacitors,\nClippers and clampers, Zener shunt regulator. Metal-Oxide-Semiconductor Field-EffectTransistor (MOSFET): structure, physical operation, current-voltage characteristics and\nregions of operations, small signal equivalent circuit models; Secondary effects: body\neffect, channel length modulation, Early effect and short channel effects; MOS amplifiersbiasing discrete and integrated MOS amplifier circuits, Single stage amplifier circuits, their\nconfigurations and DC analysis; AC analysis of single stage MOS amplifiers- Voltage and\ncurrent gain, input and output resistances. MOSFET as active loads, MOSFET as a switch.\nBipolar junction transistor (BJT): Basic structure, physical operation, BJT characteristics\nand regions of operation, DC analysis, biasing the BJT for discrete circuits, small signal\nequivalent circuit models, AC analysis of Single stage BJT amplifier circuits and their\nconfigurations.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "PHY 1103",
+    "courseTitle": "Physics II",
+    "creditHours": 3.0,
+    "prerequisite": "PHY 1101",
+    "description": "Electricity magnetism: Concept of charge, Coulomb\u2019s law, Electric field, Dipole in an electric field, electric flux, Gauss\u2019 law, electric potential, field potential relation, Capacitance and capacitors with dielectric, energy storage in an electric field, current density, Ohm\u2019s law, EMF, Resistance in series and parallel, Kirchhoff\u2019s Rules, magnetic field, Biot-Savart law, Ampere\u2019s law, Gauss\u2019s law for magnetism, magnetic force on a current, magnetic lines of induction, Faraday\u2019s law, Lenz\u2019s Law, Lorentz Force, Hall effect, Magnetization, Hysteresis, Inductance in series- parallel, DC and AC properties, RMS value, R-L-C resonance, EM waves, Maxwell equations. Heat & Thermodynamics: Review of temperature and heat; Different scales and their relations, Postulates of kinetic theory of gas, Degrees of freedom, Mean free path, laws of thermodynamics, Application of first law in different processes: isothermal and adiabatic changes; Reversible and irreversible processes; Refrigerator, Heat engine and Carnot\u2019s cycle, Efficiency and Coefficient of performance, concept of entropy, thermodynamic relation. Quantum and Modern Physics: Quantum Theory of Radiation, Energy of photons, Photo-electric Effect, Compton Effect, De Broglie wave length, Heisenberg\u2019 s Uncertainty Principle, Phase velocity & Group velocity, Correspondence principle, Pair production, Pair annihilation; Wave function, Quantum numbers, Schrodinger equation-Time dependent and time independent form, Expectation value, Quantum Operator, Eigen functions and Eigen values, Tunneling effect, Energy of trapped electron, Application of Schrodinger\u2019s equation in Hydrogen atom, finite and infinite square well, Quantum dots and corrals, Atomic structures and models, Nuclear physics and radioactivity, Special and general Theory of Relativity and Its Consequences.",
+    "courseCategory": "Basic Sciences",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "PHY 1104",
+    "courseTitle": "Physics Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "PHY 1101",
+    "description": "Experiments based on Propagation of light, Applications of Interference of light, Applications of Stationary waves, Applications of Simple harmonic motion, Applications of Electricity and magnetism.",
+    "courseCategory": "Basic Sciences",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "MAT 2105",
+    "courseTitle": "Linear Algebra and Differential Equations",
+    "creditHours": 3.0,
+    "prerequisite": "MAT 1103",
+    "description": "Linear Algebra & Matrices: Introduction to the system of linear equations, solutions and their applications. Matrices, Matrix Algebra and Determinants. Solution of equations by matrix inversions. Eigen values and Eigen vectors. Linear combinations, independence of vectors and linear transformations.\nDifferential Equations: Classification of differential equations. Solutions and applications of first order and second order differential equations by various methods. Wave equation and Heat equation. Solutions with boundary and initial conditions of partial differential equations.",
+    "courseCategory": "Mathematics",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2103",
+    "courseTitle": "Electronics II",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2101",
+    "description": "Single-stage MOS amplifiers with passive loads; Single-stage, Cascaded and Cascaded MOS amplifiers with active loads. Frequency response of MOS Amplifiers: Bode plots; Current mirrors, differential amplifiers and Operational Trans conductance Amplifiers (OTA), Single and two stage Operational amplifiers in IC. General-purpose OPAMPs: basics, inverting, non-inverting and adder amplifiers, integrators and differentiators,\ncomparator circuits and other applications. Feedback: basic concept of negative feedback,\ntypes of feedback, analysis of voltage-series, current-series, current-shunt and voltage-shunt\nfeedback. Active filters: types and specifications, Bode plots, realization of first, second and\nhigher order low, high, band pass and band reject filters using Opamps. Signal generators:\nstructure and working principle of square-wave, triangular wave and saw-tooth wave generators. Oscillators: structure and working principle of phase-shift oscillators, WienBridge oscillator, LC and crystal oscillators. Output stages and power amplifiers:\nclassification of output stages, class A, B and AB output stages.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2104",
+    "courseTitle": "Electronics Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2101",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 2101 and EEE 2103. In the second part, students will design simple projects using the principles learned in EEE 2101 and EEE 2103.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "CHE 2101",
+    "courseTitle": "Chemistry",
+    "creditHours": 3.0,
+    "prerequisite": null,
+    "description": "Atomic structure, quantum numbers, electronic configuration, periodic properties of elements and uses of noble gases; Different chemical bonds and geometry of molecules, Selective organic reactions; Solutions and theory of dilute solution, Phase rule and phase diagram; Thermochemistry, Solid state; photochemistry, Theory of acid-base, buffer solution, pH and indicator concept; Electrochemistry.",
+    "courseCategory": "Basic Sciences",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "CHE 2102",
+    "courseTitle": "Chemistry Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": null,
+    "description": "Experiments based on inorganic quantitative analysis.",
+    "courseCategory": "Basic Sciences",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "MAT 2107",
+    "courseTitle": "Complex Variables, Fourier and Laplace Transforms",
+    "creditHours": 3.0,
+    "prerequisite": "MAT 1103",
+    "description": "Complex Variable: Complex number system. General functions of a complex variable, Limits and continuity of a function of a complex variable and related theorems, Complex differentiation and the Cauchy-Riemann equations. Singularities, Infinite series, Taylor\u2019s and Laurent\u2019s series, Cauchy integral formulae, Cauchy\u2019s residue theorem.\nFourier Analysis: Real and complex forms of Fourier series. Finite transform, Fourier integral, Fourier transforms and their uses in solving boundary value problems.\nLaplace Transforms: Laplace and inverse Laplace transforms of functions and their applications (Solution of differential equations).",
+    "courseCategory": "Mathematics",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "MAT 2109",
+    "courseTitle": "Coordinate Geometry and Vector Analysis",
+    "creditHours": 3.0,
+    "prerequisite": "MAT 1103",
+    "description": "Conic sections and their properties, Rectangular co-ordinate in 3-space, cross and dot product of vectors, parametric equation of straight lines, Plane in 3-space. Differentiation and integration of vector valued function, tangent and normal vectors, directional derivative and gradient of scalar fields, Tangent planes and normal vectors, vector fields, line integrals, conservative vector field, Green\u2019s theorem. Triple integral in cylindrical and spherical coordinate systems, Surface integral, flux, divergence theorem, Stokes\u2019 theorem.",
+    "courseCategory": "Mathematics",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2401",
+    "courseTitle": "Structured Programming Language",
+    "creditHours": 3.0,
+    "prerequisite": null,
+    "description": "Overview, Structure of C program, Data Types and Data Type Qualifier, I/O Functions-Character I/O, Formatted I/O, Character Set, Identifiers, Keywords and Contents, Variables, Expressions, Statement and Symbolic Constants, Arithmetic operators, Relational Operators and Logical Operators, Assignment Operators, Increment/Decrement Operators, Unary Operator and Conditional Operator., Bit-wise Operators, Comma Operator, Precedence and Associativity, Branching: The IF statement (break and continue statement), Branching: SWITCH statement, GOTO statement and operator, Looping: FOR statement (break and continue), Looping: WHILE and DO WHILE statement, Storage class: Automatic, Static, Register and Extern, Functions: Access, Prototype, Argument Passing and Value Receiving, Functions: Pass-by-value, Pass-by-reference and Value Receiving , Functions: Command Line Parameter and Library Functions, Arrays: Initialization, Access, Passing and Receiving, Arrays: 2D handling, Arrays: Sorting and Searching, String Handling, Structure: Initialization, Access, Passing and Receiving, Structure: Embedded Structure, Union and Bit-fields, File: Types of File, Text File Handling, File: Binary File Handling , File: Data File Management Program, Pointer: Concept, Passing and Receiving, Memory Allocation and Release, Pointer: List or Tree Management by Self-Referential Structure, Pointer: Pointer and Multi-Dimensional Arrays, Enumeration, Macros, Pre-Processor and Compiler , Directives, Library, Compiler and Linker, Segment and Memory Model, Video Adapter, Modes and Graphics Initialization, Graphics Functions.",
+    "courseCategory": "Other Engineering",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2402",
+    "courseTitle": "Structured Programming Language Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": null,
+    "description": "Laboratory work based on EEE 2401.",
+    "courseCategory": "Other Engineering",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2301",
+    "courseTitle": "Signals and Linear Systems",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 1003 and MAT 2107",
+    "description": "Classifications of Signals, Useful Signal Operations, Useful Signal Models, Size of a Signal, Even and Odd Functions, Systems, Classification of systems, System Model. System Response, The Unit Impulse Response, System Response to External Input, System Stability Intuitive Insights into system behavior. Periodic Signal representation by Trigonometric Fourier Series, Existence and Convergence of Fourier Series, Exponential Fourier Series, LTIC System Response to periodic Inputs Generalized Fourier Series. Aperiodic Signal Representation of Fourier Transform, Fourier Transform for some useful functions. Properties of Fourier Transform, Signal Transmission through LTIC system, Signal Energy. Applications of Fourier Transform. Laplace Transform and Inverse Laplace Transform. Properties of the Laplace Transform Solution to Differential and Integro-Differential Equations Analysis of Electrical Network, System Realization, Frequency Response of LTIC System, Stability of systems.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2200",
+    "courseTitle": "Electrical Wiring and Drafting",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 1003",
+    "description": "buildings, industrial buildings, multistoried office buildings, multistoried multipurpose buildings, Bangladesh Building Codes and Wiring regulations, IEE Wiring regulations and safety regulations. Basic Symbols and Notations for the creation of Electrical Drawings consistent with BNBC standards and codes, Current Ratings, Legends of conduits, Mounting locations, Demonstration on a simple Architectural Structure. Demonstration on complete drawing of an architectural structure. Fitting and Fixtures layout, Conduit layout (Light loads wiring, Heavy loads wiring) Switchboard connection diagram, Sub-Distribution board connection diagram, Switchboard grouping, Switchboard to SDB connection diagram, Cable TV, Telephone, Internet and Calling Bell wiring. Demonstration on complete drawing for an average sized (2000Sft to 2200Sft) apartment, Load calculation, Selection of wire size, Selection of suitable circuit breakers, Selection of conduit size, Load Sharing method, Main Distribution Board connection diagram, Check Meter to LT panel design, Main system earthing design, Current calculation for Air Conditioner, Motor and Pump. Electricity bill calculation for a residential building, Lightening arrestor selection. Introduction to AutoCAD Software and its applications.\nBasic working principle and troubleshooting process of household appliances. Earthing system design. PFI design. Practical Solar PV system Design. Introduction to LAN for a building, Network Device, Network Topologies LAN Components and Technologies, Fire Alarm System, CCTV with layout, Burglar Alarm System, Fire Sprinklers, Working Principle of Elevators(Lift) and Intercom. Fire protection system. Design a Single line diagram of a typical 11KV/415V 500KVA Substation and Bus-bar trucking system for various applications.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2201",
+    "courseTitle": "Energy Conversion I",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 1003",
+    "description": "Electromechanical energy conversion fundamentals: Faraday\u2019s law of electromagnetic\ninduction, Fleming\u2019s rule and Lenz\u2019s law. Elementary generator: Commutation, electromagnetic force, left hand rule, counter emf and comparison between generator and motor action. Transformer: Ideal transformer \u2013 transformation ratio, no-load and load vector diagrams; actual transformer \u2013 construction, equivalent circuit, regulation, short circuit and open circuit tests, parallel operation, autotransformer, instrument transformer. Three phase induction motor: Rotating magnetic field, equivalent circuit, vector diagram, torque-speed characteristics, effect of changing rotor resistance and reactance on torque-speed curves, motor torque and developed rotor power, no-load test, blocked rotor test, starting and braking and speed control. Single phase induction motor: Theory of operation, equivalent\ncircuit and starting",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2105",
+    "courseTitle": "Digital Electronics",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2101",
+    "description": "Number systems and codes. Analysis and synthesis of logic circuits: Boolean algebra, switching functions, switching circuits and combinational logic circuits. Implementation of basic static logic gates in CMOS, noise margin and power dissipation. Modular combinational circuit design: pass transistor, pass gates, multiplexer, demultiplexer and their implementation in CMOS, decoder, encoder, comparators, binary arithmetic elements of ALU design. Programmable logic devices: logic arrays, field programmable logic arrays and programmable read only memory. Sequential circuits: different types of latches, flip-flops and their design using FSM approach, timing analysis of sequential circuits. Modular sequential logic circuit design: shift registers, counters and their applications. Design of combinational and sequential circuit using HDL.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2106",
+    "courseTitle": "Digital Electronics Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2101",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 2105. In the second part, students will design simple systems using the principles learned in EEE 2105.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3303",
+    "courseTitle": "Probability, Statistics and Random Variables",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2301",
+    "description": "Statistics: Frequency distribution. Mean, median, mode and other measures of central tendency. Standard deviation and other measures of dispersion. Moments, skewness and kurtosis, correlation and regression analysis. Elementary probability theory. Continuous and discrete Random Variables & their moments, Special Probability Distributions. Multiple\nRandom Variables: Joint CDF, Conditional PMF/PDF, Mean & Variance. Functions of Random variables. Introduction to Random Process. Elementary sampling theory & Estimation of parameter: Curve fitting & linear regression.",
+    "courseCategory": "Mathematics",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3107",
+    "courseTitle": "Electrical Properties of Materials",
+    "creditHours": 3.0,
+    "prerequisite": "PHY 1103 and MAT 2107",
+    "description": "Crystal structures: Types of crystals, lattice and basis, Bravais lattice and Miller indices.\nClassical theory of electrical and thermal conduction: Scattering, mobility and resistivity, temperature dependence of metal resistivity, Mathiessen\u2019s rule, Hall effect and thermal\nconductivity. Introduction to quantum mechanics: Wave nature of electrons, Schrodinger\u2019s equation, one-dimensional quantum problems \u2013 infinite quantum well, potential step and potential barrier, quantum wire and quantum dot. Heisenberg\u2019s uncertainty principle. Band theory of solids: Band theory from molecular orbital, effective mass, density-of-states. Carrier statistics: Maxwell-Boltzmann and Fermi-Dirac distributions, Fermi energy. Optical properties of materials: Snell\u2019s law, wave-particle duality of light, total internal reflection,\nabsorption coefficient of materials, complex refractive index, transmission coefficient and reflection coefficient of materials, Optical transfer matrix method. Dielectric properties of\nmaterials: Dielectric constant, polarization; Clausius-Mosotti equation, frequency\ndependence of dielectric constant, dielectric loss and piezoelectricity. Magnetic properties of materials: Magnetic moment, magnetization and relative permittivity, different types of magnetic materials, origin of ferromagnetism and magnetic domains. Introduction to superconductivity: Type I and Type II superconductors. Introduction to meta-materials.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "ACT 3101",
+    "courseTitle": "Financial and Managerial Accounting",
+    "creditHours": 3.0,
+    "prerequisite": null,
+    "description": "Financial Accounting: Definition of Accounting, Basic activities of Accounting, Users of Accounting, the need for Basic Accounting for non-business students, Basic and Expanded Accounting Equation, Identifying a transaction, the impact of every transaction on Accounting Equation, Definition of Accounts, Debits and Credits, Steps in a recording process, Preparation of Journal, Ledger and Trial Balance, Accrual and Cash basis Accounting, Different types of Adjusting Entries, Preparation of Adjusting Entries, Different types of Financial Statements, Preparation and interpretation of Income Statement, Owners\u2019 Equity Statement and Classified Balance Sheet.\nManagerial Accounting: The difference between Financial and Managerial Accounting, Importance and purpose of Managerial Accounting, Classification of Costs from five different perspectives using real life cases, Application of High-Low Method in segregating fixed and variable costs, Concept of Cost-Volume-Profit Analysis, Calculation and Interpretation of Break-even and Target Profit Analysis under two different methods, Calculation and Interpretation of Margin of Safety and Degree of Operating Leverage, Concept of Relevant Costs, Characteristics of Relevant Costs, Different types of Decision making: Retain or drop the segment, Make or Buy, Special Order and Sell or Process further.",
+    "courseCategory": "General Education",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2203",
+    "courseTitle": "Energy Conversion II",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2201",
+    "description": "Synchronous Generator: excitation systems, equivalent circuit, vector diagrams at different loads, factors affecting voltage regulation, synchronous impedance, synchronous impedance method of predicting voltage regulation and its limitations. Parallel operation:\nNecessary conditions, synchronizing, circulating current and vector diagram. Synchronous motor: Operation, effect of loading under different excitation condition, effect of changing excitation, V-curves, Permanent Magnet Synchronous Motor. DC generator: Types, no-load voltage characteristics, build-up of a self-excited shunt generator, critical field resistance, load-voltage characteristic, effect of speed on no-load and load characteristics and voltage regulation. DC motor: Torque, counter emf, speed, torque-speed characteristics, starting and speed regulation.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 2204",
+    "courseTitle": "Energy Conversion Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2201",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 2201 and EEE 2203. In the second part, students will design, implement and verify simple systems using the principles learned in EEE 2201 and EEE 2203.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3309",
+    "courseTitle": "Digital Signal Processing",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2301",
+    "description": "Conversion from CT to DT signals, impulse response, finite impulse response (FIR) and\ninfinite impulse response (IIR) of discrete-time systems, difference equation, convolution, transient and steady state response, Discrete transformations: Discrete Fourier series, discrete-time Fourier series, discrete Fourier transform (DFT) and properties, fast Fourier transform (FFT), inverse fast Fourier transform, Z transformation \u2013 properties, transfer function, poles and zeros and inverse Z transform. Digital Filters: FIR filters \u2013 linear phase filters, specifications, design using window, optimal and frequency sampling methods; IIR filters \u2013 specifications, design using impulse invariant, bi-linear Z transformation.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3310",
+    "courseTitle": "Digital Signal Processing Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2301",
+    "description": "Selected concepts learned in EEE 3309 will be demonstrated using software tools e.g., Matlab. This course will also include a design project based on the experiments.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3305",
+    "courseTitle": "Engineering Electromagnetics",
+    "creditHours": 3.0,
+    "prerequisite": "PHY 1103 and MAT 2109",
+    "description": "Basic Laws of Vector Analysis; Orthogonal Coordinate Systems; Transformation between Coordinate Systems, Differential Length, Area and Volume; Line, Surface and Volume Integrals; Gradient, Divergence and Curl of Fields; Laplacian Operator. Coulomb\u2019s law and Field intensity, Electric Field due to continuous Charge distributions, Electric Flux Density, Gauss\u2019s Law-Maxwell\u2019s Equation, Application of Gauss\u2019s Law, Electric Potential, Relation between E and V- Maxwell\u2019s Equations, Electric Dipole, Energy Density in Electrostatic Fields. Continuity Equation and Relaxation Time, Electrostatic Boundary Conditions. Poisson\u2019s and Laplace\u2019s equations, Capacitance, Method of Images. Biot-Savart\u2019s Law, Ampere\u2019s Circuit Law, Applications of Amperes Circuital Law, Magnetic Flux Density, Maxwell\u2019s equation for Static Fields, Magnetic Scalar and Vector Potentials. Forces due to Magnetic Fields, Magnetic Boundary Conditions, Magnetic Energy.\nFaraday\u2019s Law, Displacement Currents, Time Varying Potentials, Time Harmonic Fields. Wave Propagation in Lossy Dielectrics, Plane Wave in Lossless Dielectrics, Plane Waves in Free Space, Plane Wave in Good Conductors. Power and Pointing Vectors, Reflection of a plane Wave at normal incidence.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3307",
+    "courseTitle": "Communication Theory",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2301 and EEE 3303",
+    "description": "Review of communication systems and signal distortions and SNR. Amplitude Modulation:\nDSB-SC, DSB, SSB and Demodulation, FDM. Frequency Modulation and Phase Modulation: Basic equations, NBFM and NBPM, Wideband FM, Armstrong\u2019s method, Demodulation. Sampling of Continuous time signals and applications including PCM,\nDPCM and Delta Modulation and TDM. Basic Digital Modulation including ASK, BPSK and Line Coding techniques. Spread spectrum communications.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3308",
+    "courseTitle": "Communication Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2301 and EEE 3303",
+    "description": "Selected concepts learned in EEE 3307 will be demonstrated using software tools e.g., Matlab. This course will also include a design project based on the experiments.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3400",
+    "courseTitle": "Numerical Techniques Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "MAT 2105 and EEE 2000",
+    "description": "Laboratory on numerical techniques using computer solution of differentiation and integration problems, transcendental equations, linear and non-linear differential equations and partial differential equations.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3205",
+    "courseTitle": "Power System",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2203",
+    "description": "Line representation: Equivalent circuit of short, medium and long transmission line. Network representation: Single line and reactance diagram of power system and per unit representation. Load flow: Gauss-Seidel method, Newton Raphson method. Power flow control: Tap changing transformer, phase shifting, booster and regulating transformer and shunt capacitor. Fault analysis: Short circuit current and reactance of a synchronous machine. Symmetrical fault calculation methods: symmetrical components, sequence networks and unsymmetrical fault calculation. Protection: Introduction to relays, differential protection and distance protection. Introduction to circuit breakers. Load curves: Demand factor, diversity factor, load duration curves, energy load curve, load factor, capacity factor and plant factor.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3206",
+    "courseTitle": "Power System Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2203",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 3205. In the second part, students will design simple systems using the principles learned in EEE 3205.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3403",
+    "courseTitle": "Microprocessor and Interfacing",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2401 and EEE 2105",
+    "description": "Basic components of a computer system. Simple-As-Possible (SAP) computer: SAP-1, selected concepts from SAP-2 and SAP-3 (jump, call, return, stack, push and pop). Evolution of microprocessors. Introduction to Intel 8086 microprocessor: features, architecture, Minimum mode operation of 8086 microprocessor: system timing diagrams of read and write cycles, memory banks, design of decoders for RAM, ROM and PORT. Introduction to Intel 8086 Assembly Language Programming: basic instructions, logic, shift and rotate instructions, addressing modes, stack management and procedures, advanced arithmetic instructions for multiplication and division, instructions for BCD and double precision numbers, introduction to 8086 programming with C language. Hardware Interfacing with Intel 8086 microprocessor: programmable peripheral interface, programmable interrupt controller, programmable timer, serial communication interface, keyboard and display interface (LED, 7 segment, dot matrix and LCD).",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3404",
+    "courseTitle": "Microprocessor and Interfacing Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2401 and EEE 2105",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts of microprocessor, Architecture, addressing modes, interfacing, instruction sets using assembly language. In the second part, students will perform experiments to verify practically the theories and concepts of micro-controller, interfacing, instruction sets using C programing language to design simple systems.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3207",
+    "courseTitle": "Power Electronics",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2103 and EEE 2203",
+    "description": "Power semiconductor switches & triggering devices: BJT, MOSFET, IGBT, SCR, TRIAC,\nDIAC, Cool MOS. Rectifiers: AC-DC converter, Uncontrolled & controlled, Single phase & three phase, Full and semi converter. Dual Converter, DC-DC converter, Chopper circuit, SMPS, voltage controllers, DC motor (control) drive, practical drive circuits (i.e. LED driver and others) Inverter: DC-AC converter, Single phase & three phase, voltage & current source, their applications. PWM, AC motor (control) drive, Stepper motor and its drive (control). Application of power electronic devices in industries, power system & automation. HVDC system.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 3208",
+    "courseTitle": "Power Electronics Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2103 and EEE 2203",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 3207. In the second part, students will design and implement simple systems using the principles learned in EEE 3207.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4109",
+    "courseTitle": "Control System",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2103 and EEE 2301",
+    "description": "Introduction to control system: open & closed loop system. Analysis using transfer function:\nRouth stability criterion, transient characteristics, effect of additional pole/zero, steady state\nerror, parameter sensitivity. Root locus of closed loop system. Design of controller using root locus method. Transfer function of electrical, mechanical & electro-mechanical system. Equivalent system: different types of representations & conversion using block diagram & signal flow graph both in frequency and time domain. State-space representation of system, controller design using state variable. Analysis using frequency response. Introduction to Digital control system, stability analysis in Z-domain.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4110",
+    "courseTitle": "Control System Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2103 and EEE 2301",
+    "description": "Simulation of system using MATLAB for transient analysis. Hardware realization & analysis of control aspects in both open & closed-loop, uncompensated & compensated system. Design of controllers. Design-based project demonstrating effect of controller.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4901",
+    "courseTitle": "Capstone Project I",
+    "creditHours": 1.0,
+    "prerequisite": "Major declaration",
+    "description": "Capstone Project must reflect culminating activities of the student where s/he would showcase knowledge, skills and attitudes learned in the earlier courses. Capstone project represents a culminating demonstration of the program outcomes at the level of solving complex engineering problems. The capstone project involves teams of students who build and test custom designed systems, components or engineering processes. Design projects selected from problems submitted by the students, faculty and local industry; Industry projects are given preference as they are best suited for meeting the course objectives; Instructional phase includes (not limited to): communications, report writing, visual aids, design process (requirements/specifications/objections, synthesis/analysis, design evaluation, implementation, maintainability, manufacturability, economic and social influences etc.), proposal preparation, estimating, project management and scheduling, contracts etc.; Performance phase includes (not limited to): design team formation and organization, design proposals, implementation of design process, project scheduling and management, design reviews, design simulation and testing, preparation of documentation, drawings, specifications, etc., written and oral presentation of completed projects.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4902",
+    "courseTitle": "Capstone Project II",
+    "creditHours": 2.0,
+    "prerequisite": "Major declaration",
+    "description": "Capstone Project must reflect culminating activities of the student where s/he would showcase knowledge, skills and attitudes learned in the earlier courses. Capstone project represents a culminating demonstration of the program outcomes at the level of solving complex engineering problems. The capstone project involves teams of students who build and test custom designed systems, components or engineering processes. Design projects selected from problems submitted by the students, faculty and local industry; Industry projects are given preference as they are best suited for meeting the course objectives; Instructional phase includes (not limited to): communications, report writing, visual aids, design process (requirements/specifications/objections, synthesis/analysis, design evaluation, implementation, maintainability, manufacturability, economic and social influences etc.), proposal preparation, estimating, project management and scheduling, contracts etc.; Performance phase includes (not limited to): design team formation and organization, design proposals, implementation of design process, project scheduling and management, design reviews, design simulation and testing, preparation of documentation, drawings, specifications, etc., written and oral presentation of completed projects.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "GED 4000",
+    "courseTitle": "Entrepreneurship and Career",
+    "creditHours": 3.0,
+    "prerequisite": null,
+    "description": "Etiquettes and manners, Building professional ethics and personal integrity; Motivation: Goal settings, core motivation behind goals, creating long-term motivation, skills, habits\nand behaviors behind goals, motivating others; Thought and Visionary leadership: vision of\nlife, goal settings, emotional intelligence, self-confidence, building a consistent routine\ntowards success; Team Building: Team and teamwork, empathy and sense of belonging, team growth, winning team, team building golden rule; Career and Innovation: Skill assessment, networking, career building in an ethical way, interview techniques, volunteer\nworks, career guide, developing creative and innovative potential, opportunities and innovation, inspiration from leading entrepreneurs; Entrepreneurship: Entrepreneurial Finance, Law for the Entrepreneur and Manager, Entrepreneurial Marketing, Operations Management, Strategic Management Problem solving: Techniques of problem solving: Problem solving tools and frameworks; Topics related to critical thinking; Topics related to Tender, Letter of Credit (LC) and Draft Project Proposal (DPP) document preparation; CV writings; Communications skills: Public speaking & presentation; Portfolio development.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4903",
+    "courseTitle": "Capstone Project III",
+    "creditHours": 3.0,
+    "prerequisite": "Major declaration",
+    "description": "Capstone Project must reflect culminating activities of the student where s/he would showcase knowledge, skills and attitudes learned in the earlier courses. Capstone project represents a culminating demonstration of the program outcomes at the level of solving complex engineering problems. The capstone project involves teams of students who build and test custom designed systems, components or engineering processes. Design projects selected from problems submitted by the students, faculty and local industry; Industry projects are given preference as they are best suited for meeting the course objectives; Instructional phase includes (not limited to): communications, report writing, visual aids, design process (requirements/specifications/objections, synthesis/analysis, design evaluation, implementation, maintainability, manufacturability, economic and social influences etc.), proposal preparation, estimating, project management and scheduling, contracts etc.; Performance phase includes (not limited to): design team formation and organization, design proposals, implementation of design process, project scheduling and management, design reviews, design simulation and testing, preparation of documentation, drawings, specifications, etc., written and oral presentation of completed projects.",
+    "courseCategory": "Core Courses",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4904",
+    "courseTitle": "Internship",
+    "creditHours": null,
+    "prerequisite": "Completion of all credits except EEE 4905",
+    "description": "Students undertake a significant experiential learning opportunity, typically with an industrial company that provides electrical services or manufactures electrical products. The internship represents an educational strategy that links classroom learning and student interest with the acquisition of knowledge in an applied work setting. Through direct observation, reflection and evaluation, students gain an understanding of the internship site\u2019s work, mission, and audience, how these potentially relate to their academic study, as well as the organization\u2019s position in the broader industry or field. Students will produce a critical reflection on their internship experience demonstrating how they have addressed specific learning goals.\nA student must complete all their academic credits and requirements before they embankment into internship program. Students are responsible for securing their own internships but should contact the Career Services Office / the Department Office for assistance and resources to identify and apply for opportunities of interest. Students will participate in an internship for at least three weeks and no less than 120 hours of supervised work. The students work at the industry will be evaluated through the daily journal and a standard rubric marked by the industry supervisor. This evaluation will be complemented by the evaluation of the students\u2019 work presented to the internship coordinator in the department.",
+    "courseCategory": "Internship",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4905",
+    "courseTitle": "Industrial Training",
+    "creditHours": null,
+    "prerequisite": "Completion of all credits except EEE 4904",
+    "description": "The training aims to exposed students to real electrical engineering practices in an industry. Students will gain knowledge and working experience as well as improving their interpersonal skills through working with professionals from the industries. Depending on the nature of work in the training, the students will have opportunity to apply theories learnt in the lecture room into real electrical engineering practices. The total duration of the training is at least three weeks and no less than 120 hours of direct training contact hours.",
+    "courseCategory": "Internship",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4111",
+    "courseTitle": "Solid State Devices",
+    "creditHours": 3.0,
+    "prerequisite": null,
+    "description": "Semiconductor Fundamentals: General introduction of semiconductors, Energy band model of semiconductors, Carrier properties: charge, effective mass, density of states, The Fermi Function, Equilibrium distribution of carriers, equilibrium carrier concentrations, Carrier Action: Drift, diffusion, recombination-generation, Equations of states \u2013 Continuity equations and diffusion equations, diffusion lengths, quasi-Fermi Levels. pn-Junction Diodes: pn junction electrostatics, IV-characteristics, energy-band diagrams for homo and hetero-junctions, transient response. Metal-semiconductor junction: fundamentals, energy band diagrams, Schottky junction and ohmic contacts, Metal-Insulator-Semiconductor junction. Tunnel diodes: fundamentals, energy band diagrams. Bipolar junction transistor: Basic principles of pnp and npn transistors, static characteristics, energy band diagrams for homo and hetero-junction BJTs. Field-effect transistors: Junction FET fundamentals, MOS fundamentals: electrostatics, energy-band diagrams, capacitor-voltage characteristics, effects of non-ideal conditions. Qualitative theory of MOSFET operation, current-voltage characteristics of MOSFETs- output characteristics and transfer characteristics, body effect and channel-length modulation, concept of various performance parameters: output resistance, transconductance, On-off ratio, subthreshold swing, inverse subthreshold slope, drain-induced barrier lowering, Gate Induced Drain Leakage. Short-channel effects and their effects on the MOS performance parameters. Multi-gate MOSFETs: dual-gate, triple gate, FinFET and Gate-all-around structures. Sub-60 mV/dec MOSFETs: negative-capacitance FETs and Tunnel FETs.",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4113",
+    "courseTitle": "Semiconductor Processing and Fabrication Technology",
+    "creditHours": 3.0,
+    "prerequisite": "CHE 2101 and EEE 2103",
+    "description": "Substrate materials: Crystal growth and wafer preparation, epitaxial growth technique, molecular beam epitaxy, chemical vapor phase epitaxy and chemical vapor deposition (CVD). Doping techniques: Diffusion and ion implantation. Growth and deposition of dielectric layers: Thermal oxidation, CVD, plasma CVD, sputtering and silicon-nitride growth. Etching: Wet chemical etching, silicon and GaAs etching, anisotropic etching, selective etching, dry physical etching, ion beam etching, sputtering etching and reactive ion etching. Cleaning: Surface cleaning, organic cleaning and RCA cleaning. Lithography: Photo-reactive materials, pattern generation, pattern transfer and metalization. Discrete device fabrication: Diode, transistor, resistor and capacitor. Integrated circuit fabrication: Isolation \u2013 pn junction isolation, mesa isolation and oxide isolation. BJT based microcircuits, p-channel and n-channel MOSFETs, complimentary MOSFETs and silicon on insulator devices. Testing, bonding and packaging.",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4115",
+    "courseTitle": "Optoelectronics",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3107",
+    "description": "Optical properties of semiconductors, Direct and indirect band-gap materials, radiative and non-radiative recombination, optical absorption, photo-generated excess carriers, solar irradiance. Solar cells: basic structure, operating principle and energy band diagrams of pn homo-junction, pn hetero-junction, Schottky junction and Metal-Insulator-Semiconductor junction solar cells. Design considerations of Thin film solar cells. Structure, working principle and energy band diagrams of Quantum-well solar cells and organic solar cells. Photo-detectors: junction photo-detectors, PIN detectors, hetero junction detectors, avalanche photodiodes, performance parameters of photo detectors. Photoconductors, and phototransistors. Light emitting diode (LED): Principles, materials for visible and infrared LED, internal and external efficiency, loss mechanism, structure and coupling to optical fibers, hetero junction and quantum well LED. Laser Theory: Spontaneous and Stimulated emission, Einstein relations, light amplification, population inversion, optical feedback and threshold conditions. Semiconductor Lasers: Population inversion in degenerate semiconductors, laser cavity, operating wavelength, threshold current density, power output, optical and electrical confinement, Hetero junction lasers, Introduction to quantum well lasers.",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4117",
+    "courseTitle": "Analog Integrated Circuits",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2103",
+    "description": "MOS single stage amplifiers in integrated circuits: common-source, common-drain, and common-gate amplifiers, active loads, biasing (resistor-MOSFET divider, MOSFET-only voltage divider, self-biased voltage reference), cascode and cascade stages, noise (flicker noise, thermal noise, input-referred noise), small signal analysis, frequency response- Bode plots, DC gain, AC gain, concept of poles and zeroes, their calculation and significance. Current mirrors (basic, cascode), Differential amplifiers: common mode analysis (input and output common mode range), differential amplifier with active load, slew rate. Design of single-stage and two-stage operational amplifiers based on custom specifications. Frequency compensation techniques (feedback), stability, low-frequency open loop gain, output swing, power dissipation, offsets, slew rate, common mode feedback Operational transconductance amplifiers- telescopic, cascoded, folded-cascoded and cascaded structures, unity gain frequency. Noise: Introduction, types, representation in circuits, noise in single stage and differential amplifiers. Band-gap references: Supply voltage independent biasing, temperature independent biasing and constant transconductance biasing. Oscillators: ring type and LC type, Colpitis and Hartley oscillator, Design of LC oscillators. Voltage Controlled Oscillators. Phase Locked Loops (PLL): Introduction, basic PLL (Type I) and charge pumped PLL (Type II).",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4119",
+    "courseTitle": "Compound Semiconductor Devices",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3107",
+    "description": "Reviews of compound semiconductor: Zinc-blend crystal structures, growth techniques, alloys, band gap, basic opto-electronic properties, density of carriers in intrinsic and doped compound semiconductors. Introduction to Physics of Hetero-Junctions: Band alignment, band offset, Anderson\u2019s rule, single and double sided hetero-junctions, quantum wells and quantization effects, lattice mismatch and strain and common hetero-structure material systems. Hetero-Junction diode: Band banding, carrier transport and I-V characteristics. Hetero-junction field effect transistor: Structure and principle, band structure, carrier transport and I-V characteristics. Nonideal effects, frequency response, high electron mobility transistor. Hetero-structure bipolar transistor (HBT): Structure and operating principle, quasi-static analysis, extended Gummel-Poon model, Ebers-Moll model, secondary effects and band diagram of a graded alloy base HBT. Resonant Tunneling diodes: physics and operation. Resonant Tunneling Transistors: device physics, operation and characteristics.",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4121",
+    "courseTitle": "VLSI Design",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2401 and EEE 2105",
+    "description": "VLSI technology: Top down design approach, technology trends. Review of MOS transistor theory: Threshold voltage, body effect, I-V equations and characteristics, latch-up problems, NMOS inverter, CMOS inverter, pass-transistor and transmission gates. Ratioed circuits: Pseudo NMOS inverter. CMOS circuit characteristics and performance estimation: Resistance, capacitance, rise and fall times, delay, gate transistor sizing and power consumption. Buffer chain design to drive large capacitive load. Electro-migration. Noise margin. Crosstalk. CMOS circuit and logic design: Layout design rules and physical design of simple logic gates. IC fabrication: photolithography, CMOS process flow. Estimation of resistance and capacitance from layout. Layout matching (LVS) Stick diagram and area estimation from stick diagram. CMOS subsystem design: Adders, multiplier, PLA, FSM design. Basic logic gates in CMOS. Synthesis of arbitrary combinational logic in CMOS, pseudo-NMOS, dynamic CMOS and CMOS domino logic. CMOS latches and flip flops. Memory elements design: 6 transistor static CMOS memory cell, 4 transistor dynamic memory cell. 3 transistor and 1 transistor dynamic memory cell. ROM, PROM. Contents Addressable Memory cell. Static CMOS memory array. I/O systems: IO PADs. VLSI Testing: procedure, stuck-at fault, fault coverage, test pattern generation. Scan chain.",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4122",
+    "courseTitle": "VLSI Design Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2401 and EEE 2105",
+    "description": "Circuit Design: Schematic, layout, DRC/LVS/RCX. Verification: Functional simulation of Structural/Behavioral/RTL design using Verilog. Synthesis: RTL Verilog to gate-level netlist. Physical Design: gate level netlist to GDSII.",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4123",
+    "courseTitle": "Biomedical Electronics",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2103",
+    "description": "Elements of physiology: central and peripheral nervous system, types of nerves, neuronal conduction, biopotentials. Electrodes and sensors: electrical models, materials, electrode networks, types of sensors. Interface circuits: bio-amplifiers, practical considerations of implementation. Biophysical principles of electrical and magnetic neuromuscular stimulation. Electronic stimulator circuits: neural stimulators for the central nervous system (cochlear, visual, Parkinson\u2019s, tumors, dystonia, epilepsy, sleep apnea, pain) and the peripheral nervous system (limb movements, urinary system, paralysis, epilepsy and depression, pain) Biotelemetry: Introduction, power and data management telemetry, inductive-link based approach, capacitive-link based approach, optical approach, discrete and integrated circuitries, batteries.",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4124",
+    "courseTitle": "Biomedical Electronics Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2103",
+    "description": "Laboratory experiments based on EEE 4123.",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4225",
+    "courseTitle": "Electrical Measurements",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2203 and EEE 2103",
+    "description": "Measuring instruments: Permanent magnet moving coil, moving iron, electrodynamometer and electrostatic type. Ammeter and voltmeter, extension of instrument range. Current and potential transformers. Measurement of power and energy: induction and electrodynamometer type, maximum demand and power factor meter. Electronic measuring equipments. Measurement of resistance, capacitance and inductance. Measurement of conductivity, localization of cable faults. Transducers: strain gauges, thermocouple, resistive Capacitive and inductive transducers, linear variable differential transformer, piezoelectric and optical transducers and their applications. Signal conditioning and data acquisition systems. Error in measurement and their statistical analysis.",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4226",
+    "courseTitle": "Electrical Measurements Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2203 and EEE 2103",
+    "description": "Laboratory experiments based on EEE 4225.",
+    "courseCategory": "Elective - Electronics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4211",
+    "courseTitle": "Transmission and Distribution Systems",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3205",
+    "description": "An overview on transmission & distribution system of Bangladesh. Transmission Line: Inductance, Capacitance for single phase & three phase lines. Underground cables: Types, electrostatic stress, grading of cables, Capacitance of single phase and three phase cables. High voltage AC & DC transmission: Advantages & disadvantages of each type of transmission, kinds of dc link. Mechanical design of transmission line: Types of insulators, voltage distribution along string of insulators, string efficiency, methods of equalizing potential; Sag: Sag calculation, effect of ice & wind on sag. Stability: Swing equation, power angle equation, equal area criterion, multi-machine system, step by step solution of swing equation, factors affecting stability, transient stability of synchronous generators, steady-state stability (frequency stability, voltage stability). Flexible AC transmission system (FACTS): Objective of FACTS, basic types of FACTS controllers and devices, Series compensation, Parallel compensation, Distribution automation & control (DAC), sources, effects and mitigation of harmonics in power system. Distribution System: Effect of voltage on transmission efficiency, comparison of various transmission and distribution systems, Kelvin\u2019s law, method of feeding distribution.",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4213",
+    "courseTitle": "Power Plant Engineering",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3205",
+    "description": "Sources of energy: Fuels, nuclear energy, wind power, solar energy, tidal power. Power plant cycles: Routine cycle, regenerative cycles, gas power cycle, gas turbine cycles and others. Power plants: General layout and principles, Turbines: Steam turbine, gas turbine, combined cycle gas turbine, IC engines, hydro, nuclear and thermal power plant. Power plant instrumentation: Measurement of pressure, temperature, fuel and speed; electrical measurements, instrumentation and controls in steam power stations. Selection of location: Technical, economic and environmental factors, Load forecasting. General scheduling: Deterministic and probabilistic, Electricity tariff: formulation and types. Nuclear power station: Basic components, chain reactions, reactor types (PWR, BWR), shielding, nuclear safety. Nuclear power plant project in Bangladesh.",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4219",
+    "courseTitle": "High Voltage Engineering",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3205",
+    "description": "High voltage DC: Rectifier circuits, voltage multipliers, Van-de-Graf, and electrostatic generators. High voltage AC: Cascaded transformers and Tesla coils. Impulse voltage: shapes, mathematical analysis, codes and standards, single and multi-stage impulse generators, tripping and control of impulse generators. Breakdown in gas, liquid and solid dielectric materials. Corona. High voltage measurements and testing. Over-voltage phenomenon and insulation, lightning and switching surges, basic insulation level, surge diverters and arresters.",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4221",
+    "courseTitle": "Advanced Electrical Machines",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2203",
+    "description": "Special machines: Universal series motor, permanent magnet DC motor, unipolar and bipolar brushless DC motors, stepper motor and control circuits. Reluctance and hysteresis motors with drive circuits, switched reluctance motor, electro static motor, repulsion motor, synchronous and control transformers. Permanent magnet synchronous motors. Acyclic machines: Generators, conduction pump and induction pump. Magneto hydrodynamic generators. Fuel Cells, thermoelectric generators, flywheels. Vector control, linear motors and traction. Photovoltaic systems: stand alone and grid interfaced. Wind turbine generators: induction generator, AC-DC-AC conversion.",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4223",
+    "courseTitle": "Renewable Energy",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3205",
+    "description": "Fundamentals of Energy Systems: reserve and resources, primary and secondary energy, Green House Gases and their effects. Energy Meteorology: The fundamental physics of solar radiation, solar geometry, interaction of solar radiation with the atmosphere, Reasons for wind flow, the coriolis force, the vertical wind profile, solar radiation and wind velocity measurements. Solar Energy: Solar PV: physical processes in solar cells, Modeling of solar cell, solar cell materials, properties of solar cells, influences of different parameters, Formation of PV arrays and modules, components of solar home systems and grid connected PV systems, Maximum power point tracking (MPPT), Modern solar energy applications (residential, electric vehicle, naval, and space, minigrid, nanogrid, net metering). Solar Thermal: The selective surfaces, the working principle of flat plate solar collectors, its important components and its usage. Wind Energy: The power content of flowing wind, wind flow profile, Bernoulli\u2019s equation, air foil, drag and lift force, wind turbine, power curve, Bets Optimum, Different types of generator for wind turbine, Different types of converters for wind energy conversion system. Biomass Energy: Biomass gasifier, biogas digester, bio methenation process, parameters influencing bio methenation process. Different types of biofuels. Hydro Power: The principle of hydro energy conversion, different types of water turbine based upon water head difference. Hydrogen and Fuel Cell: Properties of hydrogen, hydrogen production and storage, wind hydrogen system, working principles of fuel cells. loses, advantages and application of fuel cells, fuel cell types, stacking principles of fuel cells. Other Renewables: Geothermal energy, tidal, wave and sea current energies, the energy content and technologies to extract energy from other renewables. Energy Storage: Properties of energy storage media, types of energy storage technologies, different type of batteries, working principle of Lead-Acid batteries, factors that affect the performance of Lead-Acid batteries. Energy Economics for Renewable Energy. Home Energy Storage System, Grid connected PV system with storage, Grid Connected Hybrid system, Stand-alone Hybrid system, Vehicle to grid, Vehicle to Home.",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4215",
+    "courseTitle": "Operation and Control of Power System",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3205",
+    "description": "Principles of power system operation: The economic load dispatch (ELD), SCADA: Communication system, remote terminal unit (RTU). Unit commitment, static security analysis, state estimation, optimal power flow, automatic generation control and dynamic security analysis. Frequency regulation and load side management. Need based energy management (NEBM).",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4216",
+    "courseTitle": "Operation and Control of Power System Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 3205",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 4215. In the second part, students will design sample systems using the principles learned in EEE 4215.",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4217",
+    "courseTitle": "Power System Protection",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3205",
+    "description": "Purpose of power system protection. Instrument transformers: CTs, PTs, accuracy class of CTs & PTs. Criteria for detecting faults: Over current, differential current, difference of phase angles, over and under voltages, power direction, symmetrical components of current and voltages, impedance, frequency and temperature. Harmonics in power system and power quality. Electromechanical, electronic and digital Relays: Basic modules, over current, differential, distance and directional. Trip circuits. Unit protection schemes: Generator, transformer, motor, bus bar, transmission and distribution lines. Miniature circuit breakers and fuses. Circuit breakers: Principle of arc extinction, selection criteria and ratings of circuit breakers, types \u2013 air, oil, SF6 and vacuum.",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4218",
+    "courseTitle": "Power System Protection Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 3205",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 4217. In the second part, students will design sample systems using the principles learned in EEE 4217.",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4225",
+    "courseTitle": "Electrical Measurements",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2203 and EEE 2103",
+    "description": "Measuring instruments: Permanent magnet moving coil, moving iron, electrodynamometer and electrostatic type. Ammeter and voltmeter, extension of instrument range. Current and potential transformers. Measurement of power and energy: induction and electrodynamometer type, maximum demand and power factor meter. Electronic measuring equipments. Measurement of resistance, capacitance and inductance. Measurement of conductivity, localization of cable faults. Transducers: strain gauges, thermocouple, resistive Capacitive and inductive transducers, linear variable differential transformer, piezoelectric and optical transducers and their applications. Signal conditioning and data acquisition systems. Error in measurement and their statistical analysis.",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4226",
+    "courseTitle": "Electrical Measurements Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2203 and EEE 2103",
+    "description": "Laboratory experiments based on EEE 4225.",
+    "courseCategory": "Elective - Power Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4313",
+    "courseTitle": "Optical Fiber Communication",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3305 and EEE 3307",
+    "description": "Introduction. Light propagation through optical fiber: Ray optics theory and mode theory. Optical fiber: Types and characteristics, transmission characteristics, fiber joints and fiber couplers. Light sources: Light emitting diodes and laser diodes. Detectors: PIN photo-detector and avalanche photo-detectors. Receiver analysis: Direct detection and coherent detection, noise and limitations. Transmission limitations: Chromatic dispersion, nonlinear refraction, four wave mixing and laser phase noises. Optical amplifier: Laser and fiber amplifiers, applications and limitations. Multi-channel optical system: Frequency division multiplexing, wavelength division multiplexing and co-channel interference.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4317",
+    "courseTitle": "Mobile Cellular Communication",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3307",
+    "description": "Introduction: Evolution of mobile cellular communication (History of wireless communication from pre 1G to 4G). Basic Network architecture (UMTS 3G and 4G), basic call flow diagrams. Cellular communication fundamentals: Hexagonal structure, frequency reuse, channel assignment, interference, Blocking probability, handoff, cell splitting, small cell concept, repeaters and distributed antenna system (DAS). Large scale and small scale propagation models: Free space, ground reflection models, path-loss models (Log-normal model, UMTS models for indoor and outdoor propagation), delay spread, coherence time and bandwidth, Rayleigh fading, level crossing rate and average fade duration. Diversity: Fundamentals of spatial diversity, selection and maximal ration combining received diversity, SNR improvement, transmit diversity, antenna spacing requirement. Modulation and pulse shaping for mobile cellular communication: PSK, FSK and QAM, spectral efficiency and BER performance, adaptive modulation, RC waveforms. CDMA: Fundamentals of spreading and multiple access through spreading codes, Walsh codes, PN codes, transmit power control, basic 3G transmitter and receiver structure, layered architecture and PHY layer channels, HSDPA basics. OFDM: Basic transmitter and receiver structure, LTE basics.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4319",
+    "courseTitle": "Telecommunication Engineering",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3307",
+    "description": "Introduction: Principle, evolution, networks, exchange and international regulatory bodies. Telephone apparatus. Switching system: Introduction to analog system, digital switching systems \u2013 space division switching, blocking probability and multistage switching, time division switching and two dimensional switching. Signaling Techniques, In Channel, Common Channel, SS7 signaling unit, STP, SCP. Call set up procedure. Data communication Architecture, OSI Reference Model, TCP/IP architecture, IP routing. Transmission media for Telecommunication. Traffic analysis: Traffic characterization, grades of service, network blocking probabilities, delay system and queuing. Telephone services and network: Internet telephony and VOIP, integrated services digital network (ISDN), asynchronous transfer mode. Introduction to cellular telephony and satellite communication.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4321",
+    "courseTitle": "Antenna and Propagation",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3305",
+    "description": "Basics of antenna: Introduction, Radiation pattern, Radiation Power density, Radiation Intensity, Beam width, Directivity, Antenna efficiency, Gain. Friis Transmission equation and Radar Range Equation. Aperture Antennas (Rectangular and Circular). Horn Antennas. Printed and Microstrip Antenna, Antenna Arrays. Propagation of radio waves \u2013 broadcast and line of sight, transmission and reception of radio waves, effect of earth\u2019s curvature; long, medium and short wave propagation, ionospheric propagation, scattering in radio links, effect of rain and dust.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4323",
+    "courseTitle": "Satellite Communication",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3305 and EEE 3307",
+    "description": "Brief history and overview of satellite communications, regulatory bodies, communication systems. Satellite frequency bands, Satellite orbits and launching procedures and look angles. Spacecraft: power, communications, TT&C, antenna systems. Frequency allocations. Fundamental orbital laws. GEO, MEO, LEO satellites, subsystems of a communication satellite, earth station, Link budget analysis, C/N calculation. Modulation and multiplexing techniques for satellite link. Multiple access techniques: FDMA, TDMA, CDMA, advantage of spectral spreading, satellite jamming. Propagation effects- attenuation, effect of rain on propagation. Satellite Error Control and Coding. Case Studies: Global Positioning System (GPS), VSAT networks, LEO, DBS-TV.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4325",
+    "courseTitle": "Multimedia Communication",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3307 and EEE 3309",
+    "description": "Some basics on television systems, multidimensional signals and Fourier transform, multidimensional (space-time) sampling, interlaced and non-interlaced scanning: Information theory: conditional and joint entropy and redundancy, source coding theorem, statistical source models, mutual information rate distortion theory: Predictive coding: linear prediction, quantization, optimum predictor; Discrete two-dimensional transforms: DFT, DCT, wavelet and Hadamard transforms; Transform Coding with motion estimation, principles of MPEG coding; Modern audiovisual terminals and communication systems.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4327",
+    "courseTitle": "Advanced DSP and Filter Design",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3309",
+    "description": "Sampling, interpolation, and decimation; Fast Fourier Transform (FFT), fast convolution by FFT using the overlap-save or overlap-add methods; Bandpass sampling; IIR and FIR filter design and implementation issues: filter structures, coefficient quantization and sensitivity, finite wordlength arithmetic or signal quantization, limit cycles, noise shaping; Spectral estimation methods, Basic adaptive filtering.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4329",
+    "courseTitle": "Telecommunication Policy and Management",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3307",
+    "description": "International telecommunication organizations, trans-border data flow, barriers to trade in information equipment and services, development of competition, and World Trade Organization telecommunication agreement. Policy problems created by the vulnerability of telecommunication and computer networks to accidental or intentional attacks, dependence of economic and military security on telecommunication networks, information warfare, privacy and surveillance, international trade and information security. Fundamentals of daily telecommunication operations, including human factors in organization, acquisition and procurement, research and development, logistical planning, and relations with carriers and manufacturers.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4331",
+    "courseTitle": "Biomedical Engineering",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3309",
+    "description": "Human body: Cells and physiological systems. Bioelectricity: genesis and characteristics, structural level of the human body, muscular, skeletal, nervous, cardio-vascular, respiratory systems; Measurement of bio-signals: Measurement systems, transducers, amplifiers and filters, biopotentials (ECG, EEG, EMG and neurostimulation methods), cardiovascular instrumentation (pacemakers, blood pressure, defibrillator, dissolved gas measurement, blood flow measurements, plethysmography, cardiogrpahy & cardioverter), Imaging technology: X-Ray, gamma camera, nuclear magnetic resonance imaging, cerebral angiography, tomography, ultrasound imaging, including doppler ultrasound.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4333",
+    "courseTitle": "Special Topics on Telecommunication Engineering",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3307",
+    "description": "This course is aimed at covering topics of current interest and new technology of Telecommunication Engineering.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4335",
+    "courseTitle": "Information Theory and Coding",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3303 and EEE 3307",
+    "description": "Background of Information Theory, Probability, Joint and Marginal Probability, Baye\u2019s Theorem, DMS, Information Contents, Entropy, Mutual Information, Source Coding, Huffman coding, Noisy Channels: Binary Symmetric Channel, Binary Erasure Channel. Noisy Channel Coding theorem and Capacity.\nCoding: Linear block codes, Convolutional codes, Maximum Likelihood decoding and basics of Turbo coding.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4339",
+    "courseTitle": "Introduction to Software Radios",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3307",
+    "description": "Introduction & Foundational Principles, RF Design for DSP Engineers, Digital Generation of Signals, Analog to Digital Conversion, Equalization and Interference Rejection, Synchronization, Demodulation and Decoding, Real-Time Programming Issues, Case Studies in Software Radio Design.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4311",
+    "courseTitle": "Microwave Engineering",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3305",
+    "description": "Transmission lines: Voltage and current in ideal transmission lines, reflection, transmission, standing wave, impedance transformation, Smith chart and impedance matching. Waveguides: general formulation, modes of propagation and losses in parallel plate, rectangular and circular waveguides. Micro strips: Structures and characteristics. Resonators: Waveguide Cavity Resonators, Microstrip Resonators. S-parameters and characterization of RF two-port devices. Power Divider and Coupler, Mixer, Oscillator. Linearity, sensitivity, and dynamic range. Radiation and Antennas: Radiation Resistance, Radiation Pattern- Isotropic, Directional and Omni Directional Patterns, Radiation Power Density, Radiation Intensity, Beamwidth, Directivity, Antenna Efficiency and Gain, Polarization, Hertzian and halfwave dipoles. Mono pole, horn, rhombic and parabolic reflector, array, and Yagi-Uda antenna.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4312",
+    "courseTitle": "Microwave Engineering Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 3305",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 4311. In the second part, students will design simple systems using the principles learned in EEE 4311.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4315",
+    "courseTitle": "Digital Communication",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3307",
+    "description": "Information Theory fundamentals: Mathematical models of information, entropy, Source coding, Huffman coding and decoding. Digital transmission system: Baseband and bandpass signal representation in terms of basis functions, geometric representation and waveforms of 1D, 2D and multidimensional signals: (PAM, PSK, QAM, FSK), Receiver design in AWGN: (Correlation and matched filter demodulators, maximum likelihood estimation, bit error performance). Digital signal transmission in bandlimited channels: Inter-symbol interference (ISI), Pulse shaping: (Nyquist and Raised Cosine pulse shapes), Linear equalization. Channel coding and capacity: Channel models and capacity, capacity curves, Linear block coding and decoding, Convolutional coding and decoding, Interleaving. Fundamentals of OFDM: Transmitter and receiver, practical parameters in commercial implementation (LTE).",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4316",
+    "courseTitle": "Digital Communication Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 3307",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 4315. In the second part, students will design simple systems using the principles learned in EEE 4315.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4337",
+    "courseTitle": "RF Engineering",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3307",
+    "description": "Introduction to Wireless Components: Antenna, Amplifier, Mixer, Oscillator, Resonant Circuits. Noise: Thermal Noise, Shot Noise, Noise Voltage and Power, Mixing of Noise, Noise Temperature and Noise Figure (NF), NF of Cascaded Components, NF of passive networks. Effects of Nonlinearity: Harmonics, Sensitivity and Dynamic Range, Gain Compression (P1dB), Intermodulation Distortion, Third Order Intercept Point (IP3), IP2, Intercept points of cascaded components. Impedance matching: Smith chart, L-Network, Pi Network Impedance matching. Impedance matching using smith chart. Filter: Filter Design: Maximally Flat, Equal ripple, Linear Phase Filter, Filter Scaling and Transformation. Butterworth, Chebyshev response. Amplifiers and Oscillators: S-Parameter, Power Gain, Stability, Stability Circles, Low Noise Amplifier (LNA) design, Characteristics of Power Amplifier (PA) and amplifier classes. Oscillator Tuning Range, Frequency Stability, Voltage Controlled Oscillator (VCO), Oscillator Phase Noise. Amplifier and Oscillator Design using S-parameters. Mixer: Frequency Conversion, Image Frequency, Conversion Loss, Isolation, Diode Mixer, Image Reject Mixer.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4338",
+    "courseTitle": "RF Engineering Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 3307",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 4337. In the second part, students will design sample systems using the principles learned in EEE 4337.",
+    "courseCategory": "Elective - Communication Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4411",
+    "courseTitle": "Computer Architecture",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3403",
+    "description": "Information representation; Measuring performance; Limitations of Power consumptions; Instructions and data access methods: operations and operands of computer hardware, representing instruction, addressing styles; Arithmetic Logic Unit (ALU) operations, floating point operations, designing ALU; Processor design: datapaths with single cycle and multi cycle implementations; Control Unit design; Hazards; Exceptions; Pipeline: pipelined datapath and control, superscalar and dynamic pipelining; Memory organization: cache, virtual memory, channels; DMA and Interrupts; Buses; Multiprocessors: types of multiprocessors, performance, single bus multiprocessors, multiprocessors connected by network, clusters.",
+    "courseCategory": "Elective - Computer Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "CSE 417",
+    "courseTitle": "Advanced Logic Design",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2105",
+    "description": "Introduction. Combinational circuit design with programmable logic devices, implementation of high speed multipliers. Design of modular sequential logic circuits, implementation of digital fractional rate multipliers. State machine design, Mealy and Moore machines. Asynchronous circuit design. Design, modeling and verification of complex digital systems. Modem design methodologies for logic design: Data path and control design, algorithmic state machines integration of data and control. Logic circuit testing and testable design. Modern tools for the design and testing of digital systems. Digital design case studies.",
+    "courseCategory": "Elective - Computer Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4419",
+    "courseTitle": "Multimedia Systems Design",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3307 and EEE 3403",
+    "description": "Overview to multimedia systems, multimedia storage. Data compression techniques for audio and video. Synchronization. Multimedia networking and protocols, QOS principles. Video streams on ATM. Mobile multimedia computations. Operating system support for multimedia. Hypermedia system. Standard for multimedia. Multimedia database and multimedia applications.",
+    "courseCategory": "Elective - Computer Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4413",
+    "courseTitle": "Computer Networks",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 2401 and EEE 3307",
+    "description": "TCP/IP and OSI Reference Models, Internet Protocol Stack, Circuit Switching vs. Packet Switching, FDMA, TDMA Physical Media, Encoding and Decoding, Delay and Packet Loss. Application Layer: Service requirements, WWW, HTTP, Electronic Mail (SMTP), Domain Name System (DNS). Transport Layer: Service Models, Multiplexing/ Demultiplexing, Connectionless Transport (UDP), Connection-oriented Transport (TCP). TCP Flow & Congestion Control. Network Layer: Routing and forwarding, NAT, Fragmentation, Routing algorithms, Routing in the Internet. Link Layer and Local Area Networks: Link layer services, MAC Protocols, Link layer addressing Ethernet, CSMA/CD, ARP. Wireless and Mobile Networks: Wireless links and network characteristics, Wi-Fi: IEEE 802.11 Wireless LANs, CSMA/CA.",
+    "courseCategory": "Elective - Computer Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4414",
+    "courseTitle": "Computer Networks Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 2401 and EEE 3307",
+    "description": "Laboratory works based on EEE 4413.",
+    "courseCategory": "Elective - Computer Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4417",
+    "courseTitle": "Microprocessor Based System Design",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3403",
+    "description": "Limitations of 16 bit processors. 32 bit microprocessors (Intel 80386/80486, Motorola 68000) internal architecture, addressing modes, instructions, memory and I/O interfaces, system design, programming, applications to industrial process control. Embedded processors architecture, advanced port, programming, controller design for adjustable speed motor devices.",
+    "courseCategory": "Elective - Computer Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4418",
+    "courseTitle": "Microprocessor Based System Design Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 3403",
+    "description": "This course consists of two parts. In the first part, students will perform experiments to verify practically the theories and concepts learned in EEE 4417. In the second part, students will design simple systems using the principles learned in EEE 4417.",
+    "courseCategory": "Elective - Computer Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4513",
+    "courseTitle": "Real Time Embedded System Design",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 4511",
+    "description": "Embedded system courses are divided into two main-streams one is manly SW-oriented and the other is HW oriented. This course is planed focusing the SW part of high level embedded system design. Students who are interested in mainly embedded SW, intelligence, algorithm and real-time system design can take this course as an intro. For the HW part we will have another intro course. After learning this course student will be able to understand real-time operation and control algorithm, embedded OS, how to develop device driver for embedded system based on embedded OS. Can understand and will be able to continue higher studies in application specific embedded system design like communication, signal-processing, power optimization etc. 32-bit MCU intro- ARM architecture, feature, Advanced Programming- real-time system control, multitasking, real-time algorithm, Advanced embedded communications- USB, Ethernet, wireless, CAN, Mod-bus, Embedded OS- Various Tiny-OS, Embedded Linux, Windows CE, and OS for hand-held devices (Android, Symbian etc.)\n\n32-bit MCU intro- ARM architecture, feature, Advanced Programming- real-time system control, multitasking, real-time algorithm, Advanced embedded communications- USB, Ethernet, wireless, CAN, Mod-bus, Embedded OS- Various Tiny-OS, Embedded Linux, Windows CE, and OS for hand-held devices (Android, Symbian etc.)",
+    "courseCategory": "Elective - Embedded System and Robotics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4515",
+    "courseTitle": "Industrial Automation and Robotics",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 4511",
+    "description": "Embedded system courses are divided into two main-streams one is manly SW-oriented and the other is HW oriented. This course is planed focusing the HW part of high level embedded system design. Students who are interested in mainly embedded HW, industrial automation, robotics and machine drives can take this course as an intro. For the SW part we will have another intro course. After learning this course students will be able to understand and work with various industrial drive and actuators, sensors and transducers. Will be able to understand work with robotic components, hydraulic, pneumatic devices, closed-loop control scheme and can continue higher studies in this field. Industrial drives- DC/AC motor, servo drives, power-electronics interfacing, Sensors and transducers- motion, position, velocity, force, strain etc., Robot as machine-robotic components, kinematical structure and mechanical components, end-efforts (tools and grips), Mechanical drive- Hydraulic and pneumatic system.",
+    "courseCategory": "Elective - Embedded System and Robotics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4517",
+    "courseTitle": "Real Time Embedded Digital Signal Processing",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 4511",
+    "description": "Embedded system design also involves communication and signal processing application. DSP and FPGA based system design are mainly used in these fields. Students who are interested in other than industrial (machine) control and robotics can take this course to get an exposure in DSP and FPGA based system design. In this course application specific system design will be focused, such as telecommunication, protocol implementation, image-voice-video processing, bio-medical-signal processing etc. This course will use mainly 32-bit DSP-processor to develop system based on RTOS (need course 3) and/or Linux. MPU-Core design using FPGA will also be introduced besides ASIC design. DSP-Processor intro and system development, FPGA based MPU core design, ASIC design.",
+    "courseCategory": "Elective - Embedded System and Robotics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4511",
+    "courseTitle": "Embedded System Design and Architecture",
+    "creditHours": 3.0,
+    "prerequisite": "EEE 3403",
+    "description": "This course will teach the new powerful programming technique used for embedded system development. Student will learn to program 8-bit microcontroller using embedded-C. They will be able to solve small to medium scale problem using MCUs. Can input data from the system, process them and can show or use them to control the system. This course will cover 8-bit single\u2013core general purpose MCU, which will make the course easy, interesting and finally drive them to be interested to learn high level MCUs thus to be aligned with the present trends of embedded system development. MCU introduction- architecture, memory and registers management, built-in peripheral, Introduction to embedded-C and development environment- IDE, variable types, I/O operation, Array and string, Functions, Pointers, IDE, Peripheral programming- I/O port, timer/counter and interrupt programming, Device interfacing- various display devices (LCD, Matrix etc.), input devices, analog sensors interfacing, analog device drive designing and interfacing, High level system introduction- 16/32 bit application specific MCU, advanced feature of embedded-C.",
+    "courseCategory": "Elective - Embedded System and Robotics Group",
+    "department": "EEE"
+  },
+  {
+    "courseCode": "EEE 4512",
+    "courseTitle": "Embedded System Design and Architecture Laboratory",
+    "creditHours": 1.0,
+    "prerequisite": "EEE 3403",
+    "description": "Lab experiments will be based on different applications based on the MCU internal peripherals like ports, timer/counter and interrupt module. Display devices interfacing, Digital input device interfacing, Analog sensor interfacing, Analog device control (motor, light etc.).",
+    "courseCategory": "Elective - Embedded System and Robotics Group",
+    "department": "EEE"
   }
 ]
