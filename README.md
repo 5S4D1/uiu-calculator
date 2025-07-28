@@ -16,6 +16,7 @@ A modern, user-friendly CGPA calculator designed for United International Univer
 
 ## How to Use
 
+### CGPA Calculator
 1. **Enter Current Information**
    - Input your current CGPA (0-4 scale)
    - Enter your completed credit hours
@@ -36,6 +37,40 @@ A modern, user-friendly CGPA calculator designed for United International Univer
 
 5. **Reset**
    - Click **Reset** to clear all inputs and start over
+
+
+### Prerequisites
+
+1. **Search**
+   - Search by **Course Title**
+   - Search by **Course Code**
+
+2. **Show All Courses**
+   - *Enable* this **Button** show all courses have in **DB**.
+
+3. **Show Course**
+   - Course Code
+   - Course Title
+   - Credit Hours
+   - Prerequisite Course
+   - Course Category
+   - Department Name
+   - Description of Course
+
+
+### Tuition Fee Calculator
+1. **Enter Course Credits**
+
+2. **Enter *Retake Course* Credits** if you have!
+   - Only **first time** retake course.
+
+3. **Enter Per Credit Fee (৳)**
+
+4. **Enter Semester/Trimester Fee (৳)**
+
+5. **Select Waiver** if you have!
+
+6. **Select Scholarship** if you have!
 
 
 ## UIU Grading Scale
@@ -73,32 +108,31 @@ A modern, user-friendly CGPA calculator designed for United International Univer
 ## File Structure
 
 ```
-uiu-cgpa-calculator/
-├── index.html             # Main HTML file
-├── courseRequisite.html   # Course Requisite file
-├── tuitionFee.html        # Tuition Fee file
-├── script                 # JavaScript functionality
+uiu-calculator/
+├── index.html                # Main HTML file
+├── courseRequisite.html      # Course Requisite file
+├── tuitionFee.html           # Tuition Fee file
+├── script                    # JavaScript functionality
 |   ├── courseRequisite.js
 |   ├── script.js
 |   └── tuitionFee.js
-├── style/                 # CSS styling
+├── style/                    # CSS styling
 |   ├── courseRequisite.css
 |   ├── style.css
 |   └── tuitionFee.css
-├── README.md              # Documentation
+├── README.md                 # Documentation
 └── asset/
-    ├── icon.ico           # Favicon
-    ├── increase.png       # UI icon
-    ├── decrease.png       # UI icon
-    └── rise.png           # UI icon
+    ├── icon.ico              # Favicon
+    ├── increase.png          # UI icon
+    ├── decrease.png          # UI icon
+    └── rise.png              # UI icon
 ```
 
 ## Future Enhancements
 
 - [ ] Save calculation history
 - [ ] Export results to PDF
-- [ ] Semester-wise breakdown
-- [ ] GPA trend analysis
+- [ ] Add other department course data.
 
 ## Contributing
 
