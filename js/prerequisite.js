@@ -9,7 +9,7 @@ let searchInput, searchBtn, resultsContainer, searchContainer, searchBox, browse
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM loaded, initializing...');
+    // console.log('DOM loaded, initializing...');
     initializeElements();
     loadCourses();
     setupEventListeners();
@@ -25,14 +25,14 @@ function initializeElements() {
     searchBox = document.getElementById('searchBox');
     browseToggle = document.getElementById('browseToggle');
     
-    console.log('Elements found:', {
-        searchInput: !!searchInput,
-        searchBtn: !!searchBtn,
-        resultsContainer: !!resultsContainer,
-        searchContainer: !!searchContainer,
-        searchBox: !!searchBox,
-        browseToggle: !!browseToggle
-    });
+    // console.log('Elements found:', {
+    //     searchInput: !!searchInput,
+    //     searchBtn: !!searchBtn,
+    //     resultsContainer: !!resultsContainer,
+    //     searchContainer: !!searchContainer,
+    //     searchBox: !!searchBox,
+    //     browseToggle: !!browseToggle
+    // });
     
     if (!searchInput || !searchBtn || !resultsContainer || !searchContainer || !searchBox || !browseToggle) {
         console.error('Some elements not found!');
@@ -55,19 +55,19 @@ async function updateMode() {
 
     if (isBrowseMode) {
         // Browse mode: shrink search container and show courses
-        console.log('Switching to browse mode...');
+        // console.log('Switching to browse mode...');
         
         // Immediately shrink the search container and show courses
         // This creates the smooth scroll-like effect without lag
         searchContainer.classList.remove('search-only');
         resultsContainer.classList.remove('hidden');
         displayCourses(allCourses);
-        console.log('Switched to browse mode');
+        // console.log('Switched to browse mode');
         isTransitioning = false;
         
     } else {
         // Search-only mode: expand search container and hide courses
-        console.log('Switching to search-only mode...');
+        // console.log('Switching to search-only mode...');
         
         // First, hide the results
         resultsContainer.classList.add('hidden');
@@ -78,7 +78,7 @@ async function updateMode() {
             searchContainer.classList.add('search-only');
             searchInput.value = ''; // Clear search input
             resetSearchBoxBorder(); // Reset border to default
-            console.log('Switched to search-only mode');
+            // console.log('Switched to search-only mode');
             isTransitioning = false;
         }, 100);
     }
@@ -125,7 +125,7 @@ async function loadCourses() {
         }
         
         allCourses = await response.json();
-        console.log('Courses loaded:', allCourses.length, 'courses');
+        // console.log('Courses loaded:', allCourses.length, 'courses');
         
         // Only display courses if in browse mode
         if (isBrowseMode) {
@@ -183,20 +183,20 @@ function setupEventListeners() {
         }
     });
     
-    console.log('Event listeners setup complete');
+    // console.log('Event listeners setup complete');
 }
 
 // Perform search
 function performSearch() {
     const searchTerm = searchInput.value.trim().toLowerCase();
-    console.log('Searching for:', searchTerm);
+    // console.log('Searching for:', searchTerm);
     
     if (searchTerm === '') {
         if (isBrowseMode) {
-            console.log('Empty search in browse mode, showing all courses');
+            // console.log('Empty search in browse mode, showing all courses');
             displayCourses(allCourses);
         } else {
-            console.log('Empty search in search-only mode, returning to center');
+            // console.log('Empty search in search-only mode, returning to center');
             // Smoothly return to search-only mode
             resultsContainer.classList.add('hidden');
             setTimeout(() => {
@@ -254,7 +254,7 @@ function performSearch() {
 
 // Display courses in cards with expanding animation
 function displayCourses(courses) {
-    console.log('Displaying', courses.length, 'courses');
+    // console.log('Displaying', courses.length, 'courses');
     
     if (courses.length === 0) {
         showNoResults();
@@ -333,7 +333,7 @@ function createCourseCard(course) {
 
 // Show no results message
 function showNoResults() {
-    console.log('Showing no results message');
+    // console.log('Showing no results message');
     resultsContainer.innerHTML = `
         <div class="no-results">
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
