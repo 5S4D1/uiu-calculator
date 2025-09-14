@@ -277,7 +277,7 @@ body {
 }
 
 #exam-schedule {
-    background: #8043db;
+    background: #8839cb;
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -290,7 +290,7 @@ body {
 }
 
 #exam-schedule:hover {
-    background: #6b2db8;
+    background: #5c279c;
     transform: translateY(-2px);
     box-shadow: 0 6px 8px rgba(128, 67, 219, 0.4);
 }

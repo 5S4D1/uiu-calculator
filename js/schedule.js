@@ -368,7 +368,7 @@ function downloadPDF(data, studentId, department) {
         const doc = new jsPDF('portrait', 'mm', 'a4');
         
         // Add space above header
-        const headerY = 15;
+        const headerY = 25;
         
         // Black header background
         doc.setFillColor(0, 0, 0);
@@ -386,24 +386,24 @@ function downloadPDF(data, studentId, department) {
         doc.setFont("helvetica", "normal");
         doc.text(`Student ID: ${studentId}`, 20, headerY + 25);
         doc.text(`Department: ${department}`, 20, headerY + 32);
-        doc.text(`Generated on: ${new Date().toLocaleDateString()}`, 120, headerY + 25);
+        doc.text(`Generated on: ${new Date().toLocaleDateString()}`, 150, headerY + 25);
         
         // Table setup
-        const tableStartY = headerY + 40;
-        const colWidths = [25, 50, 12, 12, 25, 22, 15];
+        const tableStartY = headerY + 50;
+        const colWidths = [25, 50, 14, 16, 25, 22, 20];
         const headers = ['Course Code', 'Course Title', 'Section', 'Teacher', 'Exam Date', 'Exam Time', 'Room'];
         
-        // Draw table headers with proper positioning
+        // Draw table header background and text
         doc.setFontSize(8);
         doc.setFont("helvetica", "bold");
         doc.setTextColor(255, 255, 255);
         doc.setFillColor(0, 0, 0);
-        
+        doc.rect(19, tableStartY - 5, 172, 7, 'F');
+
         let xPos = 20;
         headers.forEach((header, index) => {
-            // Draw black rectangle for each header
-            doc.rect(xPos - 1, tableStartY - 5, colWidths[index], 7, 'F');
             // Draw header text
+            doc.setTextColor(255, 255, 255);
             doc.text(header, xPos, tableStartY);
             xPos += colWidths[index];
         });
@@ -426,7 +426,7 @@ function downloadPDF(data, studentId, department) {
                 row["Teacher"] || '-',
                 (row["Exam Date"] || '-').replace(/\n/g, ' '),
                 row["Exam Time"] || '-',
-                row.studentRoom ? `Room ${row.studentRoom}` : 'Not found'
+                row.studentRoom ? `Room: ${row.studentRoom}` : 'Not found'
             ];
             
             // Calculate maximum lines needed for this row
