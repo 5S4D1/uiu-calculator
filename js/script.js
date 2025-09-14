@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
             setTimeout(() => scrollToElementById('result-container'), 100); // Wait for display
         }
     });
+    
     document.getElementById('new-course').addEventListener('click', function () {
         showNewCourseContainer();
         // Show and scroll to new-course-forms
@@ -49,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         addNewCourseForm();
     });
+
     document.getElementById('retake-course').addEventListener('click', function () {
         showRetakeCourseContainer();
         // Show and scroll to retake-course-forms
@@ -62,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         addRetakeCourseForm();
     });
+
     document.getElementById('reset-button').addEventListener('click', function() {
         resetCalculator();
         // Scroll to top smoothly

@@ -57,6 +57,7 @@
   align-items: center;
   gap: 0.5rem;
   list-style: none;
+  padding-left: 2rem;
 }
 
 .nav-item {
@@ -158,7 +159,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 870px) {
   .nav-container {
     padding: 0 1rem;
   }

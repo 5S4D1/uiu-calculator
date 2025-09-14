@@ -91,5 +91,3 @@ window.addEventListener('scroll', function() {
         }
     }
 });
-
-// Removed loading animation to prevent page transition effects 

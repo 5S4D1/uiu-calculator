@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XlSX file reader</title>
+    <title>Exam Schedule - UiU Calculator</title>
 
     <link rel="stylesheet" href="style/schedule.css">
     <link rel="stylesheet" href="style/navigation.css">
@@ -17,6 +17,8 @@
     <script src="js/navigation.js"></script>
     <!-- XLSX CDN version 0.20.3 -->
     <script type="text/javascript" src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+    <!-- jsPDF CDN for better PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 
 <body>
@@ -32,23 +34,29 @@
                 <li class="nav-item">
                     <a href="./" class="nav-link">
                         <i class="fa-solid fa-calculator nav-icon"></i>
-                        Calculator
+                        CGPA Calculator
                     </a>
                 </li>
                 <li class="nav-item">
                     <a href="prerequisite.html" class="nav-link">
                         <i class="fa fa-check-circle nav-icon"></i>
-                        Prerequisites
+                        Course Prerequisites
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="tuitionFee.html" class="nav-link active">
+                    <a href="tuitionFee.html" class="nav-link">
                         <i class="fa-solid fa-bangladeshi-taka-sign nav-icon"></i>
                         Tuition Fee
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="schedule.html" class="nav-link active">
+                        <i class="fa-regular fa-calendar-days nav-icon"></i>
+                        Exam Schedule
+                    </a>
+                </li>
             </ul>
-
+            <!-- hamburger icon -->
             <button class="mobile-menu-btn">
                 <span></span>
                 <span></span>
@@ -67,31 +75,36 @@
         </div>
 
         <div class="search-container">
-            <div class="input-container">
-                <label for="Dept">Dept</label>
-                <select id="Dept" name="dept">
-                    <option value="BSCSE">BSCSE</option>
-                    <option value="BSEEE">BSEEE</option>
-                    <option value="BSCE">BSCE</option>
-                    <option value="BSDS">BSDS</option>
-                </select>
+            <div class="unchange-data">
+                <div class="input-container">
+                    <label for="Dept">Department</label>
+                    <select id="Dept" name="dept">
+                        <option value="BSCSE">BSCSE</option>
+                        <option value="BSEEE">BSEEE</option>
+                        <option value="BSCE">BSCE</option>
+                        <option value="BSDS">BSDS</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <label for="sid">Student ID</label>
+                    <input type="number" id="sid" placeholder="Student id">
+                </div>
             </div>
-            <div class="input-container">
-                <label for="Course Title">Course Title</label>
-                <input type="text" id="courseTitle" placeholder="Course title">
+
+            <!-- new course container -->
+            <div class="new-course-container">
+                <h4>Add Courses</h4>
+                <div id="new-course-form"></div>
+                <div class="form-button">
+                    <button type="button" id="add-course-btn" class="add-btn">Add Another Course</button>
+                </div>
             </div>
-            <div class="input-container">
-                <label for="Section">Section</label>
-                <input type="text" id="Section" placeholder="Section">
-            </div>
+
             <div class="button-container">
                 <button type="button" id="exam-schedule">Exam Schedule</button>
             </div>
         </div>
     </div>
-
-
-
 
     <!-- Footer Element -->
     <footer>
