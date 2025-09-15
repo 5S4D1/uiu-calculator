@@ -73,6 +73,16 @@ A modern, user-friendly CGPA calculator designed for United International Univer
 6. **Select Scholarship** if you have!
 
 
+### Exam Schedule
+1. **Upload** ```.xlsx``` file that provide by university for Mid or Final exam.
+
+2. Enter your **student id**
+
+3. *click* **Add Course** button
+   - Enter your **course title** and **section** and *click* **Exam Schedule**
+
+4. If you want to download your schedule *click* **Download PDF** button.
+
 ## UIU Grading Scale
 
 | Grade | Grade Points | Marks Range | Assessment    |
@@ -110,22 +120,31 @@ A modern, user-friendly CGPA calculator designed for United International Univer
 ```
 uiu-calculator/
 ├── index.html                # Main HTML file
-├── courseRequisite.html      # Course Requisite file
-├── tuitionFee.html           # Tuition Fee file
-├── script                    # JavaScript functionality
-|   ├── courseRequisite.js
-|   ├── script.js
-|   └── tuitionFee.js
+├── prerequisite.html         # Prerequisite courses page
+├── schedule.html             # Class schedule page
+├── tuitionFee.html           # Tuition Fee calculator page
+├── courses.json              # Course data (DB)
+├── js/                       # JavaScript functionality
+│   ├── navigation.js         # Navigation bar logic
+│   ├── prerequisite.js       # Prerequisite logic
+│   ├── schedule.js           # Schedule logic
+│   ├── script.js             # CGPA calculator logic
+│   └── tuitionFee.js         # Tuition fee logic
 ├── style/                    # CSS styling
-|   ├── courseRequisite.css
-|   ├── style.css
-|   └── tuitionFee.css
+│   ├── footer.css            # Footer styles
+│   ├── navigation.css        # Navigation bar styles
+│   ├── prerequisite.css      # Prerequisite styles
+│   ├── schedule.css          # Schedule styles
+│   ├── style.css             # Main styles
+│   └── tuitionFee.css        # Tuition fee styles
 ├── README.md                 # Documentation
-└── asset/
-    ├── icon.ico              # Favicon
-    ├── increase.png          # UI icon
-    ├── decrease.png          # UI icon
-    └── rise.png              # UI icon
+├── LICENSE                   # License file
+└── asset/                    # Images and icons
+   ├── icon.ico              # Favicon
+   ├── increase.png          # UI icon
+   ├── decrease.png          # UI icon
+   ├── rise.png              # UI icon
+   └── footerLogo.svg        # Footer logo
 ```
 
 ## Future Enhancements

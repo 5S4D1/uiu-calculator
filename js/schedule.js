@@ -16,10 +16,34 @@ function initializeEventListeners() {
     // File upload
     dropZone.addEventListener('click', handleDropZoneClick);
     fileInput.addEventListener('change', handleFileUpload);
-    
+
+    // Drag-and-drop support
+    dropZone.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        dropZone.classList.add('drag-over');
+    });
+
+    dropZone.addEventListener('dragleave', () => {
+        dropZone.classList.remove('drag-over');
+    });
+
+    dropZone.addEventListener('drop', (e) => {
+        e.preventDefault();
+        dropZone.classList.remove('drag-over');
+
+        const files = e.dataTransfer.files;
+        if (files.length > 0) {
+            fileInput.files = files;
+
+            // Trigger file upload manually
+            const event = new Event('change', { bubbles: true });
+            fileInput.dispatchEvent(event);
+        }
+    });
+
     // Course management
     document.getElementById('add-course-btn').addEventListener('click', addNewCourseForm);
-    
+
     // Exam schedule
     const examScheduleBtn = document.getElementById('exam-schedule');
     if (examScheduleBtn) {
@@ -46,15 +70,15 @@ function handleFileUpload(event) {
     const reader = new FileReader();
     reader.onload = (e) => {
         try {
-        const data = new Uint8Array(e.target.result);
-        const workbook = XLSX.read(data, { type: 'array' });
-        const sheetName = workbook.SheetNames[0];
-        const sheet = workbook.Sheets[sheetName];
-        const jsonData = XLSX.utils.sheet_to_json(sheet);
+            const data = new Uint8Array(e.target.result);
+            const workbook = XLSX.read(data, { type: 'array' });
+            const sheetName = workbook.SheetNames[0];
+            const sheet = workbook.Sheets[sheetName];
+            const jsonData = XLSX.utils.sheet_to_json(sheet);
 
-        const expectedHeaders = ["Dept.", "Course Code", "Course Title", "Section", "Teacher", "Exam Date", "Exam Time", "Room"];
-        const actualHeaders = Object.keys(jsonData[0]);
-        const isValid = expectedHeaders.every(h => actualHeaders.includes(h));
+            const expectedHeaders = ["Dept.", "Course Code", "Course Title", "Section", "Teacher", "Exam Date", "Exam Time", "Room"];
+            const actualHeaders = Object.keys(jsonData[0]);
+            const isValid = expectedHeaders.every(h => actualHeaders.includes(h));
 
             if (isValid) {
                 excelData = jsonData;
@@ -74,7 +98,7 @@ function handleFileUpload(event) {
 // Display file information
 function displayFileInfo(file) {
     const fileSize = (file.size / 1024).toFixed(1) + ' KB';
-    
+
     const fileInfoHTML = `
         <div class="file-info" id="file-info">
             <div class="file-details">
@@ -89,15 +113,15 @@ function displayFileInfo(file) {
             </button>
         </div>
     `;
-    
+
     // Hide drop zone and show file info
     dropZone.style.display = 'none';
-    
+
     // Create file info container after drop zone
     const fileInfoContainer = document.createElement('div');
     fileInfoContainer.className = 'file-info-container';
     fileInfoContainer.innerHTML = fileInfoHTML;
-    
+
     dropZone.parentNode.insertBefore(fileInfoContainer, dropZone.nextSibling);
 }
 
@@ -108,13 +132,13 @@ function removeFileInfo() {
     if (fileInfoContainer) {
         fileInfoContainer.remove();
     }
-    
+
     // Show drop zone again
     dropZone.style.display = 'flex';
 }
 
 // Remove file function
-window.removeFile = function() {
+window.removeFile = function () {
     excelData = [];
     const currentFileInput = document.getElementById('file-input');
     if (currentFileInput) {
@@ -158,13 +182,13 @@ window.removeNewCourse = function (formId) {
 function showMessage(message, type) {
     const existingMessage = document.querySelector('.message');
     if (existingMessage) existingMessage.remove();
-    
+
     const messageDiv = document.createElement('div');
     messageDiv.className = `message ${type}`;
     messageDiv.textContent = message;
-    
+
     dropZone.insertAdjacentElement('afterend', messageDiv);
-    
+
     setTimeout(() => {
         if (messageDiv.parentNode) messageDiv.remove();
     }, 3000);
@@ -173,19 +197,19 @@ function showMessage(message, type) {
 // Parse room data to extract room numbers and student ID ranges
 function parseRoomData(roomText) {
     if (!roomText) return [];
-    
+
     const rooms = [];
     const roomParts = roomText.split(/\s{2,}|\n/).filter(part => part.trim());
-    
+
     roomParts.forEach(part => {
         const trimmed = part.trim();
         if (!trimmed) return;
-        
+
         const roomMatch = trimmed.match(/^(\d+)\s*\(([^)]+)\)$/);
         if (roomMatch) {
             const roomNumber = roomMatch[1];
             const studentRange = roomMatch[2];
-            
+
             const rangeMatch = studentRange.match(/^(\d+)-(\d+)$/);
             if (rangeMatch) {
                 rooms.push({
@@ -196,7 +220,7 @@ function parseRoomData(roomText) {
             }
         }
     });
-    
+
     return rooms;
 }
 
@@ -204,13 +228,13 @@ function parseRoomData(roomText) {
 function findStudentRoom(roomText, studentId) {
     const rooms = parseRoomData(roomText);
     const studentIdNum = parseInt(studentId);
-    
+
     for (const room of rooms) {
         if (studentIdNum >= room.startId && studentIdNum <= room.endId) {
             return room.roomNumber;
         }
     }
-    
+
     return null;
 }
 
@@ -218,11 +242,11 @@ function findStudentRoom(roomText, studentId) {
 function getCourseData() {
     const courses = [];
     const courseForms = document.querySelectorAll('.course-form');
-    
+
     courseForms.forEach(form => {
         const titleInput = form.querySelector('input[placeholder="Course title"]');
         const sectionInput = form.querySelector('input[placeholder="Section"]');
-        
+
         if (titleInput && sectionInput && titleInput.value.trim() && sectionInput.value.trim()) {
             courses.push({
                 title: titleInput.value.trim(),
@@ -230,8 +254,25 @@ function getCourseData() {
             });
         }
     });
-    
+
     return courses;
+}
+
+// Department name from student id
+function departmentName(studentid) {
+    console.log(studentid);
+    let departmentCode = studentid.slice(0, 3);
+
+    if (departmentCode === "011")
+        return 'BSCSE';
+    else if (departmentCode === "015")
+        return 'BSDS'
+    else if (departmentCode === "021")
+        return 'BSEEE'
+    else if (departmentCode === "031")
+        return 'BSCE'
+    else
+        return '';
 }
 
 // Filter exam schedule based on user input
@@ -240,31 +281,32 @@ function filterExamSchedule() {
         showMessage("Please upload an Excel file first!", "error");
         return;
     }
-    
-    const department = document.getElementById('Dept').value;
+
     const studentId = document.getElementById('sid').value;
+    const department = departmentName(studentId);
+
     const courses = getCourseData();
-    
+
     if (!studentId.trim()) {
         showMessage("Please enter your Student ID!", "error");
         return;
     }
-    
+
     if (courses.length === 0) {
         showMessage("Please add at least one course!", "error");
         return;
     }
-    
+
     // Filter data based on department and courses
     const filteredData = excelData.filter(row => {
         const deptMatch = !department || row["Dept."] === department;
-        const courseMatch = courses.some(course => 
+        const courseMatch = courses.some(course =>
             row["Course Title"] && row["Course Title"].toLowerCase().includes(course.title.toLowerCase()) &&
             row["Section"] && row["Section"].toLowerCase().includes(course.section.toLowerCase())
         );
         return deptMatch && courseMatch;
     });
-    
+
     // Enhance filtered data with room information
     const enhancedData = filteredData.map(row => {
         const studentRoom = findStudentRoom(row["Room"], studentId);
@@ -274,7 +316,7 @@ function filterExamSchedule() {
             roomInfo: row["Room"]
         };
     });
-    
+
     displayExamSchedule(enhancedData, studentId, department);
 }
 
@@ -282,12 +324,12 @@ function filterExamSchedule() {
 function displayExamSchedule(data, studentId, department) {
     const existingResults = document.querySelector('.exam-results');
     if (existingResults) existingResults.remove();
-    
+
     if (data.length === 0) {
         showMessage("No exam schedule found for the selected courses!", "error");
         return;
     }
-    
+
     const resultsHTML = `
         <div class="exam-results">
             <div class="results-header">
@@ -324,10 +366,7 @@ function displayExamSchedule(data, studentId, department) {
                                 <td>${row["Exam Date"] || '-'}</td>
                                 <td>${row["Exam Time"] || '-'}</td>
                                 <td class="room-cell">
-                                    ${row.studentRoom ? 
-                                        `<span class="room-number">Room ${row.studentRoom}</span>` : 
-                                        '<span class="no-room">Room not found</span>'
-                                    }
+                                    ${row.studentRoom ? `<span class="room-number">Room ${row.studentRoom}</span>` : '<span class="no-room">Room not found</span>'}
                                 </td>
                                 <td class="room-details">
                                     <small>${row.roomInfo || '-'}</small>
@@ -339,23 +378,23 @@ function displayExamSchedule(data, studentId, department) {
             </div>
         </div>
     `;
-    
+
     const searchContainer = document.querySelector('.search-container');
     searchContainer.insertAdjacentHTML('afterend', resultsHTML);
-    
+
     document.getElementById('download-pdf').addEventListener('click', () => {
         downloadPDF(data, studentId, department);
     });
-    
+
     showMessage(`Found ${data.length} exam(s) for your courses!`, "success");
-    
+
     // Auto scroll to results
     setTimeout(() => {
         const resultsElement = document.querySelector('.exam-results');
         if (resultsElement) {
-            resultsElement.scrollIntoView({ 
-                behavior: 'smooth', 
-                block: 'start' 
+            resultsElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
             });
         }
     }, 500);
@@ -366,33 +405,37 @@ function downloadPDF(data, studentId, department) {
     try {
         const { jsPDF } = window.jspdf;
         const doc = new jsPDF('portrait', 'mm', 'a4');
-        
+
         // Add space above header
         const headerY = 25;
-        
+
         // Black header background
         doc.setFillColor(0, 0, 0);
         doc.rect(0, headerY, 210, 15, 'F');
-        
+
         // White header text
         doc.setTextColor(255, 255, 255);
-        doc.setFontSize(16);
+        doc.setFontSize(22);
         doc.setFont("helvetica", "bold");
         doc.text("Exam Schedule", 105, headerY + 10, { align: "center" });
-        
+
         // Student info
         doc.setTextColor(0, 0, 0);
         doc.setFontSize(10);
+        doc.setFont("helvetica", "bold");
+        doc.text(`Student ID: `, 20, headerY + 25);
+        doc.text(`Department: `, 20, headerY + 32);
+        doc.text("Generated on:", 150, headerY + 25);
         doc.setFont("helvetica", "normal");
-        doc.text(`Student ID: ${studentId}`, 20, headerY + 25);
-        doc.text(`Department: ${department}`, 20, headerY + 32);
-        doc.text(`Generated on: ${new Date().toLocaleDateString()}`, 150, headerY + 25);
-        
+        doc.text(`${studentId}`, 40, headerY + 25);
+        doc.text(`${department}`, 42, headerY + 32);
+        doc.text(new Date().toLocaleDateString(), 175, headerY + 25);
+
         // Table setup
         const tableStartY = headerY + 50;
         const colWidths = [25, 50, 14, 16, 25, 22, 20];
         const headers = ['Course Code', 'Course Title', 'Section', 'Teacher', 'Exam Date', 'Exam Time', 'Room'];
-        
+
         // Draw table header background and text
         doc.setFontSize(8);
         doc.setFont("helvetica", "bold");
@@ -407,18 +450,18 @@ function downloadPDF(data, studentId, department) {
             doc.text(header, xPos, tableStartY);
             xPos += colWidths[index];
         });
-        
+
         // Draw table data
         doc.setFont("helvetica", "normal");
         doc.setTextColor(0, 0, 0);
         let yPos = tableStartY + 8;
-        
+
         data.forEach((row, rowIndex) => {
             if (yPos > 250) {
                 doc.addPage();
                 yPos = 20;
             }
-            
+
             const rowData = [
                 row["Course Code"] || '-',
                 row["Course Title"] || '-',
@@ -428,20 +471,20 @@ function downloadPDF(data, studentId, department) {
                 row["Exam Time"] || '-',
                 row.studentRoom ? `Room: ${row.studentRoom}` : 'Not found'
             ];
-            
+
             // Calculate maximum lines needed for this row
             let maxLines = 1;
             rowData.forEach((cellData, colIndex) => {
                 const lines = doc.splitTextToSize(cellData, colWidths[colIndex] - 2);
                 maxLines = Math.max(maxLines, lines.length);
             });
-            
+
             // Alternating row background with proper height
             if (rowIndex % 2 === 0) {
                 doc.setFillColor(240, 240, 240);
                 doc.rect(19, yPos - 4, 172, (maxLines * 4) + 4, 'F');
             }
-            
+
             // Draw each cell with proper spacing
             xPos = 20;
             rowData.forEach((cellData, colIndex) => {
@@ -451,18 +494,18 @@ function downloadPDF(data, studentId, department) {
                 });
                 xPos += colWidths[colIndex];
             });
-            
+
             // Add more space between rows
             yPos += (maxLines * 4) + 8;
         });
-        
+
         // Footer
         doc.setFontSize(8);
         doc.text("Generated by UiU Calculator", 105, 280, { align: "center" });
-        
+
         doc.save(`Exam_Schedule_${studentId}.pdf`);
         showMessage("PDF downloaded successfully!", "success");
-        
+
     } catch (error) {
         console.error("Error generating PDF:", error);
         showMessage("Error generating PDF. Please try again.", "error");
@@ -473,7 +516,7 @@ function downloadPDF(data, studentId, department) {
 // Fallback PDF generation using print
 function fallbackPrintPDF(data, studentId, department) {
     const printWindow = window.open('', '_blank');
-    
+
     const pdfContent = `
         <!DOCTYPE html>
         <html>
@@ -521,10 +564,8 @@ function fallbackPrintPDF(data, studentId, department) {
                             <td>${row["Teacher"] || '-'}</td>
                             <td>${(row["Exam Date"] || '-').replace(/\n/g, ' ')}</td>
                             <td>${row["Exam Time"] || '-'}</td>
-                            <td>${row.studentRoom ? 
-                                `<span class="room-number">Room ${row.studentRoom}</span>` : 
-                                '<span class="no-room">Room not found</span>'
-                            }</td>
+                            <td>${row.studentRoom ? `<span class="room-number">Room ${row.studentRoom}</span>` : '<span class="no-room">Room not found</span>'}
+                            </td>
                         </tr>
                     `).join('')}
                 </tbody>
@@ -535,11 +576,11 @@ function fallbackPrintPDF(data, studentId, department) {
         </body>
         </html>
     `;
-    
+
     printWindow.document.open();
     printWindow.document.documentElement.innerHTML = pdfContent;
     printWindow.document.close();
-    
+
     setTimeout(() => {
         printWindow.print();
     }, 500);

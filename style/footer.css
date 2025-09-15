@@ -12,7 +12,7 @@ footer hr {
 }
 
 .logo img {
-    height: 150px;
+    height: 7rem;
     width: auto;
 }
 
@@ -23,11 +23,15 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-    hr {
-        margin: 1.6rem 0;
+    footer hr {
+        margin: 1.5rem 0;
     }
 
     .logo img {
-        height: 90px;
+        height: 5rem;
+    }
+
+    p {
+        font-size: .9rem;
     }
 }

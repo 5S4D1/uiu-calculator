@@ -42,6 +42,10 @@ body {
     transform: translateY(-2px);
 }
 
+.drop-zone.drag-over {
+    background-color: #b994f44a;
+}
+
 .drop-zone i {
     font-size: 2rem;
     margin-bottom: 0.5rem;
@@ -157,9 +161,6 @@ body {
 }
 
 .unchange-data {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -171,7 +172,8 @@ body {
 .input-container label {
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #555;
+    color: #4c4c4c;
+    padding-left: .2rem;
 }
 
 .input-container input,
@@ -429,10 +431,6 @@ tbody tr:nth-child(even):hover {
         padding: 1rem;
     }
     
-    .unchange-data {
-        grid-template-columns: 1fr;
-    }
-    
     .results-header {
         flex-direction: column;
         align-items: stretch;
@@ -466,11 +464,14 @@ tbody tr:nth-child(even):hover {
 }
 
 @media (max-width: 480px) {
-    /* .course-form-header {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 0.5rem;
-    } */
+    .add-btn {
+        padding: 0.55rem 1rem;
+    }
+
+    #exam-schedule {
+        padding: .9rem 1.4rem;
+        font-size: 1rem;
+    }
 
     .course-data{
         gap: 0rem;
