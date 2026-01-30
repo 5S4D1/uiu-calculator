@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const waiver = document.getElementById('waiver');
     const scholarship = document.getElementById('scholarship');
     const calculateBtn = document.getElementById('calculateBtn');
+    const fine = document.getElementById('fine');
 
     // Breakdown fields
     const bdCourseCredits = document.getElementById('bdCourseCredits');
@@ -21,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const bdInstallment1 = document.getElementById('bdInstallment1');
     const bdInstallment2 = document.getElementById('bdInstallment2');
     const bdInstallment3 = document.getElementById('bdInstallment3');
+    const bdFine = document.getElementById('bdFine');
     const breakdownCard = document.getElementById('breakdownCard');
 
     function formatMoney(value) {
@@ -35,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const semFee = parseFloat(semesterFee.value) || 0;
         const waiverVal = parseFloat(waiver.value) || 0;
         const scholarshipVal = parseFloat(scholarship.value) || 0;
+        const fineVal = parseFloat(fine.value) || 0;
 
         // Show input data
         bdCourseCredits.textContent = credits;
@@ -43,13 +46,14 @@ document.addEventListener('DOMContentLoaded', function() {
         bdSemesterFee.textContent = formatMoney(semFee) + ' ৳';
         bdWaiver.textContent = waiverVal + '%';
         bdScholarship.textContent = scholarshipVal + '%';
+        bdFine.textContent = formatMoney(fineVal) + ' ৳';
         /*
         # Calculate course fee
         # 1st time Retake course fee gets 50% off 
         */
         const courseFee = credits * creditFee + (retakeCre * creditFee) * 0.5;
         // Total before any discount like: Waiver or Scholarship
-        const totalBefore = courseFee + semFee;
+        const totalBefore = courseFee + semFee + fineVal;
         bdTotalBefore.textContent = formatMoney(totalBefore) + ' ৳';
 
         // Determine best discount Waiver or Scholarship
@@ -67,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ===!!! if it's wrong correct it !!!===
         */
         const discountedCourseFee = courseFee * (1 - bestDiscount / 100);
-        const totalAfter = discountedCourseFee + semFee;
+        const totalAfter = discountedCourseFee + semFee + fineVal;
         bdTotalAfter.textContent = formatMoney(totalAfter) + ' ৳';
 
         // Installments
