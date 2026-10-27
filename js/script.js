@@ -14,9 +14,6 @@ document.addEventListener('DOMContentLoaded', function () {
         'F': 0.00
     };
 
-    // Course storage arrays
-    let currentCourses = [];
-    let retakeCourses = [];
     let newCourseFormCounter = 0;
     let retakeCourseFormCounter = 0;
 
@@ -159,13 +156,6 @@ document.addEventListener('DOMContentLoaded', function () {
         `;
 
         newCourseFormsContainer.insertAdjacentHTML('beforeend', formHTML);
-
-        // Add event listeners for auto-add functionality
-        const creditInput = document.getElementById(`${formId}-credit`);
-        const gradeSelect = document.getElementById(`${formId}-grade`);
-
-        creditInput.addEventListener('input', () => checkAndAddCourse(formId));
-        gradeSelect.addEventListener('change', () => checkAndAddCourse(formId));
     }
 
     // Function to add retake course form
@@ -227,162 +217,115 @@ document.addEventListener('DOMContentLoaded', function () {
         `;
 
         retakeCourseFormsContainer.insertAdjacentHTML('beforeend', formHTML);
-
-        // Add event listeners for auto-add functionality
-        const creditInput = document.getElementById(`${formId}-credit`);
-        const oldGradeSelect = document.getElementById(`${formId}-old-grade`);
-        const newGradeSelect = document.getElementById(`${formId}-new-grade`);
-
-        creditInput.addEventListener('input', () => checkAndAddRetakeCourse(formId));
-        oldGradeSelect.addEventListener('change', () => checkAndAddRetakeCourse(formId));
-        newGradeSelect.addEventListener('change', () => checkAndAddRetakeCourse(formId));
     }
 
     // Make functions global so they can be called from HTML
-    window.removeNewCourseForm = function (formId, fromArray = false) {
-        if (fromArray) {
-            // Remove from courses array
-            const index = currentCourses.findIndex(course => course.formId === formId);
-            if (index > -1) {
-                currentCourses.splice(index, 1);
-            }
-        }
+    window.removeNewCourseForm = function (formId) {
         document.getElementById(formId).remove();
-        updateCourseList();
     };
 
-    window.removeRetakeCourseForm = function (formId, fromArray = false) {
-        if (fromArray) {
-            // Remove from retake courses array
-            const index = retakeCourses.findIndex(course => course.formId === formId);
-            if (index > -1) {
-                retakeCourses.splice(index, 1);
-            }
-        }
+    window.removeRetakeCourseForm = function (formId) {
         document.getElementById(formId).remove();
-        updateCourseList();
     };
 
-    window.addCourseFromForm = function (formId) {
-        // Check if the form still exists (user might have removed it)
-        if (!document.getElementById(formId)) {
-            return;
+    function isNewCourseFormEmpty(formId) {
+        const title = document.getElementById(`${formId}-title`)?.value.trim() ?? '';
+        const credit = document.getElementById(`${formId}-credit`)?.value ?? '';
+        const grade = document.getElementById(`${formId}-grade`)?.value ?? '';
+        return !title && !credit && !grade;
+    }
+
+    function isRetakeCourseFormEmpty(formId) {
+        const title = document.getElementById(`${formId}-title`)?.value.trim() ?? '';
+        const credit = document.getElementById(`${formId}-credit`)?.value ?? '';
+        const oldGrade = document.getElementById(`${formId}-old-grade`)?.value ?? '';
+        const newGrade = document.getElementById(`${formId}-new-grade`)?.value ?? '';
+        return !title && !credit && !oldGrade && !newGrade;
+    }
+
+    function getNewCoursesFromForms() {
+        const courses = [];
+        const forms = newCourseFormsContainer.querySelectorAll('.course-form');
+
+        for (const form of forms) {
+            const formId = form.id;
+            if (isNewCourseFormEmpty(formId)) {
+                continue;
+            }
+
+            const credit = parseFloat(document.getElementById(`${formId}-credit`).value);
+            const grade = document.getElementById(`${formId}-grade`).value;
+
+            if (!credit || !grade || credit < 1 || credit > 3) {
+                return { courses: null, incompleteFormId: formId };
+            }
+
+            const title = document.getElementById(`${formId}-title`).value.trim()
+                || `Course ${formId.split('-')[2]}`;
+
+            courses.push({
+                title,
+                credit,
+                grade,
+                points: gradePoints[grade]
+            });
         }
 
-        const title = document.getElementById(`${formId}-title`).value || `Course ${formId.split('-')[2]}`;
-        const credit = parseFloat(document.getElementById(`${formId}-credit`).value);
-        const grade = document.getElementById(`${formId}-grade`).value;
+        return { courses, incompleteFormId: null };
+    }
 
-        if (!credit || !grade) {
-            return; // Don't show alert for auto-add, just return
+    function getRetakeCoursesFromForms() {
+        const courses = [];
+        const forms = retakeCourseFormsContainer.querySelectorAll('.course-form');
+
+        for (const form of forms) {
+            const formId = form.id;
+            if (isRetakeCourseFormEmpty(formId)) {
+                continue;
+            }
+
+            const credit = parseFloat(document.getElementById(`${formId}-credit`).value);
+            const oldGrade = document.getElementById(`${formId}-old-grade`).value;
+            const newGrade = document.getElementById(`${formId}-new-grade`).value;
+
+            if (!credit || !oldGrade || !newGrade || credit < 1 || credit > 3) {
+                return { courses: null, incompleteFormId: formId };
+            }
+
+            const title = document.getElementById(`${formId}-title`).value.trim()
+                || `Retake Course ${formId.split('-')[2]}`;
+
+            courses.push({
+                title,
+                credit,
+                oldGrade,
+                expectedGrade: newGrade,
+                oldPoints: gradePoints[oldGrade],
+                expectedPoints: gradePoints[newGrade]
+            });
         }
 
-        // Check if course is already added to prevent duplicates
-        const existingCourse = currentCourses.find(course =>
-            course.formId === formId
-        );
+        return { courses, incompleteFormId: null };
+    }
 
-        if (existingCourse) {
-            return; // Course already added
+    function focusIncompleteCourseForm(formId) {
+        const creditInput = document.getElementById(`${formId}-credit`);
+        const gradeSelect = document.getElementById(`${formId}-grade`);
+        const oldGradeSelect = document.getElementById(`${formId}-old-grade`);
+        const newGradeSelect = document.getElementById(`${formId}-new-grade`);
+
+        if (creditInput && !creditInput.value) {
+            creditInput.focus();
+        } else if (gradeSelect && !gradeSelect.value) {
+            gradeSelect.focus();
+        } else if (oldGradeSelect && !oldGradeSelect.value) {
+            oldGradeSelect.focus();
+        } else if (newGradeSelect && !newGradeSelect.value) {
+            newGradeSelect.focus();
+        } else if (creditInput) {
+            creditInput.focus();
         }
-
-        currentCourses.push({
-            formId: formId,
-            title: title,
-            credit: credit,
-            grade: grade,
-            points: gradePoints[grade]
-        });
-
-        // Show success message and disable form inputs
-        const formElement = document.getElementById(formId);
-        formElement.style.backgroundColor = '#d4edda';
-        formElement.style.border = '2px solid #28a745';
-
-        // Disable all inputs in the form
-        const inputs = formElement.querySelectorAll('input, select');
-        inputs.forEach(input => {
-            input.disabled = true;
-        });
-
-        // Add success indicator
-        const successMsg = document.createElement('div');
-        successMsg.innerHTML = `<span style="color: #155724; font-weight: bold;">✓ Course "${title}" added successfully!</span>`;
-        successMsg.style.textAlign = 'center';
-        successMsg.style.marginTop = '0.5rem';
-        successMsg.id = `${formId}-success`;
-        formElement.appendChild(successMsg);
-
-        // Update the remove button to also remove from courses array
-        const removeBtn = formElement.querySelector('.remove-course-btn');
-        removeBtn.onclick = function () {
-            removeNewCourseForm(formId, true);
-        };
-
-        updateCourseList();
-    };
-
-    window.addRetakeCourseFromForm = function (formId) {
-        // Check if the form still exists (user might have removed it)
-        if (!document.getElementById(formId)) {
-            return;
-        }
-
-        const title = document.getElementById(`${formId}-title`).value || `Retake Course ${formId.split('-')[2]}`;
-        const credit = parseFloat(document.getElementById(`${formId}-credit`).value);
-        const oldGrade = document.getElementById(`${formId}-old-grade`).value;
-        const newGrade = document.getElementById(`${formId}-new-grade`).value;
-
-        if (!credit || !oldGrade || !newGrade) {
-            return; // Don't show alert for auto-add, just return
-        }
-
-        // Check if retake course is already added to prevent duplicates
-        const existingCourse = retakeCourses.find(course =>
-            course.formId === formId
-        );
-
-        if (existingCourse) {
-            return; // Course already added
-        }
-
-        retakeCourses.push({
-            formId: formId,
-            title: title,
-            credit: credit,
-            oldGrade: oldGrade,
-            expectedGrade: newGrade,
-            oldPoints: gradePoints[oldGrade],
-            expectedPoints: gradePoints[newGrade]
-        });
-
-        // Show success message and disable form inputs
-        const formElement = document.getElementById(formId);
-        formElement.style.backgroundColor = '#d4edda';
-        formElement.style.border = '2px solid #28a745';
-
-        // Disable all inputs in the form
-        const inputs = formElement.querySelectorAll('input, select');
-        inputs.forEach(input => {
-            input.disabled = true;
-        });
-
-        // Add success indicator
-        const successMsg = document.createElement('div');
-        successMsg.innerHTML = `<span style="color: #155724; font-weight: bold;">✓ Retake course "${title}" added successfully!</span>`;
-        successMsg.style.textAlign = 'center';
-        successMsg.style.marginTop = '0.5rem';
-        successMsg.id = `${formId}-success`;
-        formElement.appendChild(successMsg);
-
-        // Update the remove button to also remove from courses array
-        const removeBtn = formElement.querySelector('.remove-course-btn');
-        removeBtn.onclick = function () {
-            removeRetakeCourseForm(formId, true);
-        };
-
-        updateCourseList();
-    };
+    }
 
     // Helper functions to clear all forms
     function clearAllNewCourseForms() {
@@ -408,6 +351,23 @@ document.addEventListener('DOMContentLoaded', function () {
             alert('CGPA must be between 0 and 4');
             return;
         }
+
+        const newCoursesResult = getNewCoursesFromForms();
+        if (newCoursesResult.incompleteFormId) {
+            alert('Please complete all course fields or remove incomplete courses.');
+            focusIncompleteCourseForm(newCoursesResult.incompleteFormId);
+            return;
+        }
+
+        const retakeCoursesResult = getRetakeCoursesFromForms();
+        if (retakeCoursesResult.incompleteFormId) {
+            alert('Please complete all retake course fields or remove incomplete courses.');
+            focusIncompleteCourseForm(retakeCoursesResult.incompleteFormId);
+            return;
+        }
+
+        const currentCourses = newCoursesResult.courses;
+        const retakeCourses = retakeCoursesResult.courses;
 
         // Calculate total quality points from current CGPA
         let totalQualityPoints = currentCGPA * completedCredit;
@@ -514,20 +474,10 @@ document.addEventListener('DOMContentLoaded', function () {
         cgpaProgress.style.strokeDashoffset = circleLength * (1 - percent);
     }
 
-    function updateCourseList() {
-        // You can implement a visual course list here if needed
-        // console.log('Current Courses:', currentCourses);
-        // console.log('Retake Courses:', retakeCourses);
-    }
-
     function resetCalculator() {
         // Clear all input fields
         document.getElementById('cgpa').value = '';
         document.getElementById('credit').value = '';
-
-        // Clear arrays
-        currentCourses = [];
-        retakeCourses = [];
 
         // Hide all containers and clear forms
         hideNewCourseContainer();
@@ -557,48 +507,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('credit').addEventListener('input', function () {
         validateInput(this, 0, 200);
     });
-
-    // Function to check and auto-add new course
-    function checkAndAddCourse(formId) {
-        const credit = parseFloat(document.getElementById(`${formId}-credit`).value);
-        const grade = document.getElementById(`${formId}-grade`).value;
-
-        // Check if both required fields are filled
-        if (credit && grade && credit >= 1 && credit <= 3) {
-            // Small delay to ensure user has finished typing
-            setTimeout(() => {
-                const currentCredit = parseFloat(document.getElementById(`${formId}-credit`).value);
-                const currentGrade = document.getElementById(`${formId}-grade`).value;
-
-                // Double check values are still the same and form still exists
-                if (document.getElementById(formId) && currentCredit === credit && currentGrade === grade) {
-                    addCourseFromForm(formId);
-                }
-            }, 1000); // 1 second delay
-        }
-    }
-
-    // Function to check and auto-add retake course
-    function checkAndAddRetakeCourse(formId) {
-        const credit = parseFloat(document.getElementById(`${formId}-credit`).value);
-        const oldGrade = document.getElementById(`${formId}-old-grade`).value;
-        const newGrade = document.getElementById(`${formId}-new-grade`).value;
-
-        // Check if all required fields are filled
-        if (credit && oldGrade && newGrade && credit >= 1 && credit <= 3) {
-            // Small delay to ensure user has finished typing
-            setTimeout(() => {
-                const currentCredit = parseFloat(document.getElementById(`${formId}-credit`).value);
-                const currentOldGrade = document.getElementById(`${formId}-old-grade`).value;
-                const currentNewGrade = document.getElementById(`${formId}-new-grade`).value;
-
-                // Double check values are still the same and form still exists
-                if (document.getElementById(formId) && currentCredit === credit && currentOldGrade === oldGrade && currentNewGrade === newGrade) {
-                    addRetakeCourseFromForm(formId);
-                }
-            }, 1000); // 1 second delay
-        }
-    }
 
     // Helper function to check if there are any blank new course forms
     function hasBlankNewCourseForm() {
